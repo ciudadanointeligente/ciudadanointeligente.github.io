@@ -82,7 +82,7 @@
 			classie.remove( this.trigger, 'gn-selected' );
 			this.isMenuOpen = false;
 			classie.remove( this.menu, 'gn-open-all' );
-			this._closeIconMenu();
+			classie.add( this.menu, 'gn-open-part' );
 		}
 	}
 

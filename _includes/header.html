@@ -2,34 +2,28 @@
 
   <div class="wrap">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <!-- <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
            viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
-          <path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
+          <path fill="#ffffff" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
             h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
+          <path fill="#ffffff" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
             h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
+          <path fill="#ffffff" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
             c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
         </svg>
       </a>
       <div class="trigger">
-        {% for page in site.pages %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        {% endfor %}
-      </div>
-    </nav>
-
-    <div class="container">
-      <ul id="gn-menu" class="gn-menu-main">
+<ul id="gn-menu" class="gn-menu-main">
         <li class="gn-trigger">
-          <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+          <a class="gn-icon gn-icon-menu"></a>
           <nav class="gn-menu-wrapper gn-open-part">
             <div class="gn-scroller">
               <ul class="gn-menu">
+                <li><a href="/" class="gn-icon gn-icon-display"><img src="img/ciudadanointeligente.svg"></a></li>
                 <li><a href="#proyectos" class="gn-icon gn-icon-display">Proyectos</a></li>
                 <li><a href="#sobre-nosotros" class="gn-icon gn-icon-lightbulb">Sobre nosotros</a></li>
                 <li>
@@ -48,7 +42,32 @@
           </nav>
         </li>
       </ul>
-    </div><!-- /container -->
+      </div>
+    </nav>
+
+<!--     <div class="container">
+      <ul id="gn-menu" class="gn-menu-main">
+        <li class="gn-trigger">
+          <a class="gn-icon gn-icon-menu"></a>
+          <nav class="gn-menu-wrapper gn-open-part">
+            <div class="gn-scroller">
+              <ul class="gn-menu">
+                <li><a href="#proyectos" class="gn-icon gn-icon-display"><img src="http://www.ciudadanointeligente.org/wp-content/themes/ciudadanoi/images/fci_logo.png"></a></li>
+                <li><a href="#proyectos" class="gn-icon gn-icon-display">Proyectos</a></li>
+                <li><a href="#sobre-nosotros" class="gn-icon gn-icon-lightbulb">Sobre nosotros</a></li>
+                <li>
+                  <a href="#transparencia" class="gn-icon gn-icon-search">Transparencia</a>
+                </li>
+                <li><a class="gn-icon gn-icon-message">Blog</a></li>
+                <li>
+                  <a href="#contacto" class="gn-icon gn-icon-paperplane">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </li>
+      </ul>
+    </div> -->
     <script src="js/classie.js"></script>
     <script src="js/gnmenu.js"></script>
     <script>
