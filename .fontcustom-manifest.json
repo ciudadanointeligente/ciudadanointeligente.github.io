@@ -1,0 +1,47 @@
+{
+  "checksum": {
+    "previous": "",
+    "current": "5a2908bf7b7acb5a1eedf2ed033dd6eae621198d68e3aa9048b01a6421be99c5"
+  },
+  "fonts": [
+
+  ],
+  "glyphs": {
+    "ciudadanointeligente": {
+      "source": "img/ciudadanointeligente.svg",
+      "codepoint": 61696
+    },
+    "icono-fci": {
+      "source": "img/icono-fci.svg",
+      "codepoint": 61697
+    }
+  },
+  "options": {
+    "input": {
+      "vectors": "img",
+      "templates": "img"
+    },
+    "output": {
+      "fonts": "fontcustom",
+      "css": "fontcustom",
+      "preview": "fontcustom"
+    },
+    "config": false,
+    "templates": [
+      "css",
+      "preview"
+    ],
+    "font_name": "fontcustom",
+    "css_selector": ".icon-{{glyph}}",
+    "preprocessor_path": null,
+    "autowidth": false,
+    "no_hash": false,
+    "debug": true,
+    "force": false,
+    "quiet": false,
+    "skip_first": false
+  },
+  "templates": [
+
+  ]
+}

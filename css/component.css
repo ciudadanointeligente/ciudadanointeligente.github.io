@@ -221,6 +221,12 @@ input.gn-search:focus {
 		-webkit-font-smoothing: antialiased;
 }
 
+.gn-icon-fci::before {
+		content: url(../img/icono-fci.svg);
+		vertical-align: middle;
+		padding: 5px 0;
+}
+
 .gn-icon-help::before {
 		content: "\e000"
 }
