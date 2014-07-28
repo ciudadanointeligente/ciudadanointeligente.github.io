@@ -98,7 +98,7 @@
 		bottom: 0;
 		left: 0;
 		overflow: hidden;
-		width: 60px;
+		width: 70px;
 		border-top: 1px solid #090930;
 		background: #18184c;
 		-webkit-transform: translateX(-60px);
@@ -208,23 +208,24 @@ input.gn-search:focus {
 }
 
 .gn-icon::before {
-		display: inline-block;
-		width: 60px;
-		text-align: center;
-		text-transform: none;
-		font-weight: normal;
-		font-style: normal;
-		font-variant: normal;
-		font-family: 'icomoon';
-		line-height: 1;
-		speak: none;
-		-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	width: 70px;
+	text-align: center;
+	text-transform: none;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-family: 'icomoon';
+	line-height: 3;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	font-size: 24px;
 }
 
 .gn-icon-fci::before {
 		content: url(../img/icono-fci.svg);
 		vertical-align: middle;
-		padding: 5px 0;
+		padding: 20px 0px 0px;
 }
 
 .gn-icon-help::before {
