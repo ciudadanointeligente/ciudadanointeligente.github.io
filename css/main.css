@@ -43,7 +43,7 @@ body {
   color: #fff;
 }
 
-a         { color: #2a7ae2; text-decoration: none; }
+a         { color: #77b5bf; text-decoration: none; }
 a:hover   { color: #93D4DF; text-decoration: none; }
 
 /* Utility */
@@ -56,6 +56,10 @@ a:hover   { color: #93D4DF; text-decoration: none; }
   padding: 0 30px;
   margin: 0 auto;
   zoom: 1;
+}
+
+h2 {
+  text-align: center;
 }
 
 
@@ -161,7 +165,11 @@ a:hover   { color: #93D4DF; text-decoration: none; }
 /* Home styles */
 /* ----------------------------------------------------------*/
 
-.home h1 { 
+/*#inicio {
+  background: url(../img/fondo-inicio.jpg);
+}
+*/
+#inicio h1 { 
   text-align: center;
   width: 80%;
   margin: 100px auto;
