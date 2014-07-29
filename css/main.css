@@ -152,6 +152,21 @@ h2 {
   top: 3px;
 }
 
+/*SCROLL TO TOP*/
+
+.scroll-to-top {
+  position: fixed; 
+  background:url(../img/scroll-to-top.png) no-repeat; 
+  cursor: pointer; 
+  width:55px; 
+  height: 55px; 
+  bottom: 1em; 
+  padding-right: 1em; 
+  display: none; 
+  z-index: 999;
+  right: 20px;
+}
+
 
 /* Page Content styles */
 /* ----------------------------------------------------------*/
