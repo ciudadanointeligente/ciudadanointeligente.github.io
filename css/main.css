@@ -60,8 +60,16 @@ a:hover   { color: #93D4DF; text-decoration: none; }
 
 h2 {
   text-align: center;
+  /*margin: 80px 0 40px;*/
 }
 
+section {
+  margin: 100px 0;
+}
+
+section#inicio {
+  height: 600px;
+}
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
@@ -188,7 +196,7 @@ h2 {
   text-align: center;
   width: 80%;
   margin: 100px auto;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 41px;
 }
 
@@ -206,6 +214,14 @@ h2 {
   display: block;
   font-size: 15px;
   color: #818181;
+}
+
+.pilares {
+ text-align: center;
+}
+
+.pilares i.fa {
+  font-size: 60px;
 }
 
 
@@ -300,6 +316,31 @@ h2 {
 }
 
 .post pre.terminal code { background-color: #333; }
+
+
+/*PROYECTOS*/
+
+.activo {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: #e85343;
+  padding: 0px 3px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.archivado {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: #808080;
+  padding: 0px 3px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 400;
+}
 
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
