@@ -23,7 +23,7 @@
           <nav class="gn-menu-wrapper gn-open-part">
             <div class="gn-scroller">
               <ul class="gn-menu">
-                <li><a href="/" class="gn-icon gn-icon-fci"><img src="img/ciudadanointeligente.svg"></a></li>
+                <li><a href="#inicio" class="gn-icon gn-icon-fci"><img src="img/ciudadanointeligente.svg"></a></li>
                 <li><a href="#proyectos" class="gn-icon gn-icon-display">Proyectos</a></li>
                 <li><a href="#sobre-nosotros" class="gn-icon gn-icon-lightbulb">Sobre nosotros</a></li>
                 <li>
@@ -33,7 +33,7 @@
                     <li><a class="gn-icon gn-icon-photoshop">Photoshop files</a></li>
                   </ul> -->
                 </li>
-                <li><a class="gn-icon gn-icon-message">Blog</a></li>
+                <!-- <li><a class="gn-icon gn-icon-message">Blog</a></li> -->
                 <li>
                   <a href="#contacto" class="gn-icon gn-icon-paperplane">Contacto</a>
                 </li>
@@ -45,29 +45,24 @@
       </div>
     </nav>
 
-<!--     <div class="container">
-      <ul id="gn-menu" class="gn-menu-main">
-        <li class="gn-trigger">
-          <a class="gn-icon gn-icon-menu"></a>
-          <nav class="gn-menu-wrapper gn-open-part">
-            <div class="gn-scroller">
-              <ul class="gn-menu">
-                <li><a href="#proyectos" class="gn-icon gn-icon-display"><img src="http://www.ciudadanointeligente.org/wp-content/themes/ciudadanoi/images/fci_logo.png"></a></li>
-                <li><a href="#proyectos" class="gn-icon gn-icon-display">Proyectos</a></li>
-                <li><a href="#sobre-nosotros" class="gn-icon gn-icon-lightbulb">Sobre nosotros</a></li>
-                <li>
-                  <a href="#transparencia" class="gn-icon gn-icon-search">Transparencia</a>
-                </li>
-                <li><a class="gn-icon gn-icon-message">Blog</a></li>
-                <li>
-                  <a href="#contacto" class="gn-icon gn-icon-paperplane">Contacto</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </li>
-      </ul>
-    </div> -->
+<!-- AUTOSCROLL -->
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+
+        var target = this.hash,
+        $target = $(target);
+
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 900, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+  });
+</script>
+
     <script src="js/classie.js"></script>
     <script src="js/gnmenu.js"></script>
     <script>
