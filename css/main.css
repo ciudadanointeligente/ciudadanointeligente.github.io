@@ -58,9 +58,26 @@ a:hover   { color: #93D4DF; text-decoration: none; }
   zoom: 1;
 }
 
-h2 {
+h2, .h2 {
   text-align: center;
-  /*margin: 80px 0 40px;*/
+  font-weight: 300;
+  font-size: 46px;
+}
+
+h3, .h3 {
+  font-size: 31px;
+  font-weight: 600;
+}
+
+h4, .h4 {
+  font-size: 21px;
+  line-height: 28px;
+}
+
+.destacado{
+  text-align: center;
+  width: 80%;
+  margin: 30px auto 40px;
 }
 
 section {
@@ -69,6 +86,18 @@ section {
 
 section#inicio {
   height: 600px;
+}
+
+/*BUTTONS*/
+
+.btn-primary {
+  background-color: #77b5bf;
+  border-color: transparent;
+}
+
+.btn-primary:hover {
+  background-color: #93D4DF;
+  border-color: transparent;
 }
 
 /* Layout Styles */
@@ -100,6 +129,10 @@ section#inicio {
   margin-left: 20px;
   color: #727272;
   letter-spacing: -.5px;
+}
+
+.menu-interno {
+  text-align: center;
 }
 
 /* Site footer */
