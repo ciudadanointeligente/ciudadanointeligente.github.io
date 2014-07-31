@@ -459,6 +459,12 @@ input.gn-search:focus {
 	color: #999;
 }
 
+.og-details a::before {
+	content: '\2192';
+	display: inline-block;
+	margin-right: 10px;
+}
+
 .og-loading {
 	width: 20px;
 	height: 20px;

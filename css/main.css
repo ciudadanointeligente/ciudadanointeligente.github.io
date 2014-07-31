@@ -117,6 +117,21 @@ section#inicio {
   border-top: 1px solid #222958;
 }
 
+/*ALERT*/
+
+.notificaciones .alert-success {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.notificaciones .alert {
+padding: 15px;
+margin-bottom: 0px;
+border: 1px solid transparent;
+border-radius: 0px;
+}
+
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
