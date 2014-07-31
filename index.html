@@ -42,7 +42,7 @@ layout: default
       <ul id="og-grid" class="og-grid">
         {% for post in site.posts %}
           <li>
-            <a href="http://congresoabierto.cl/" data-largesrc="img/1.jpg" data-title="{{ post.title }}" data-description="{{ post.description }}">
+            <a href="http://congresoabierto.cl/" data-largesrc="{{ post.img }}" data-title="{{ post.title }}" data-description="{{ post.description }}">
               <img src="{{ post.thumb }}" alt="img01"/>
               <div class="{{ post.estado }}">{{ post.estado }}</div>
             </a>
@@ -68,9 +68,9 @@ layout: default
       <h3>Quienes somos</h3>
       <p class="h4 destacado">Somos una organización laica, respetuosa y defensora de la diversidad política, cultural, social, religiosa y sexual. Buscamos aportar a una sociedad justa e incluyente, donde los ciudadanos tenemos los mismos derechos y oportunidades.</p>
       <div class="row">
-        <div class="col-md-4"> <button class="btn btn-primary" data-toggle="modal" data-target=".modal-equipo">El equipo</button></div>
-        <div class="col-md-4"> <button class="btn btn-primary" data-toggle="modal" data-target=".modal-directorio">El directorio</button></div>
-        <div class="col-md-4"> <button class="btn btn-primary" data-toggle="modal" data-target=".modal-hanparticipado">Han participado</button></div>
+        <div class="col-md-4"> <button class="btn btn-primary btn-large" data-toggle="modal" data-target=".modal-equipo">El equipo</button></div>
+        <div class="col-md-4"> <button class="btn btn-primary btn-large" data-toggle="modal" data-target=".modal-directorio">El directorio</button></div>
+        <div class="col-md-4"> <button class="btn btn-primary btn-large" data-toggle="modal" data-target=".modal-hanparticipado">Han participado</button></div>
       </div>
 
       <div class="modal fade modal-equipo" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
@@ -158,7 +158,7 @@ layout: default
 
 <section id="transparencia">
   <h2>Transparencia</h2>
-  <div class="menu-interno"><a href="#estatutos"> Estatutos </a>/<a href="#desclasificación"> Desclasificación </a>/<a href="#lobby"> Agenda lobby </a>/<a href="#financiamiento"> Financiamiento</a></div>
+  <div class="menu-interno"><a href="#estatutos"> Estatutos </a>/<a href="#desclasificación"> Desclasificación </a>/<a href="#financiamiento"> Financiamiento</a></div>
     <div id="estatutos"></div>
       <h3>Estas son las reglas bajo las cuales nos regimos</h3>
         <div class="h4">Descarga<a href="/"> nuestros estatutos <i class="fa fa-download"></i></a></div>
@@ -172,11 +172,12 @@ layout: default
         </div>
     <div id="desclasificacion"></div>
       <h3>Desclasificación de la Fundación Ciudadano Inteligente</h3>
+        <div class="h4">Revisa nuestra<a href="/"> Agenda de Lobby</a></div>
         <p>A través del presente documento, la Fundación Ciudadano Inteligente pretende transparentar situaciones o condiciones que a ojos de la ciudadanía pudieran comprometer el interés en el actuar de nuestra organización. Optamos por transparentar porque no tenemos nada que ocultar. Más allá de cualquier interpretación de los hechos abajo señalados, el compromiso de Ciudadano Inteligente y su equipo está con el cumplimiento de nuestra misión, cual es, distribuir poder desde los pocos hacia los muchos por la vía de la transparencia y la participación ciudadana, usando como herramienta de cambio, las tecnologías de la información. Los miembros de Ciudadano Inteligente han suscrito el compromiso de transparentar cualquier situación que pudiere comprometer el interés de nuestra Fundación, y abstenerse de participar en aquellas áreas que pudieran representar un conflicto de interés.</p>
         <p>Si quieres pedir más información a Ciudadano Inteligente, escribe a info@ciudadanointeligente.org.</p>
         <div class="row">
-          <div class="col-md-6"> <button class="btn btn-primary" data-toggle="modal" data-target=".modal-desclasificacion-presente">Situaciones en el presente</button></div>
-          <div class="col-md-6"> <button class="btn btn-primary" data-toggle="modal" data-target=".modal-desclasificacion-pasado">Situaciones en el pasado</button></div>
+          <div class="col-md-6 h4"> <button class="btn btn-primary btn-large" data-toggle="modal" data-target=".modal-desclasificacion-presente">Situaciones en el presente</button></div>
+          <div class="col-md-6 h4"> <button class="btn btn-primary btn-large" data-toggle="modal" data-target=".modal-desclasificacion-pasado">Situaciones en el pasado</button></div>
         </div>
 
         <div class="modal fade modal-desclasificacion-presente" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
@@ -212,11 +213,98 @@ layout: default
             </div>
           </div>
         </div>
-    <div id="lobby"></div>
-      <h3>Agenda de lobby</h3>
 
     <div id="financiamiento"></div>
       <h3>Cómo nos financiamos</h3>
+      <table>
+        <tr>
+          <th>Fondos</th>
+          <th>2011</th>
+          <th>2012</th>
+          <th>2013</th>
+          <th>2014*</th>
+        </tr>
+        <tr>
+          <td>Omidyar Network</td>
+          <td></td>
+          <td>USD 150.000</td>
+          <td>USD 175.000</td>
+          <td>USD 175.000</td>
+        </tr>
+        <tr>
+          <td>MySociety</td>
+          <td></td>
+          <td></td>
+          <td>USD 381.500</td>
+          <td>USD 392.575</td>
+        </tr>
+        <tr>
+          <td>Financiamiento DAL</td>
+          <td></td>
+          <td>USD 7.000</td>
+          <td>USD 11.700</td>
+          <td>USD 34.300</td>
+        </tr>
+        <tr>
+          <td>FCI Asesorias</td>
+          <td></td>
+          <td>USD 9.950</td>
+          <td>USD 16.600</td>
+          <td>USD 25.000</td>
+        </tr>
+        <tr>
+          <td>Avina</td>
+          <td></td>
+          <td></td>
+          <td>USD 8.200</td>
+          <td>USD 25.000</td>
+        </tr>
+        <tr>
+          <td>Prize award</td>
+          <td>USD 14.000</td>
+          <td></td>
+          <td>USD 10.000</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Open Society Foundations</td>
+          <td>USD 245.000</td>
+          <td>USD 130.000</td>
+          <td>USD 195.400</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Google</td>
+          <td>USD 60.000</td>
+          <td>USD 250.000</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>UNICEF</td>
+          <td>USD 20.000</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>World Bank</td>
+          <td>USD 45.000</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>USD 384.000</td>
+          <td>USD 546.000</td>
+          <td>USD 798.400</td>
+          <td>USD 651.875</td>
+        </tr>
+      </table>
+
+
+
 </section>
 
 <section id="contacto">
