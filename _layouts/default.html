@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
 
+<img src="img/fondo-inicio.jpg" style="
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 700px;
+">
+
   {% include head.html %}
 
     <body>
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrap">
+    <div class="container">
       {{ content }}
-      </div>
     </div>
 
     {% include footer.html %}

@@ -1,0 +1,42 @@
+{
+  "checksum": {
+    "previous": "",
+    "current": "3e5c710b7f9a80ce898e18e7705dd4396bcd2d334194cae4d69e0592ec681b55"
+  },
+  "fonts": [
+
+  ],
+  "glyphs": {
+    "icono-fci": {
+      "source": "svg/icono-fci.svg",
+      "codepoint": 61697
+    }
+  },
+  "options": {
+    "input": {
+      "vectors": "svg",
+      "templates": "svg"
+    },
+    "output": {
+      "fonts": "fontcustom",
+      "css": "fontcustom",
+      "preview": "fontcustom"
+    },
+    "config": false,
+    "templates": [
+      "css",
+      "preview"
+    ],
+    "font_name": "fontcustom",
+    "css_selector": ".icon-{{glyph}}",
+    "preprocessor_path": null,
+    "autowidth": false,
+    "no_hash": false,
+    "debug": false,
+    "force": false,
+    "quiet": false
+  },
+  "templates": [
+
+  ]
+}

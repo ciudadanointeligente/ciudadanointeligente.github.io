@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "SeñalALO"
+date:   2011-07-2 14:46:22
+categories: project
+img: img/3.jpg
+thumb: img/thumbs/3.jpg
+description: Señalalo muestra en un mapa la ubicación de todas las antenas de celulares de Chile.
+url: 
+estado: archivado
+---

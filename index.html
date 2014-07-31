@@ -2,28 +2,316 @@
 layout: default
 ---
 
-<div class="home">
+<section id="inicio">
 
-<div class="container">
-  <video autoplay loop poster="polina.jpg" id="bgvid">
+<!--   <video autoplay loop poster="polina.jpg" id="bgvid">
     <source src="http://demosthenes.info/assets/videos/polina.webm" type="video/webm">
     <source src="http://demosthenes.info/assets/videos/polina.mp4" type="video/mp4">
-  </video>
-</div>
+  </video> -->
 
-  <h1>Blabla sobre la Fundación</h1>
+  <h1>Usamos tecnología para transparentar y participar en democracia, trabajamos para trasladar poder desde los pocos hacia los muchos.</h1>
+  <div class="container">
+    <div class="row pilares">
+      <div class="col-md-4">
+        <img src="img/1-transparencia.svg">
+        <h3>Transparencia</h3>
+        <p>Promovemos el principio de la Transparencia, buscando la consolidación del derecho de acceso a la información pública y la regulación, implementación y uso de una política de datos abiertos.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="img/2-rendicion.svg">
+        <h3>Rendicion De Cuentas</h3>
+        <p>Las democracias representativas requieren para su mejor funcionamiento el desarrollo de mecanismos de rendición de cuentas que permitan la fiscalización ciudadana, la gestión participativa y, por último, la regulación y transparencia de la relación entre dinero y política.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="img/3-accioncolectiva.svg">
+        <h3>Acción Colectiva</h3>
+        <p>La participación ciudadana es un valor en sí mismo pues facilita que el interés colectivo sea privilegiado ante los intereses individuales. Para que la participación ciudadana se pueda ejercer, se requieren herramientas y espacios de participación que hagan que ésta sea efectiva.</p>
+      </div>
+    </div>
 
+  </div>
+
+  <div class="scroll-to-top">
+    <!-- <h6>scroll down.</h6> -->
+    <!-- <i class="fa fa-chevron-circle-down"></i> -->
+  </div>
+</section>
+
+<section id="proyectos">
   <h2>Proyectos</h2>
+      <ul id="og-grid" class="og-grid">
+        {% for post in site.posts %}
+          <li>
+            <a href="http://congresoabierto.cl/" data-largesrc="{{ post.img }}" data-title="{{ post.title }}" data-description="{{ post.description }}">
+              <img src="{{ post.thumb }}" alt="img01"/>
+              <div class="{{ post.estado }}">{{ post.estado }}</div>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    <script src="js/grid.js"></script>
+    <script>
+      $(function() {
+        Grid.init();
+      });
+    </script>
+</section>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+<section id="sobre-nosotros">
+  <h2>Sobre Nosotros</h2>
+  <div class="menu-interno"><a href="#misionyvision"> Misión & visión </a>/<a href="#quienessomos"> Quienes somos </a>/<a href="#independencia"> Independencia política </a>/<a href="#areas"> Nuestras áreas</a></div>
+    <div id="misionyvision"></div>
+      <h3>Misión y Visión</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <div id="quienessomos"></div>
+      <h3>Quienes somos</h3>
+      <p class="h4 destacado">Somos una organización laica, respetuosa y defensora de la diversidad política, cultural, social, religiosa y sexual. Buscamos aportar a una sociedad justa e incluyente, donde los ciudadanos tenemos los mismos derechos y oportunidades.</p>
+      <div class="row">
+        <div class="col-md-4"> <button class="btn btn-primary btn-large" data-toggle="modal" data-target=".modal-equipo">El equipo</button></div>
+        <div class="col-md-4"> <button class="btn btn-primary btn-large" data-toggle="modal" data-target=".modal-directorio">El directorio</button></div>
+        <div class="col-md-4"> <button class="btn btn-primary btn-large" data-toggle="modal" data-target=".modal-hanparticipado">Han participado</button></div>
+      </div>
 
-</div>
+      <div class="modal fade modal-equipo" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">El equipo</h4>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="modal fade modal-directorio" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">El equipo</h4>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade modal-hanparticipado" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">El equipo</h4>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <div id="independencia"></div>
+      <h3>Independencia política</h3>
+      <p>Los miembros de Ciudadano Inteligente no somos apolíticos, sino todo la contrario: concebimos la buena política como una herramienta fundamental de transformación social, y cómo tal, nos proponemos generar los adecuados incentivos para que la política funcione bien, buscando que quienes ostentan cargos de representación popular se deban a sus ciudadanos y no a otros intereses particulares.</p>
+      <p>Al interior de Ciudadano Inteligente hay miembros de diversas tendencias políticas, sin embargo, como organización no adscribimos a ningún partido político ni movimiento. Para asegurar nuestra total independencia Ciudadano Inteligente no recibe financiamiento del Gobierno, ni de Partidos, ni de ninguna organización gremial que tenga intereses políticos. Asimismo, por vía de un proceso riguroso, nos aseguramos de que todas nuestras investigaciones e informes se sustenten en metodologías sólidas y transparentes, abiertas al escrutinio de quien nos quiera fiscalizar. La lealtad política de Ciudadano Inteligente está puesta en los ciudadanos y en el cuidado y profundización de la democracia como sistema de gobierno.</p>
+
+    <div id="areas"></div>
+      <h3>Nuestras áreas</h3>
+        <div class="row">
+          <div class="col-md-10 col-md-offset-2"><h4>Lab</h4></div>
+        </div>
+        <div class="row">
+          <div class="col-md-2"><img src="img/icono-pantalla.svg"></div>
+          <div class="col-md-10">Desarrollamos tecnología web para transparentar, fiscalizar y hacernos ciudadanos partícipes de las decisiones que nos afectan. En el Taller Digital desarrollamos tecnología de y para ciudadanos. Innovamos en el desarrollo de aplicaciones web open source, destinadas a promover transparencia y participación cívica en América Latina. <a href="/">Ver reportes</a></div>
+        </div>
+        <div class="row">
+          <div class="col-md-12"><h4>Incidencia</h4></div>
+        </div>
+        <div class="row">
+          <div class="col-md-10">Desarrollamos tecnología web para transparentar, fiscalizar y hacernos ciudadanos partícipes de las decisiones que nos afectan. En el Taller Digital desarrollamos tecnología de y para ciudadanos. Innovamos en el desarrollo de aplicaciones web open source, destinadas a promover transparencia y participación cívica en América Latina. <a href="/">Ver reportes</a></div>
+          <div class="col-md-2"><img src="img/icono-pantalla.svg"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-10 col-md-offset-2"><h4>Comunidad y redes</h4></div>
+        </div>
+        <div class="row">
+          <div class="col-md-2"><img src="img/icono-pantalla.svg"></div>
+          <div class="col-md-10">Desarrollamos tecnología web para transparentar, fiscalizar y hacernos ciudadanos partícipes de las decisiones que nos afectan. En el Taller Digital desarrollamos tecnología de y para ciudadanos. Innovamos en el desarrollo de aplicaciones web open source, destinadas a promover transparencia y participación cívica en América Latina. <a href="/">Ver reportes</a></div>
+        </div>
+
+</section>
+
+<section id="transparencia">
+  <h2>Transparencia</h2>
+  <div class="menu-interno"><a href="#estatutos"> Estatutos </a>/<a href="#desclasificación"> Desclasificación </a>/<a href="#financiamiento"> Financiamiento</a></div>
+    <div id="estatutos"></div>
+      <h3>Estas son las reglas bajo las cuales nos regimos</h3>
+        <div class="h4">Descarga<a href="/"> nuestros estatutos <i class="fa fa-download"></i></a></div>
+        <div class="row">
+          <div class="col-md-2"><img src="img/icono-pantalla.svg"></div>
+          <div class="col-md-10"><div class="h4">La Fundación es un lugar donde cualquier tipo de discriminación por razones políticas, religiosas, de género, sexuales, etc. están excluidas. Defendemos el derecho a ser diferentes.</div></div>
+        </div>
+        <div class="row">
+          <div class="col-md-10"><div class="h4">La Fundación es un lugar de trabajo que recibe con los brazos abiertos  la innovación, las ideas, los sueños por cambiar las relaciones de poder desde unos a pocos, a muchos.</div></div>
+          <div class="col-md-2"><img src="img/icono-pantalla.svg"></div>
+        </div>
+    <div id="desclasificacion"></div>
+      <h3>Desclasificación de la Fundación Ciudadano Inteligente</h3>
+        <div class="h4">Revisa nuestra<a href="/"> Agenda de Lobby</a></div>
+        <p>A través del presente documento, la Fundación Ciudadano Inteligente pretende transparentar situaciones o condiciones que a ojos de la ciudadanía pudieran comprometer el interés en el actuar de nuestra organización. Optamos por transparentar porque no tenemos nada que ocultar. Más allá de cualquier interpretación de los hechos abajo señalados, el compromiso de Ciudadano Inteligente y su equipo está con el cumplimiento de nuestra misión, cual es, distribuir poder desde los pocos hacia los muchos por la vía de la transparencia y la participación ciudadana, usando como herramienta de cambio, las tecnologías de la información. Los miembros de Ciudadano Inteligente han suscrito el compromiso de transparentar cualquier situación que pudiere comprometer el interés de nuestra Fundación, y abstenerse de participar en aquellas áreas que pudieran representar un conflicto de interés.</p>
+        <p>Si quieres pedir más información a Ciudadano Inteligente, escribe a info@ciudadanointeligente.org.</p>
+        <div class="row">
+          <div class="col-md-6 h4"> <button class="btn btn-primary btn-large" data-toggle="modal" data-target=".modal-desclasificacion-presente">Situaciones en el presente</button></div>
+          <div class="col-md-6 h4"> <button class="btn btn-primary btn-large" data-toggle="modal" data-target=".modal-desclasificacion-pasado">Situaciones en el pasado</button></div>
+        </div>
+
+        <div class="modal fade modal-desclasificacion-presente" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">El equipo</h4>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="modal fade modal-desclasificacion-pasado" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">El equipo</h4>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <div id="financiamiento"></div>
+      <h3>Cómo nos financiamos</h3>
+      <table>
+        <tr>
+          <th>Fondos</th>
+          <th>2011</th>
+          <th>2012</th>
+          <th>2013</th>
+          <th>2014*</th>
+        </tr>
+        <tr>
+          <td>Omidyar Network</td>
+          <td></td>
+          <td>USD 150.000</td>
+          <td>USD 175.000</td>
+          <td>USD 175.000</td>
+        </tr>
+        <tr>
+          <td>MySociety</td>
+          <td></td>
+          <td></td>
+          <td>USD 381.500</td>
+          <td>USD 392.575</td>
+        </tr>
+        <tr>
+          <td>Financiamiento DAL</td>
+          <td></td>
+          <td>USD 7.000</td>
+          <td>USD 11.700</td>
+          <td>USD 34.300</td>
+        </tr>
+        <tr>
+          <td>FCI Asesorias</td>
+          <td></td>
+          <td>USD 9.950</td>
+          <td>USD 16.600</td>
+          <td>USD 25.000</td>
+        </tr>
+        <tr>
+          <td>Avina</td>
+          <td></td>
+          <td></td>
+          <td>USD 8.200</td>
+          <td>USD 25.000</td>
+        </tr>
+        <tr>
+          <td>Prize award</td>
+          <td>USD 14.000</td>
+          <td></td>
+          <td>USD 10.000</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Open Society Foundations</td>
+          <td>USD 245.000</td>
+          <td>USD 130.000</td>
+          <td>USD 195.400</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Google</td>
+          <td>USD 60.000</td>
+          <td>USD 250.000</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>UNICEF</td>
+          <td>USD 20.000</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>World Bank</td>
+          <td>USD 45.000</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>USD 384.000</td>
+          <td>USD 546.000</td>
+          <td>USD 798.400</td>
+          <td>USD 651.875</td>
+        </tr>
+      </table>
+
+
+
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+  Etiam lectus mauris, sodales id varius non, rhoncus at mi. Sed metus felis, commodo vitae convallis sit amet, tristique eget sem. Integer ut purus iaculis, rhoncus erat ut, euismod metus. Curabitur luctus erat et metus mattis bibendum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla turpis lacus, pretium non gravida nec, vulputate ac tortor. Duis consectetur, lectus in egestas scelerisque, justo risus mattis dui, et gravida libero orci ornare nibh. Quisque et ultricies purus. Donec et nulla nec tortor gravida suscipit. Ut luctus magna a viverra adipiscing.
+
+  Sed tincidunt vel risus sed scelerisque. Nulla eros dui, facilisis at hendrerit eu, tincidunt eget dui. Proin euismod purus ipsum, vel tincidunt nunc porttitor nec. Donec eu sapien ornare, egestas ante rutrum, ullamcorper tellus. Nullam convallis lacus ac enim tincidunt ultrices. Aenean tincidunt augue ut elit interdum, hendrerit faucibus purus viverra. Nam molestie leo turpis, vel condimentum orci scelerisque a. Sed posuere euismod risus a scelerisque. Pellentesque feugiat lectus quis neque vestibulum gravida. Suspendisse at diam elementum, rutrum turpis nec, gravida nisl. Quisque ut pharetra nulla. Vivamus pellentesque congue risus in accumsan. Phasellus non bibendum nibh.
+</section>

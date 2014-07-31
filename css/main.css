@@ -32,16 +32,19 @@
 html, body { height: 100%; }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  background-color: #E4F6F7;
+  background-color: #090930;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  color: #fff;
 }
 
-a         { color: #2a7ae2; text-decoration: none; }
-a:hover   { color: #000; text-decoration: underline; }
-a:visited { color: #205caa; }
+a         { color: #77b5bf; text-decoration: none; }
+a:hover   { color: #93D4DF; text-decoration: none; }
 
 /* Utility */
 
@@ -55,18 +58,59 @@ a:visited { color: #205caa; }
   zoom: 1;
 }
 
+h2, .h2 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 46px;
+}
+
+h3, .h3 {
+  font-size: 31px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+h4, .h4 {
+  font-size: 21px;
+  line-height: 28px;
+  font-weight: 300;
+}
+
+.destacado{
+  text-align: center;
+  width: 80%;
+  margin: 30px auto 40px;
+}
+
+section {
+  margin: 100px 0;
+}
+
+section#inicio {
+  height: 600px;
+}
+
+/*BUTTONS*/
+
+.btn-primary {
+  background-color: #77b5bf;
+  border-color: transparent;
+}
+
+.btn-primary:hover {
+  background-color: #93D4DF;
+  border-color: transparent;
+}
+
+.btn-large {
+  width: 100%;
+  height: 80px;
+}
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
 /* Site header */
-
-.site-header {
-  border-top: 5px solid #333;
-  border-bottom: 1px solid #e8e8e8;
-  min-height: 56px;
-  /*background-color: white;*/
-}
 
 .site-title,
 .site-title:hover,
@@ -92,6 +136,10 @@ a:visited { color: #205caa; }
   margin-left: 20px;
   color: #727272;
   letter-spacing: -.5px;
+}
+
+.menu-interno {
+  text-align: center;
 }
 
 /* Site footer */
@@ -152,6 +200,21 @@ a:visited { color: #205caa; }
   top: 3px;
 }
 
+/*SCROLL TO TOP*/
+
+.scroll-to-top {
+  position: fixed; 
+  background:url(../img/scroll-to-top.png) no-repeat; 
+  cursor: pointer; 
+  width:55px; 
+  height: 55px; 
+  bottom: 1em; 
+  padding-right: 1em; 
+  display: none; 
+  z-index: 999;
+  right: 20px;
+}
+
 
 /* Page Content styles */
 /* ----------------------------------------------------------*/
@@ -165,9 +228,16 @@ a:visited { color: #205caa; }
 /* Home styles */
 /* ----------------------------------------------------------*/
 
-.home h1 { 
-  margin-bottom: 25px;
+/*#inicio {
+  background: url(../img/fondo-inicio.jpg);
+}
+*/
+#inicio h1 { 
   text-align: center;
+  width: 80%;
+  margin: 100px auto;
+  font-weight: 300;
+  line-height: 41px;
 }
 
 .posts { list-style-type: none; }
@@ -184,6 +254,14 @@ a:visited { color: #205caa; }
   display: block;
   font-size: 15px;
   color: #818181;
+}
+
+.pilares {
+ text-align: center;
+}
+
+.pilares i.fa {
+  font-size: 60px;
 }
 
 
@@ -278,6 +356,31 @@ a:visited { color: #205caa; }
 }
 
 .post pre.terminal code { background-color: #333; }
+
+
+/*PROYECTOS*/
+
+.activo {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: #e85343;
+  padding: 0px 3px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.archivado {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: #808080;
+  padding: 0px 3px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 400;
+}
 
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
@@ -376,12 +479,10 @@ a:visited { color: #205caa; }
   .site-nav {
     position: fixed;
     z-index: 10;
-    top: 14px; right: 8px;
-    background-color: white;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    border: 1px solid #e8e8e8;
+    top: 0px;
+    left: 0px;
+    background-color: #18184c;
+    padding: 12px;
   }
 
   .site-nav .menu-icon {
@@ -426,4 +527,39 @@ a:visited { color: #205caa; }
     width: auto;
     margin: 0 0 15px; }
 
+}
+
+/*PAGE TRANSITIONS */
+
+.pt-perspective {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    perspective: 1200px;
+    transform-style: preserve-3d;
+}
+ 
+.pt-page {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    overflow: hidden;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+}
+ 
+.pt-page-current,
+.no-js .pt-page {
+    visibility: visible;
+}
+ 
+.no-js body {
+    overflow: auto;
+}
+ 
+.pt-page-ontop {
+    z-index: 999;
 }
