@@ -86,10 +86,6 @@ section {
   margin: 100px 0;
 }
 
-section#inicio {
-  height: 600px;
-}
-
 /*BUTTONS*/
 
 .btn-primary {
@@ -588,3 +584,5 @@ border-radius: 0px;
 .pt-page-ontop {
     z-index: 999;
 }
+
+/*CONTACTO*/

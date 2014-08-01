@@ -26,6 +26,7 @@
 		text-transform: none;
 		font-weight: 300;
 		line-height: 60px;
+		z-index: 1;
 }
 
 .gn-menu-main {
@@ -313,7 +314,8 @@ input.gn-search:focus {
 }
 
 .gn-menu-wrapper.gn-open-all {
-		width: 340px
+		width: 340px;
+		max-width: 80%;
 }
 
 .gn-menu-wrapper.gn-open-all .gn-submenu li {
