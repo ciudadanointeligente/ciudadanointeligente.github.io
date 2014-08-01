@@ -43,8 +43,8 @@ layout: default
       <ul id="og-grid" class="og-grid">
         {% for post in site.posts %}
           <li>
-            <a href="http://congresoabierto.cl/" data-largesrc="{{ post.img }}" data-title="{{ post.title }}" data-description="{{ post.description }}">
-              <img src="{{ post.thumb }}" alt="img01"/>
+            <a href="{{ post.site_url }}" data-largesrc="{{ post.img }}" data-title="{{ post.title }}" data-description="{{ post.description }}" data-siteurl="{{ post.site_url }}">
+              <img src="{{ post.thumb }}" alt="{{ post.img }}"/>
               <div class="{{ post.estado }}">{{ post.estado }}</div>
             </a>
           </li>

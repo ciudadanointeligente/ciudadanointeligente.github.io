@@ -6,6 +6,6 @@ categories: project
 img: img/3.jpg
 thumb: img/thumbs/3.jpg
 description: Señalalo muestra en un mapa la ubicación de todas las antenas de celulares de Chile.
-url: 
 estado: archivado
+site_url: http://votainteligente.cl/
 ---

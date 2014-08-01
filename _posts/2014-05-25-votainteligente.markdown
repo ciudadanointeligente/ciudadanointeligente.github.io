@@ -6,6 +6,6 @@ categories: project
 img: img/2.jpg
 thumb: img/thumbs/2.jpg
 description: Descripción sobre Votainteligente.
-url: http://votainteligente.cl/
+site_url: http://votainteligente.cl/
 estado: activo
 ---
