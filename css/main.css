@@ -107,6 +107,31 @@ section#inicio {
   height: 80px;
 }
 
+/*TABLE*/
+
+.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+  background-color: #00113C;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+  border-top: 1px solid #222958;
+}
+
+/*ALERT*/
+
+.notificaciones .alert-success {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.notificaciones .alert {
+padding: 15px;
+margin-bottom: 0px;
+border: 1px solid transparent;
+border-radius: 0px;
+}
+
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
