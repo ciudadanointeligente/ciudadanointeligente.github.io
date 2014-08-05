@@ -67,7 +67,7 @@ h2, .h2 {
 h3, .h3 {
   font-size: 31px;
   font-weight: 600;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 h4, .h4 {
@@ -86,25 +86,74 @@ section {
   margin: 100px 0;
 }
 
-section#inicio {
-  height: 600px;
-}
-
 /*BUTTONS*/
 
+.btn {
+  border-radius: 0;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
 .btn-primary {
-  background-color: #77b5bf;
+  background-color: #e85343;
   border-color: transparent;
+  transition: background-color .3s ease-in;
+  -moz-transition: background-color .3s ease-in;
+  -webkit-transition: background-color .3s ease-in;
+  padding: 10px 20px;
 }
 
 .btn-primary:hover {
-  background-color: #93D4DF;
+  background-color: #af2c58;
   border-color: transparent;
 }
 
 .btn-large {
   width: 100%;
   height: 80px;
+}
+
+/*FORM*/
+
+form#ss-form {
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+span.ss-required-asterisk {
+  color: #e85343;
+}
+
+input {
+  background: #18184c;
+  border: transparent;
+  padding: 10px;
+  font-weight: 200;
+  width: 100%;
+  max-width: 750px;
+}
+
+textarea {
+  border: transparent;
+  background: #18184c;
+  width: 100%;
+  max-width: 750px;
+  padding: 10px;
+  max-height: 150px;
+  font-weight: 200;
+}
+
+select {
+  background: #77b5bf;
+  border: transparent;
+  height: 40px;
+  font-weight: 200;
+}
+
+.ss-form-entry {
+  margin: 20px 0;
 }
 
 /*TABLE*/
@@ -588,3 +637,5 @@ border-radius: 0px;
 .pt-page-ontop {
     z-index: 999;
 }
+
+/*CONTACTO*/

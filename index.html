@@ -43,8 +43,8 @@ layout: default
       <ul id="og-grid" class="og-grid">
         {% for post in site.posts %}
           <li>
-            <a href="http://congresoabierto.cl/" data-largesrc="{{ post.img }}" data-title="{{ post.title }}" data-description="{{ post.description }}">
-              <img src="{{ post.thumb }}" alt="img01"/>
+            <a href="{{ post.site_url }}" data-largesrc="{{ post.img }}" data-title="{{ post.title }}" data-description="{{ post.description }}" data-siteurl="{{ post.site_url }}">
+              <img src="{{ post.thumb }}" alt="{{ post.img }}"/>
               <div class="{{ post.estado }}">{{ post.estado }}</div>
             </a>
           </li>
@@ -222,10 +222,5 @@ layout: default
 </section>
 
 <section id="contacto">
-  <h2>Contacto</h2>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-  Etiam lectus mauris, sodales id varius non, rhoncus at mi. Sed metus felis, commodo vitae convallis sit amet, tristique eget sem. Integer ut purus iaculis, rhoncus erat ut, euismod metus. Curabitur luctus erat et metus mattis bibendum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla turpis lacus, pretium non gravida nec, vulputate ac tortor. Duis consectetur, lectus in egestas scelerisque, justo risus mattis dui, et gravida libero orci ornare nibh. Quisque et ultricies purus. Donec et nulla nec tortor gravida suscipit. Ut luctus magna a viverra adipiscing.
-
-  Sed tincidunt vel risus sed scelerisque. Nulla eros dui, facilisis at hendrerit eu, tincidunt eget dui. Proin euismod purus ipsum, vel tincidunt nunc porttitor nec. Donec eu sapien ornare, egestas ante rutrum, ullamcorper tellus. Nullam convallis lacus ac enim tincidunt ultrices. Aenean tincidunt augue ut elit interdum, hendrerit faucibus purus viverra. Nam molestie leo turpis, vel condimentum orci scelerisque a. Sed posuere euismod risus a scelerisque. Pellentesque feugiat lectus quis neque vestibulum gravida. Suspendisse at diam elementum, rutrum turpis nec, gravida nisl. Quisque ut pharetra nulla. Vivamus pellentesque congue risus in accumsan. Phasellus non bibendum nibh.
+    {% include contacto.html %}
 </section>

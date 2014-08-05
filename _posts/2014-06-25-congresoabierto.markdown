@@ -6,6 +6,6 @@ categories: project
 img: img/3.jpg
 thumb: img/thumbs/3.jpg
 description: Descripción sobre congreso abierto.
-url: http://congresoabierto.cl/
+site_url: http://congresoabierto.cl/
 estado: activo
 ---
