@@ -76,6 +76,10 @@ h4, .h4 {
   font-weight: 300;
 }
 
+.pilares h4 {
+  font-weight: 300;
+}
+
 .destacado{
   text-align: center;
   width: 80%;
@@ -179,6 +183,13 @@ padding: 15px;
 margin-bottom: 0px;
 border: 1px solid transparent;
 border-radius: 0px;
+}
+
+/*MODAL*/
+
+.modal-content {
+  border-radius: 0;
+  background: #18184c;
 }
 
 /* Layout Styles */

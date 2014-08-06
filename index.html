@@ -15,18 +15,15 @@ layout: default
     <div class="row pilares">
       <div class="col-md-4">
         <img src="img/1-transparencia.svg">
-        <h3>Transparencia</h3>
-        <p>Promovemos el principio de la Transparencia, buscando la consolidación del derecho de acceso a la información pública y la regulación, implementación y uso de una política de datos abiertos.</p>
+        <h4>Promover la <strong>Transparencia</strong> para propiciar el establecimiento de una cultura de acceso a la información pública y de reutilización de los datos abiertos.</h4>
       </div>
       <div class="col-md-4">
         <img src="img/2-rendicion.svg">
-        <h3>Rendicion De Cuentas</h3>
-        <p>Las democracias representativas requieren para su mejor funcionamiento el desarrollo de mecanismos de rendición de cuentas que permitan la fiscalización ciudadana, la gestión participativa y, por último, la regulación y transparencia de la relación entre dinero y política.</p>
+        <h4>Impulsar la <strong>Rendición de Cuentas</strong> desarrollando mayores y mejores mecanismos que permitan privilegiar el interés colectivo por sobre los intereses individuales.</h4>
       </div>
       <div class="col-md-4">
         <img src="img/3-accioncolectiva.svg">
-        <h3>Acción Colectiva</h3>
-        <p>La participación ciudadana es un valor en sí mismo pues facilita que el interés colectivo sea privilegiado ante los intereses individuales. Para que la participación ciudadana se pueda ejercer, se requieren herramientas y espacios de participación que hagan que ésta sea efectiva.</p>
+        <h4>Fortalecer la <strong>Participación Ciudadana</strong> efectiva y fomentar la acción colectiva, consolidando así democracias más representativas y deliberativas.</h4>
       </div>
     </div>
 
@@ -39,23 +36,7 @@ layout: default
 </section>
 
 <section id="proyectos">
-  <h2>Proyectos</h2>
-      <ul id="og-grid" class="og-grid">
-        {% for post in site.posts %}
-          <li>
-            <a href="{{ post.site_url }}" data-largesrc="{{ post.img }}" data-title="{{ post.title }}" data-description="{{ post.description }}" data-siteurl="{{ post.site_url }}">
-              <img src="{{ post.thumb }}" alt="{{ post.img }}"/>
-              <div class="{{ post.estado }}">{{ post.estado }}</div>
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    <script src="js/grid.js"></script>
-    <script>
-      $(function() {
-        Grid.init();
-      });
-    </script>
+  {% include projects.html %}
 </section>
 
 <section id="sobre-nosotros">
