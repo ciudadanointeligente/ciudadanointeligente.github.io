@@ -3,8 +3,8 @@ layout: post
 title:  "Del Dicho al Hecho"
 date:   2014-05-1 14:46:22
 categories: project
-img: img/projects/3.jpg
-thumb: img/projects/thumbs/3.jpg
+img: img/projects/ddah.png
+thumb: img/projects/thumbs/ddah-thumb.png
 description: Evaluación en materia legislativa de las promesas y anuncios de las autoridades.
 site_url: http://deldichoalhecho.cl/
 estado: activo

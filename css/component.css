@@ -368,7 +368,7 @@ input.gn-search:focus {
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-bottom-color: #ddd;
+	border-bottom-color: #77b5bf;
 	border-width: 15px;
 	left: 50%;
 	margin: -20px 0 0 -15px;
@@ -376,7 +376,7 @@ input.gn-search:focus {
 
 .og-expander {
 	position: absolute;
-	background: #ddd;
+	background: #77b5bf;
 	top: auto;
 	left: 0;
 	width: 100%;
@@ -450,15 +450,25 @@ input.gn-search:focus {
 .og-details h3 {
 	font-weight: 300;
 	font-size: 52px;
-	padding: 40px 0 10px;
+	padding: 0px 0 10px;
 	margin-bottom: 10px;
+	margin-top: 0;
 }
 
-.og-details p {
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 22px;
-	color: #999;
+.og-details a {
+	background-color: #e85343;
+	border-color: transparent;
+	transition: background-color .3s ease-in;
+	-moz-transition: background-color .3s ease-in;
+	-webkit-transition: background-color .3s ease-in;
+	padding: 10px 20px;
+	color: #fff;
+	float: right;
+}
+
+.og-details a:hover {
+  background-color: #af2c58;
+  border-color: transparent;
 }
 
 .og-details a::before {
