@@ -10,6 +10,4 @@ site_url: /project/2011/04/14/acceso/
 estado: archivado
 ---
 
-#Acceso Inteligente
-
 Texto sobre acceso.
