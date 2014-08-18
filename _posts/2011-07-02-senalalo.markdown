@@ -3,8 +3,8 @@ layout: post
 title:  "SeñalALO"
 date:   2011-07-2 14:46:22
 categories: project
-img: img/projects/3.jpg
-thumb: img/projects/thumbs/3.jpg
+img: img/projects/senalalo.png
+thumb: img/projects/thumbs/senalalo-thumb.png
 description: Señalalo muestra en un mapa la ubicación de todas las antenas de celulares de Chile.
 estado: archivado
 site_url: http://votainteligente.cl/
