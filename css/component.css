@@ -368,7 +368,7 @@ input.gn-search:focus {
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-bottom-color: #77b5bf;
+	border-bottom-color: #dfdfdf;
 	border-width: 15px;
 	left: 50%;
 	margin: -20px 0 0 -15px;
@@ -376,7 +376,7 @@ input.gn-search:focus {
 
 .og-expander {
 	position: absolute;
-	background: #77b5bf;
+	background: #dfdfdf;
 	top: auto;
 	left: 0;
 	width: 100%;
@@ -384,6 +384,7 @@ input.gn-search:focus {
 	text-align: left;
 	height: 0;
 	overflow: hidden;
+	color: #090930;
 }
 
 .og-expander-inner {
