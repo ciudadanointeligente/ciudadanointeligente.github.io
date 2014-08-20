@@ -41,10 +41,9 @@ layout: default
 
 <section id="sobre-nosotros">
   <h2>Sobre Nosotros</h2>
-  <div class="menu-interno"><a href="#misionyvision"> Misión & visión </a>/<a href="#quienessomos"> Quienes somos </a>/<a href="#independencia"> Independencia política </a>/<a href="#areas"> Nuestras áreas</a></div>
-    <div id="misionyvision"></div>
-      <h3>Misión y Visión</h3>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+  <div class="menu-interno"><a href="#quienessomos"> Quienes somos </a>/<a href="#independencia"> Independencia política </a>/<a href="#areas"> Nuestras áreas</a></div>
+      <p>La misión de Ciudadano Inteligente es fortalecer la democracia y reducir la desigualdad en América Latina, promoviendo la transparencia y la participación ciudadana a través del uso innovador de las tecnologías de la información.</p>
+      <p>Trabajamos con la visión de transferir poder desde los pocos hacia los muchos, toda vez que el poder político y económico se concentre de manera artificial. Para ello nos valemos de la transparencia, las tecnologías de la información y la participación colectiva como herramientas de cambio.</p>
 
     <div id="quienessomos"></div>
       <h3>Quienes somos</h3>
@@ -60,13 +59,13 @@ layout: default
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-              <h4 class="modal-title" id="myModalLabel">El equipo</h4>
+              <h4 class="modal-title" id="myModalLabel">El Equipo</h4>
             </div>
             <div class="modal-body">
-              ...
+              {% include equipo.html %}
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
@@ -77,13 +76,13 @@ layout: default
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-              <h4 class="modal-title" id="myModalLabel">El equipo</h4>
+              <h4 class="modal-title" id="myModalLabel">El Directorio</h4>
             </div>
             <div class="modal-body">
               ...
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
@@ -94,13 +93,13 @@ layout: default
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-              <h4 class="modal-title" id="myModalLabel">El equipo</h4>
+              <h4 class="modal-title" id="myModalLabel">Han Participado</h4>
             </div>
             <div class="modal-body">
-              ...
+              {% include han-participado.html %}
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
