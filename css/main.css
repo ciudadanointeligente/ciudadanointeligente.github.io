@@ -73,7 +73,12 @@ h3, .h3 {
 h4, .h4 {
   font-size: 21px;
   line-height: 28px;
-  font-weight: 300;
+  font-weight: 600;
+}
+
+h5, .h5 {
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .pilares h4 {
@@ -114,9 +119,13 @@ section {
   border-color: transparent;
 }
 
-.btn-large {
+.btn-lg {
   width: 100%;
   height: 80px;
+}
+
+.btn-xs {
+  padding: 0px 6px;
 }
 
 /*FORM*/
@@ -193,7 +202,6 @@ border-radius: 0px;
 }
 
 .modal-header {
-  background: #AF2C58;
   border-bottom: none;
 }
 
@@ -540,6 +548,60 @@ border-radius: 0px;
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
+
+/*EQUIPO*/
+
+.team .col-md-4 div {
+  background: #D1F2F2;
+  padding: 10px;
+  color: #18184C;
+  font-size: 14px;
+  min-height: 140px;
+}
+
+.team .col-md-4 {
+  margin-bottom: 20px;
+}
+
+.team img {
+  width: 100%;
+}
+
+.team .btn-xs {
+  margin-right: 1px;
+}
+
+.team h5 {
+  margin-top: 5px;
+}
+
+.close {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.close::before, .close::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: 15px;
+  right: 0;
+  height: 1px;
+  background: #fff;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.close::after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
 
 /* media queries */
 /* ----------------------------------------------------------*/
