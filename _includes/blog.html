@@ -1,6 +1,5 @@
 <h2>Blog</h2>
-<div id="recent-posts"></div>
-
+<div id="blog"></div>
 <script type="text/javascript">
 (function(blog, limit) {
 limit = +limit || 10;
@@ -25,7 +24,7 @@ script.onload = function(data) {
     for(var i = 0; i < len; ++i) {
         post = response[i];
         html += "<li><a href='" + (post['url-with-slug'] || post.url) + "'>" + 
-            post['regular-title'] + "</a></li>";
+            post['regular-title'] + "</a><div class='blog-tags'>" + post['tags'].join(', ') +"</div></li>";
     }
 
     recent.innerHTML = html;
@@ -33,5 +32,7 @@ script.onload = function(data) {
 
 document.body.appendChild(script);
 
-})("comunidadi.tumblr.com", 10); //enter your blog name here, and adjust number of posts on display
+})("comunidadi.tumblr.com", 6); //enter your blog name here, and adjust number of posts on display
 </script>
+
+
