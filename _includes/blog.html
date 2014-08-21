@@ -1,0 +1,37 @@
+<h2>Blog</h2>
+<div id="recent-posts"></div>
+
+<script type="text/javascript">
+(function(blog, limit) {
+limit = +limit || 10;
+
+var scriptTags = document.getElementsByTagName('script');
+var scriptNode = scriptTags[scriptTags.length - 1];
+var recent = document.createElement("div");
+scriptNode.parentNode.appendChild(recent);
+recent.setAttribute("class", "widget");
+recent.setAttribute("id", "TumblrRecentPosts");
+
+var script = document.createElement("script");
+script.src = "http://" + blog + "/api/read/json";
+script.onload = function(data) {
+    if(!tumblr_api_read) return;
+
+    var response = tumblr_api_read.posts;
+    var post;
+    var len = Math.min(response.length, limit);
+    var html = "<ul>";
+
+    for(var i = 0; i < len; ++i) {
+        post = response[i];
+        html += "<li><a href='" + (post['url-with-slug'] || post.url) + "'>" + 
+            post['regular-title'] + "</a></li>";
+    }
+
+    recent.innerHTML = html;
+};
+
+document.body.appendChild(script);
+
+})("comunidadi.tumblr.com", 10); //enter your blog name here, and adjust number of posts on display
+</script>
