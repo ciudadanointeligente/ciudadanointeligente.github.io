@@ -720,4 +720,31 @@ border-radius: 0px;
     z-index: 999;
 }
 
-/*CONTACTO*/
+/* BLOG */
+
+section#blog {
+  background: #E85343;
+  padding: 20px;
+}
+
+section#blog a {
+  color: #fff;
+}
+
+section#blog ul {
+  list-style: none;
+}
+
+#blog li {
+  margin-bottom: 10px;
+  width: 50%;
+  float: left;
+}
+
+section#blog .blog-tags {
+  background: #A3D7DD;
+  color: #18184C;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+
