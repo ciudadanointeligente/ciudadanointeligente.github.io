@@ -24,7 +24,7 @@ script.onload = function(data) {
     for(var i = 0; i < len; ++i) {
         post = response[i];
         html += "<li><a href='" + (post['url-with-slug'] || post.url) + "'>" + 
-            post['regular-title'] + "</a><div class='blog-tags'>" + post['tags'].join(', ') +"</div></li>";
+            post['regular-title'] + "</a><div class='blog-tags'><span>" + post['tags'].join('</span>,<span>') +"</span></div></li>";
     }
 
     recent.innerHTML = html;
