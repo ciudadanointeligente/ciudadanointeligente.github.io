@@ -2,7 +2,7 @@
 title: Fundación Ciudadano Inteligente
 email: prensa@ciudadanointeligente.org
 description: "Sitio web de la Fundación Ciudadano Inteligente"
-baseurl: "http://ciudadanointeligente.github.io/ciudadanoi"
+baseurl: "//ciudadanointeligente.github.io/ciudadanoi"
 
 # Build settings
 markdown: kramdown
