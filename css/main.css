@@ -685,6 +685,20 @@ border-radius: 0px;
 
 }
 
+/*AREAS*/
+
+#areas .col-md-2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/*TRASPARENCIA*/
+
+#transparencia .col-md-2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 /*PAGE TRANSITIONS */
 
 .pt-perspective {
