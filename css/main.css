@@ -43,7 +43,7 @@ body {
   color: #fff;
 }
 
-a         { color: #77b5bf; text-decoration: none; }
+a         { color: #77b5bf; text-decoration: none; cursor: pointer; }
 a:hover   { color: #93D4DF; text-decoration: none; }
 
 /* Utility */
