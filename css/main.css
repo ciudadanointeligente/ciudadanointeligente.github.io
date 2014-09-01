@@ -850,3 +850,15 @@ section#blog ul {
   }
   
 }
+
+@media (max-width: 400px) {
+
+  table.table.table-striped {
+    font-size: 10px;
+  }
+
+  h2, .h2 {
+    font-size: 36px;
+  }
+  
+}
