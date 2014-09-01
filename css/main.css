@@ -628,7 +628,7 @@ border-radius: 0px;
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 
   .wrap { padding: 0 12px; }
 
@@ -795,3 +795,58 @@ section#blog ul {
   font-size: 12px;
 }
 
+.pluginFontHelvetica, .pluginFontHelvetica button, .pluginFontHelvetica input, .pluginFontHelvetica label, .pluginFontHelvetica select, .pluginFontHelvetica td, .pluginFontHelvetica textarea {
+  color: rgba(255, 255, 255, 0.67);
+}
+
+/*Pantallas*/
+
+@media (max-width: 1300px) {
+
+  .container {
+    max-width: 1040px;
+  }
+
+  h1, .h1 {
+    font-size: 30px;
+  }
+
+  h4, .h4 {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+}
+
+@media (max-width: 1150px) {
+
+  .container {
+    max-width: 880px;
+  }
+
+}
+
+@media (max-width: 1000px) {
+
+  .container {
+    max-width: 650px;
+  }
+  
+}
+
+@media (max-width: 800px) {
+
+  table.table.table-striped {
+    font-size: 12px;
+  }
+
+  #inicio h1 {
+    font-size: 21px;
+    line-height: 30px;
+  }
+
+  .pilares {
+    display: none;
+  }
+  
+}
