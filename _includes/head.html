@@ -4,7 +4,7 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ site.baseurl }}">
 
     <!-- Open graph -->
     <meta property="og:title" content="{{ site.title }}">
@@ -13,12 +13,20 @@
     <meta property="og:image" content="{{ site.baseurl }}/img/logo-fci-600x600.png">
     <meta property="og:description" content="{{ site.description }}">
 
+    <!-- twitter card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@ciudadanoi">
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:creator" content="@ciudadanoi">
+    <meta name="twitter:image" content="{{ site.baseurl }}/img/logo-fci-600x600.png">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/component.css" />
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css" />
-    <link rel="stylesheet" href="http://i.icomoon.io/public/temp/4bdb4def4b/Linea/style.css">
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//i.icomoon.io/public/temp/4bdb4def4b/Linea/style.css">
+    <link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css'>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -31,10 +39,12 @@
       position: fixed; right: 0; bottom: 0;
       min-width: 100%; min-height: 100%;
       width: auto; height: auto; z-index: -1000;
-      background: url(http://demosthenes.info/assets/videos/polina.jpg) no-repeat;
+      background: url(//demosthenes.info/assets/videos/polina.jpg) no-repeat;
       background-size: cover; 
     }
   </style> -->
 
 </head>
+
+
 
