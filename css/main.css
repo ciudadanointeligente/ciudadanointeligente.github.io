@@ -740,6 +740,10 @@ section#blog a {
   color: #fff;
 }
 
+section#blog a:hover {
+  text-decoration: underline;
+}
+
 section#blog ul {
   list-style: none;
 }
@@ -748,6 +752,10 @@ section#blog ul {
   margin-bottom: 10px;
   width: 50%;
   float: left;
+}
+
+.blog-tags {
+  margin-top: 5px;
 }
 
 .box {
