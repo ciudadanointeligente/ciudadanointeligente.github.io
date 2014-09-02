@@ -4,7 +4,7 @@ title:  "Ley de lobby"
 categories: project
 img: img/projects/lobby.png
 thumb: img/projects/thumbs/lobby-thumb.png
-description: Sitio de campaña a favor de la aprobación y regulación de la ley del lobby.
+description: Campaña para la regulación de la ley del lobby. Reúne a más de 30 organizaciones para la aprobración de la ley del lobby, la dictación de sus reglamentos de modo participativo y contiene su propuesta para los reglamentos del Gobierno y del Congreso Nacional. Contiene una bitácora de este proceso.
 site_url: http://leydelobby.cl/
 estado: activo
 ---
