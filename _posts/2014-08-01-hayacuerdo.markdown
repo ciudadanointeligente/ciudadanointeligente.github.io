@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Hay Acuerdo"
-date:   2011-07-01 14:46:22
 categories: project
 img: img/projects/hayacuerdo.png
 thumb: img/projects/thumbs/hayacuerdo-thumb.png
