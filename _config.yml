@@ -7,3 +7,9 @@ baseurl: "//ciudadanointeligente.github.io/ciudadanoi"
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Analytic
+analytics :
+ provider : google
+ google :
+     tracking_id : 'UA-31247996-1'
