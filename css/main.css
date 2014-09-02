@@ -43,7 +43,7 @@ body {
   color: #fff;
 }
 
-a         { color: #77b5bf; text-decoration: none; }
+a         { color: #77b5bf; text-decoration: none; cursor: pointer; }
 a:hover   { color: #93D4DF; text-decoration: none; }
 
 /* Utility */
@@ -628,7 +628,7 @@ border-radius: 0px;
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 
   .wrap { padding: 0 12px; }
 
@@ -740,6 +740,10 @@ section#blog a {
   color: #fff;
 }
 
+section#blog a:hover {
+  text-decoration: underline;
+}
+
 section#blog ul {
   list-style: none;
 }
@@ -748,6 +752,10 @@ section#blog ul {
   margin-bottom: 10px;
   width: 50%;
   float: left;
+}
+
+.blog-tags {
+  margin-top: 5px;
 }
 
 .box {
@@ -787,3 +795,70 @@ section#blog ul {
   font-size: 12px;
 }
 
+.pluginFontHelvetica, .pluginFontHelvetica button, .pluginFontHelvetica input, .pluginFontHelvetica label, .pluginFontHelvetica select, .pluginFontHelvetica td, .pluginFontHelvetica textarea {
+  color: rgba(255, 255, 255, 0.67);
+}
+
+/*Pantallas*/
+
+@media (max-width: 1300px) {
+
+  .container {
+    max-width: 1040px;
+  }
+
+  h1, .h1 {
+    font-size: 30px;
+  }
+
+  h4, .h4 {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+}
+
+@media (max-width: 1150px) {
+
+  .container {
+    max-width: 880px;
+  }
+
+}
+
+@media (max-width: 1000px) {
+
+  .container {
+    max-width: 650px;
+  }
+  
+}
+
+@media (max-width: 800px) {
+
+  table.table.table-striped {
+    font-size: 12px;
+  }
+
+  #inicio h1 {
+    font-size: 21px;
+    line-height: 30px;
+  }
+
+  .pilares {
+    display: none;
+  }
+  
+}
+
+@media (max-width: 400px) {
+
+  table.table.table-striped {
+    font-size: 10px;
+  }
+
+  h2, .h2 {
+    font-size: 36px;
+  }
+  
+}
