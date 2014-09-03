@@ -332,13 +332,6 @@ border-radius: 0px;
   background: url(../img/fondo-inicio.jpg);
 }
 */
-#inicio h1 { 
-  text-align: center;
-  width: 80%;
-  margin: 100px auto;
-  font-weight: 300;
-  line-height: 41px;
-}
 
 .posts { list-style-type: none; }
 
@@ -354,14 +347,6 @@ border-radius: 0px;
   display: block;
   font-size: 15px;
   color: #818181;
-}
-
-.pilares {
- text-align: center;
-}
-
-.pilares i.fa {
-  font-size: 60px;
 }
 
 
@@ -457,6 +442,29 @@ border-radius: 0px;
 
 .post pre.terminal code { background-color: #333; }
 
+/*HERO*/
+
+section#inicio {
+  background: url(../img/fondo-inicio.jpg);
+  margin: 0 0 10px;
+}
+
+#inicio h1 { 
+  text-align: center;
+  width: 80%;
+  margin: 100px auto;
+  font-weight: 300;
+  line-height: 41px;
+}
+
+.pilares {
+ text-align: center;
+ margin: 0 0 50px;
+}
+
+.pilares i.fa {
+  font-size: 60px;
+}
 
 /*PROYECTOS*/
 
@@ -849,6 +857,10 @@ section#blog ul {
 }
 
 @media (max-width: 400px) {
+
+  section {
+    margin: 50px 0;
+  }
 
   table.table.table-striped {
     font-size: 10px;
