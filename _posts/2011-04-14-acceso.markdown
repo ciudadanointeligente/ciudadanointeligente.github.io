@@ -5,7 +5,7 @@ date:   2011-04-14 14:46:22
 categories: project
 img: img/projects/acceso.png
 thumb: img/projects/thumbs/acceso-thumb.png
-description: El proyecto Acceso Inteligente es la primera plataforma web de Chile que centraliza el sistema de solicitudes de información en línea, promoviendo la demanda de solicitudes de información pública desde la ciudadanía, así como visibilizando dichas peticiones.<br />Por una parte Acceso Inteligente facilita a la ciudadanía el acceso a la información (apoyando y asesorando en el modo de hacer solicitudes al Estado), y por otra, recopila en una base de datos de fácil uso y consulta todas aquellas solicitudes ya realizadas a través de la plataforma, con el fin de ser descargadas por nuevos solicitantes para obtener la información de manera inmediata.<br /> Fue lanzado en abril del año 2011, en el marco del Seminario Internacional “Transparencia como Modernización del Estado”, organizado con motivo del segundo aniversario de la entrada en vigencia de la ley de transparencia en Chile.
+description: El proyecto Acceso Inteligente es la primera plataforma web de Chile que centraliza el sistema de solicitudes de información en línea, promoviendo la demanda de solicitudes de información pública desde la ciudadanía, así como visibilizando dichas peticiones.
 site_url: /project/2011/04/14/acceso/
 estado: archivado
 ---

@@ -1,5 +1,7 @@
 <h2>Blog</h2>
-<div id="blog"></div>
+<p>Estos son los últimos post del Blog FCI. Revisa aquí <a href="http://blog.ciudadanointeligente.org/">todas las publicaciones</a>.</p>
+<div id="blog">
+    
 <script type="text/javascript">
 (function(blog, limit) {
 limit = +limit || 10;
@@ -19,12 +21,16 @@ script.onload = function(data) {
     var response = tumblr_api_read.posts;
     var post;
     var len = Math.min(response.length, limit);
-    var html = "<ul>";
+    var html = "<div class='row'>";
 
     for(var i = 0; i < len; ++i) {
         post = response[i];
-        html += "<li><a href='" + (post['url-with-slug'] || post.url) + "'>" + 
-            post['regular-title'] + "</a><div class='blog-tags'>" + post['tags'].join(', ') +"</div></li>";
+        var post_title="(Sin título)";
+        if (post['regular-title']){post_title=post['regular-title'];};
+        var post_tags="";
+        if (post['tags']){post_tags="<div class='blog-tags'><span>" + post['tags'].join('</span><span>') +"</span></div>";};
+        html += "<div class='col-md-3'><div class='box'><a href='" + (post['url-with-slug'] || post.url) + "'>" + 
+            post_title + "</a>" + post_tags + "</div></div>";
     }
 
     recent.innerHTML = html;
@@ -32,7 +38,8 @@ script.onload = function(data) {
 
 document.body.appendChild(script);
 
-})("comunidadi.tumblr.com", 6); //enter your blog name here, and adjust number of posts on display
+})("comunidadi.tumblr.com", 8); //enter your blog name here, and adjust number of posts on display
 </script>
 
+</div>
 

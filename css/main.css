@@ -43,7 +43,7 @@ body {
   color: #fff;
 }
 
-a         { color: #77b5bf; text-decoration: none; }
+a         { color: #77b5bf; text-decoration: none; cursor: pointer; }
 a:hover   { color: #93D4DF; text-decoration: none; }
 
 /* Utility */
@@ -86,8 +86,6 @@ h5, .h5 {
 }
 
 .destacado{
-  text-align: center;
-  width: 80%;
   margin: 30px auto 40px;
 }
 
@@ -122,6 +120,7 @@ section {
 .btn-lg {
   width: 100%;
   height: 80px;
+  margin-bottom: 10px;
 }
 
 .btn-xs {
@@ -290,7 +289,6 @@ border-radius: 0px;
 .site-footer p {
   font-size: 15px;
   letter-spacing: -.3px;
-  color: #828282;
 }
 
 .github-icon-svg,
@@ -334,13 +332,6 @@ border-radius: 0px;
   background: url(../img/fondo-inicio.jpg);
 }
 */
-#inicio h1 { 
-  text-align: center;
-  width: 80%;
-  margin: 100px auto;
-  font-weight: 300;
-  line-height: 41px;
-}
 
 .posts { list-style-type: none; }
 
@@ -356,14 +347,6 @@ border-radius: 0px;
   display: block;
   font-size: 15px;
   color: #818181;
-}
-
-.pilares {
- text-align: center;
-}
-
-.pilares i.fa {
-  font-size: 60px;
 }
 
 
@@ -459,6 +442,29 @@ border-radius: 0px;
 
 .post pre.terminal code { background-color: #333; }
 
+/*HERO*/
+
+section#inicio {
+  background: url(../img/fondo-inicio.jpg) top center;
+  margin: 0 0 10px;
+}
+
+#inicio h1 { 
+  text-align: center;
+  width: 80%;
+  margin: 100px auto;
+  font-weight: 300;
+  line-height: 41px;
+}
+
+.pilares {
+ text-align: center;
+ margin: 0 0 50px;
+}
+
+.pilares i.fa {
+  font-size: 60px;
+}
 
 /*PROYECTOS*/
 
@@ -556,7 +562,7 @@ border-radius: 0px;
   padding: 10px;
   color: #18184C;
   font-size: 14px;
-  min-height: 140px;
+  height: 220px;
 }
 
 .team .col-md-4 {
@@ -628,7 +634,7 @@ border-radius: 0px;
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 
   .wrap { padding: 0 12px; }
 
@@ -685,6 +691,20 @@ border-radius: 0px;
 
 }
 
+/*AREAS*/
+
+#areas .col-md-2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/*TRASPARENCIA*/
+
+#transparencia .col-md-2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 /*PAGE TRANSITIONS */
 
 .pt-perspective {
@@ -720,4 +740,138 @@ border-radius: 0px;
     z-index: 999;
 }
 
-/*CONTACTO*/
+/* BLOG */
+
+.box a {
+  color: #fff;
+}
+
+section#blog a:hover {
+  text-decoration: underline;
+}
+
+section#blog ul {
+  list-style: none;
+}
+
+#blog li {
+  margin-bottom: 10px;
+  width: 50%;
+  float: left;
+}
+
+.blog-tags {
+  margin-top: 5px;
+}
+
+.box {
+  padding: 10px 15px;
+  height: 150px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#blog .col-md-3:nth-child(3n+1) .box {
+    background: #E85343;
+    border-bottom: 15px solid #E85343;
+}
+
+#blog .col-md-3:nth-child(3n+2) .box {
+    background: #77B5BF;
+    border-bottom: 15px solid #77B5BF;
+}
+
+#blog .col-md-3:nth-child(3n+3) .box {
+    background: #AF2C58;
+    border-bottom: 15px solid #AF2C58;
+}
+
+/*#blog .col-md-3:nth-child(4n+4) .box {
+    background: #F8BD3B;
+    border-bottom: 15px solid #F8BD3B;
+}
+*/
+.blog-tags span {
+  color: #18184C;
+  background: #A3D7DD;
+  padding: 2px 6px;
+  border-radius: 6px;
+  margin: 0px 4px 2px 0px;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.pluginFontHelvetica, .pluginFontHelvetica button, .pluginFontHelvetica input, .pluginFontHelvetica label, .pluginFontHelvetica select, .pluginFontHelvetica td, .pluginFontHelvetica textarea {
+  color: rgba(255, 255, 255, 0.67);
+}
+
+/*Pantallas*/
+
+@media (max-width: 1300px) {
+
+  .container {
+    max-width: 1040px;
+  }
+
+  h1, .h1 {
+    font-size: 30px;
+  }
+
+  h4, .h4 {
+    line-height: 21px;
+  }
+
+}
+
+@media (max-width: 1150px) {
+
+  .container {
+    max-width: 880px;
+  }
+
+}
+
+@media (max-width: 1000px) {
+
+  .container {
+    max-width: 650px;
+  }
+  
+}
+
+@media (max-width: 800px) {
+
+  table.table.table-striped {
+    font-size: 12px;
+  }
+
+  #inicio h1 {
+    font-size: 21px;
+    line-height: 30px;
+  }
+
+  .pilares {
+    display: none;
+  }
+  
+}
+
+@media (max-width: 400px) {
+
+  section {
+    margin: 50px 0;
+  }
+
+  table.table.table-striped {
+    font-size: 10px;
+  }
+
+  h2, .h2 {
+    font-size: 36px;
+  }
+
+  #areas .col-md-2 {
+    margin-bottom: 0px;
+  }
+  
+}

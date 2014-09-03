@@ -1,9 +1,15 @@
 # Site settings
 title: Fundación Ciudadano Inteligente
 email: prensa@ciudadanointeligente.org
-description: "Sitio web de la Fundación Ciudadano Inteligente"
-baseurl: "http://ciudadanointeligente.github.io/ciudadanoi"
+description: "Usamos tecnología para transparentar y participar en democracia, trabajamos para trasladar poder desde los pocos hacia los muchos."
+baseurl: http://ciudadanointeligente.org
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Analytic
+analytics :
+  provider : google
+  google :
+      tracking_id : 'UA-31247996-1'

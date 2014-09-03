@@ -229,6 +229,24 @@ input.gn-search:focus {
 		padding: 20px 0px 0px;
 }
 
+.gn-icon-blog::before {
+		content: url(../img/ico-blog.svg);
+		vertical-align: middle;
+		padding: 6px 0px 0px;
+}
+
+.gn-icon-us::before {
+		content: url(../img/ico-nosotros.svg);
+		vertical-align: middle;
+		padding: 3px 0px 0px;
+}
+
+.gn-icon-projects::before {
+		content: url(../img/ico-proyectos.svg);
+		vertical-align: middle;
+		padding: 3px 0px 0px;
+}
+
 .gn-icon-help::before {
 		content: "\e000"
 }

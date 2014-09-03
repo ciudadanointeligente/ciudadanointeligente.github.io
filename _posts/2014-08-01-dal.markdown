@@ -5,7 +5,7 @@ date:   2014-08-01 14:46:22
 categories: project
 img: img/projects/dal.png
 thumb: img/projects/thumbs/dal-thumb.png
-description: Desarrollando América Latina es una inciativa regional y colaborativa, destinada a crear aplicaciones web usando datos abiertos con el fin de solucionar problemas sociales comunes de la región, en áreas tales como salud, educación, presupuesto público, y transparencia. Hace poco, la mayoría de los intentos a abordar estos temas han sido aislados, lo que limita el potencial y la eficacia de estas soluciones de gran alcance. Desarrollando América Latina (DAL) unifica todos estos esfuerzos, para crear applicaciones de un mayor impacto y que sean escalables. Cientos de desarrolladores web, diseñadores gráficos, empresarios, periodistas, y representantes del sector público y privado se reúnen cada año para participar en esta maratón regional de datos abiertos. Estos datos crea un profundo impacto en las vidas de los ciudadanos de América Latina. El hackathon es alimentado por Open Data, por lo que los gobiernos de la región más transparente, responsabilidad de funcionarios públicos, la participación de la ciudadanía en los procesos y la mejora de la democracia de la sociedad.
-site_url: http://desarrollandoamerica.org/
+description: Desarrollando América Latina (DAL) impulsa una cultura y una comunidad de innovación y emprendimiento social en la región, usando el poder de la tecnología, los datos abiertos y la colaboración entre actores sociales como motor de cambio. Es así como impulsamos el desarrollo de aplicaciones innovadoras, sustentables, escalables y de alto impacto social gracias a nuestra gran comunidad de emprendedores, desarrolladores, diseñadores y mentes creativas, en conjunto a actores de Gobiernos y de organizaciones locales. 
+site_url: http://desarrollandoamerica.org
 estado: activo
 ---
