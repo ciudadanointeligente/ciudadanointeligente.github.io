@@ -445,7 +445,7 @@ border-radius: 0px;
 /*HERO*/
 
 section#inicio {
-  background: url(../img/fondo-inicio.jpg);
+  background: url(../img/fondo-inicio.jpg) top center;
   margin: 0 0 10px;
 }
 
