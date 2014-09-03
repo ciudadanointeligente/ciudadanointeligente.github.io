@@ -6,6 +6,6 @@ categories: project
 img: img/projects/poplus.png
 thumb: img/projects/thumbs/poplus-thumb.png
 description: Plataforma de desarrollo de aplicaciones con fines civicos.
-site_url: http://poplus.org/
+site_url: http://poplus.org
 estado: activo
 ---

@@ -6,6 +6,6 @@ categories: project
 img: img/projects/senalalo.png
 thumb: img/projects/thumbs/senalalo-thumb.png
 description: Señalalo muestra en un mapa la ubicación de todas las antenas de celulares de Chile.
+site_url: http://senalalo.ciudadanointeligente.org
 estado: archivado
-site_url: http://votainteligente.cl/
 ---
