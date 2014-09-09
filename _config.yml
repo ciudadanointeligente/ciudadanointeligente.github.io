@@ -1,10 +1,11 @@
-# Site settings
+# site settings
 title: Fundación Ciudadano Inteligente
 email: prensa@ciudadanointeligente.org
 description: "Usamos tecnología para transparentar y participar en democracia, trabajamos para trasladar poder desde los pocos hacia los muchos."
 baseurl: http://ciudadanointeligente.org
+basedomain: ciudadanointeligente.org
 analytics: 'UA-31247996-1'
 
-# Build settings
+# build settings
 markdown: kramdown
 permalink: pretty
