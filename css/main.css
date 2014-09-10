@@ -875,3 +875,10 @@ section#blog ul {
   }
   
 }
+.equipo-fiera img { 
+	position: relative;
+}
+.equipo-fiera img:after {
+	position: absolute;
+	content: '<i class="fa fa-paw"></i>';
+}
