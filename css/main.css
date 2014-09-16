@@ -168,6 +168,22 @@ select {
   margin: 20px 0;
 }
 
+input[type=checkbox], input[type=radio] {
+  width: 22px;
+}
+
+input.btn {
+width: auto;
+}
+
+.form ul {
+  list-style: none;
+}
+
+label {
+  font-weight: 400;
+}
+
 /*TABLE*/
 
 .table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
