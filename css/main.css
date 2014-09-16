@@ -129,7 +129,7 @@ section {
 
 /*FORM*/
 
-form#ss-form {
+form.form{
   margin: 0 auto;
   max-width: 750px;
 }
@@ -166,6 +166,22 @@ select {
 
 .ss-form-entry {
   margin: 20px 0;
+}
+
+input[type=checkbox], input[type=radio] {
+  width: 22px;
+}
+
+input.btn {
+width: auto;
+}
+
+.form ul {
+  list-style: none;
+}
+
+label {
+  font-weight: 400;
 }
 
 /*TABLE*/
