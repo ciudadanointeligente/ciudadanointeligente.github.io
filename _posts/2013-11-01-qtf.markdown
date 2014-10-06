@@ -7,5 +7,5 @@ img: img/projects/qtf.png
 thumb: img/projects/thumbs/qtf-thumb.png
 description: Campaña para transparentar el financiamiento de la política en Chile, permitiendo a los ciudadanos solicitarle a los candidatos que transparenten sus donaciones. Petitorio de más de 6.000 personas para modificar y transparentar esta regulación.
 site_url: http://quientefinancia.cl
-estado: archivado
+estado: activo
 ---
