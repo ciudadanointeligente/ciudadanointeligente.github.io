@@ -157,8 +157,8 @@
 
 
       <section id="inicio">
-      	<div id="bgvid" class="video-wrapper">
-      		<span class="gradient"></span>
+      	<span class="gradient"></span>
+      	<div id="bgvid" class="video-wrapper">	
 			<video class="bgvid" loop muted autoplay poster="/img/team-vid.jpg">
 			 	<source src="/vid/LoopWeb.webm"type="video/webm">
 				<source src="/vid/LoopWeb.mp4" type="video/mp4">
