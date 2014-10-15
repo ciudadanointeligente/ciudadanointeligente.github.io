@@ -41,6 +41,8 @@ body {
   -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
   text-shadow: rgba(0,0,0,.01) 0 0 1px;
   color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
 a         { color: #77b5bf; text-decoration: none; cursor: pointer; }
@@ -267,8 +269,15 @@ border-radius: 0px;
 	width: auto;
 	height: auto;
 	z-index: -100;
-	top: -100px;
+	margin: 0;
+	padding: 0;
 }
+#bgvid{
+	height: 100%;
+	margin: 0;
+	padding: 0;	
+}
+
 
 /* Site footer */
 
@@ -472,26 +481,20 @@ border-radius: 0px;
 /*HERO*/
 
 section#inicio {
+	margin: 0;
+	padding: 0;
+	top: 0;
 
 }
 
 #inicio h1 { 
   text-align: center;
   width: 80%;
-  margin: 50px auto;
+  margin: 100px auto;
   font-weight: 300;
   line-height: 41px;
 }
 
-.gradient {
-	background: #000;
-	opacity: .5;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	z-index: -50;
-	top: -74px;
-}
 
 .pilares {
  text-align: center;
