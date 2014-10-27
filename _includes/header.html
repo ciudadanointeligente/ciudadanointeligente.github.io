@@ -1,10 +1,6 @@
 <header class="site-header">
 
-  <div class="wrap">
-
-    <!-- <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
-
-    <nav class="site-nav">
+ <nav class="site-nav">
       <a href="#" class="menu-icon">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
            viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
@@ -65,7 +61,7 @@
 
 <!-- SCROLL TO TOP -->
 
-    <script>            
+    <script>
       jQuery(document).ready(function() {
         var offset = 200;
         var duration = 500;
@@ -76,7 +72,7 @@
             jQuery('.scroll-to-top').fadeOut(duration);
           }
         });
-        
+
         jQuery('.scroll-to-top').click(function(event) {
           event.preventDefault();
           jQuery('html, body').animate({scrollTop: 0}, duration);
@@ -91,7 +87,5 @@
     <script>
       new gnMenu( document.getElementById( 'gn-menu' ) );
     </script>
-
-  </div>
 
 </header>
