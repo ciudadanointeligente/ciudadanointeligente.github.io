@@ -15,3 +15,5 @@ AccesoInteligente.org es un proyecto que busca promover la demanda de informaci�
 Finalidad: permitir a la ciudadanía conocer información de su interés que está en poder del Gobierno, y permitir monitorear por la vía del acceso a la información, lo que hacen y no hacen nuestros órganos públicos.
 
 Por ello, todas las solicitudes que se realicen a través de este sitio y las respuestas que se generen, serán publicadas automáticamente en esta página web para que usted y cualquier otra persona pueda acceder a ellas. La identidad del solicitante quedará protegida cuando se publiquen las respuestas, por cuanto todas estas figuran como dirigidas a la Fundación Ciudadano Inteligente.
+
+Ver mas: [Case study]({{ site.baseurl }}/attachments/accesointeligente_vota_inteligente.pdf)
