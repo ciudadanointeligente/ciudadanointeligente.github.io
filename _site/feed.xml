@@ -161,7 +161,7 @@
 					<video class="bgvid" loop muted autoplay poster="/img/team-vid.jpg">
 					 	<source src="/vid/LoopWeb.webm"type="video/webm">
 						<source src="/vid/LoopWeb.mp4" type="video/mp4">
-						<source src="/vid/LoopWeb.ogg" type="video/ogg">
+						<source src="/vid/LoopWeb.ogv" type="video/ogg">
 						
 						<p>Your browser does not support HTML5 video.</p>
 					</video>
@@ -198,21 +198,30 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Desarrollando América</title>
+        <title>Abrelatam</title>
         <description>
 </description>
-        <pubDate>Fri, 01 Aug 2014 10:46:22 -0400</pubDate>
-        <link>/project/2014/08/01/dal/</link>
-        <guid isPermaLink="true">/project/2014/08/01/dal/</guid>
+        <pubDate>Sat, 28 Feb 2015 00:00:00 -0300</pubDate>
+        <link>/project/2015/02/28/abrelatam/</link>
+        <guid isPermaLink="true">/project/2015/02/28/abrelatam/</guid>
       </item>
     
       <item>
         <title>Ley de lobby</title>
         <description>
 </description>
-        <pubDate>Fri, 01 Aug 2014 00:00:00 -0400</pubDate>
-        <link>/project/2014/08/01/lobby/</link>
-        <guid isPermaLink="true">/project/2014/08/01/lobby/</guid>
+        <pubDate>Thu, 01 Jan 2015 00:00:00 -0300</pubDate>
+        <link>/project/2015/01/01/lobby/</link>
+        <guid isPermaLink="true">/project/2015/01/01/lobby/</guid>
+      </item>
+    
+      <item>
+        <title>Desarrollando América</title>
+        <description>
+</description>
+        <pubDate>Fri, 01 Aug 2014 10:46:22 -0400</pubDate>
+        <link>/project/2014/08/01/dal/</link>
+        <guid isPermaLink="true">/project/2014/08/01/dal/</guid>
       </item>
     
       <item>
@@ -276,15 +285,6 @@
         <pubDate>Thu, 01 Aug 2013 10:46:22 -0400</pubDate>
         <link>/project/2013/08/01/poplus/</link>
         <guid isPermaLink="true">/project/2013/08/01/poplus/</guid>
-      </item>
-    
-      <item>
-        <title>Candideit.org</title>
-        <description>
-</description>
-        <pubDate>Thu, 01 Mar 2012 11:46:22 -0300</pubDate>
-        <link>/project/2012/03/01/candideitorg/</link>
-        <guid isPermaLink="true">/project/2012/03/01/candideitorg/</guid>
       </item>
     
   </channel>
