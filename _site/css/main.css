@@ -95,6 +95,10 @@ section {
   margin: 100px 0;
 }
 
+.container.content {
+  margin-top: 100px;
+}
+
 /*BUTTONS*/
 
 .btn {
@@ -127,6 +131,33 @@ section {
 
 .btn-xs {
   padding: 0px 6px;
+}
+
+/*Video*/
+
+.bgvid {
+  position: absolute;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  z-index: -100;
+  margin: 0;
+  padding: 0;
+}
+
+#bgvid {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+section#inicio {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  margin-top: -30px;
 }
 
 /*FORM*/
@@ -228,56 +259,6 @@ border-radius: 0px;
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
-
-/* Site header */
-
-.site-title,
-.site-title:hover,
-.site-title:visited {
-  display: block;
-  color: #333;
-  font-size: 26px;
-  letter-spacing: -1px;
-  float: left;
-  line-height: 56px;
-  position: relative;
-  z-index: 1;
-}
-
-.site-nav {
-  float: right;
-  line-height: 56px;
-}
-
-.site-nav .menu-icon { display: none; }
-
-.site-nav .page-link {
-  margin-left: 20px;
-  color: #727272;
-  letter-spacing: -.5px;
-}
-
-.menu-interno {
-  text-align: center;
-}
-
-.bgvid {
-	position: absolute;
-	left: 0;
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
-	z-index: -100;
-	margin: 0;
-	padding: 0;
-}
-#bgvid{
-	height: 100%;
-	margin: 0;
-	padding: 0;	
-}
-
 
 /* Site footer */
 
@@ -479,13 +460,6 @@ border-radius: 0px;
 .post pre.terminal code { background-color: #333; }
 
 /*HERO*/
-
-section#inicio {
-	margin: 0;
-	padding: 0;
-	top: 0;
-
-}
 
 #inicio h1 {
   text-align: center;
@@ -846,6 +820,101 @@ section#blog ul {
 
 .pluginFontHelvetica, .pluginFontHelvetica button, .pluginFontHelvetica input, .pluginFontHelvetica label, .pluginFontHelvetica select, .pluginFontHelvetica td, .pluginFontHelvetica textarea {
   color: rgba(255, 255, 255, 0.67);
+}
+
+
+/*Header*/
+
+.nav>li>a:hover, .nav>li>a:focus {
+  background-color: #af2c58;
+}
+
+li.current {
+    background: #090930;
+}
+
+#header {
+  position: relative;
+  margin-bottom: -100px;
+  overflow: hidden;
+  height: inherit;
+}
+
+.header-panel {
+  position: absolute;
+  width: 100%;
+  min-height: 100px;
+  top: 0;
+  margin-top: 50px;
+  z-index: 55;
+}
+
+.header-menu {
+  width: 100%;
+  z-index: 200;
+}
+
+.header-menu.sticky {
+  position: fixed;
+  margin: 0;
+  -moz-animation: bounceInDown 0.5s;
+  -webkit-animation: bounceInDown 0.5s;
+  animation: bounceInDown 0.5s;
+  background: #16163A;
+}
+
+.header-menu.fixed {
+  -moz-animation: bounceIn 0.5s;
+  -webkit-animation: bounceIn 0.5s;
+  animation: bounceIn 0.5s;
+  background: #16163A;
+  min-height: 70px;
+}
+
+.header-menu > .box {
+  min-height: 75px;
+}
+
+.header-bg {
+  position: relative;
+  height: 750px;
+  overflow: hidden;
+}
+
+.header-bg:before {
+  top: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: "";
+  z-index: 40;
+}
+
+.header-cta {
+  position: absolute;
+  width: 100%;
+  padding: 0 15px;
+  z-index: 50;
+  bottom: 150px;
+}
+
+.header-bg {
+  position: relative;
+  height: 750px;
+  overflow: hidden;
+}
+
+.navbar-brand {
+  float: left;
+  padding: 4px 0;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.navbar-nav {
+  float: right;
+  padding: 10px 0;
 }
 
 /*Pantallas*/
