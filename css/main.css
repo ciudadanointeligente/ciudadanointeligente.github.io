@@ -41,6 +41,8 @@ body {
   -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
   text-shadow: rgba(0,0,0,.01) 0 0 1px;
   color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
 a         { color: #77b5bf; text-decoration: none; cursor: pointer; }
@@ -259,6 +261,24 @@ border-radius: 0px;
   text-align: center;
 }
 
+.bgvid {
+	position: absolute;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	margin: 0;
+	padding: 0;
+}
+#bgvid{
+	height: 100%;
+	margin: 0;
+	padding: 0;	
+}
+
+
 /* Site footer */
 
 .site-footer {
@@ -461,8 +481,10 @@ border-radius: 0px;
 /*HERO*/
 
 section#inicio {
-  background: url(../img/fondo-inicio.jpg) top center;
-  margin: 0 0 10px;
+	margin: 0;
+	padding: 0;
+	top: 0;
+
 }
 
 #inicio h1 {
@@ -472,6 +494,7 @@ section#inicio {
   font-weight: 300;
   line-height: 41px;
 }
+
 
 .pilares {
  text-align: center;
