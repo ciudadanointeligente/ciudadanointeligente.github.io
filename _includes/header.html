@@ -1,49 +1,36 @@
-<header class="site-header">
+<header id="header" class="site-header">
 
-  <div class="wrap">
+  {% include nav.html%}
 
-    <!-- <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
+    <div id="bgvid" class="video-wrapper">
+      <section id="inicio">
+          <video class="bgvid" loop muted autoplay poster="{{ site.baseurl }}/img/team-vid.jpg">
+            <source src="{{ site.baseurl }}/vid/LoopWeb.webm"type="video/webm">
+            <source src="{{ site.baseurl }}/vid/LoopWeb.mp4" type="video/mp4">
+            <source src="{{ site.baseurl }}/vid/LoopWeb.ogv" type="video/ogg">
+            
+            <p>Your browser does not support HTML5 video.</p>
+          </video>
+           <div class="container">
+                  <h1>Usamos tecnología para transparentar y participar en democracia, trabajamos para trasladar poder desde los pocos hacia los muchos.</h1>
+                  <div class="row pilares">
+                    <div class="col-md-4">
+                      <img src="img/1-transparencia.svg">
+                      <h4>Promover la <strong>Transparencia</strong> para propiciar el establecimiento de una cultura de acceso a la información pública y de reutilización de los datos abiertos.</h4>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="img/2-rendicion.svg">
+                      <h4>Impulsar la <strong>Rendición de Cuentas</strong> desarrollando mayores y mejores mecanismos que permitan privilegiar el interés colectivo por sobre los intereses individuales.</h4>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="img/3-accioncolectiva.svg">
+                      <h4>Fortalecer la <strong>Participación Ciudadana</strong> efectiva y fomentar la acción colectiva, consolidando así democracias más representativas y deliberativas.</h4>
+                    </div>
+                  </div>
+                </div>         
+      </section>
+    </div>
 
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-           viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
-          <path fill="#ffffff" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
-            h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#ffffff" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
-            h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#ffffff" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
-            c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-      <div class="trigger">
-      <ul id="gn-menu" class="gn-menu-main">
-        <li class="gn-trigger">
-          <a class="gn-icon gn-icon-menu"></a>
-          <nav class="gn-menu-wrapper gn-open-part">
-            <div class="gn-scroller">
-              <ul class="gn-menu">
-                <li><a href="#inicio" class="gn-icon gn-icon-fci"><img src="img/ciudadanointeligente.svg"></a></li>
-                <li><a href="#proyectos" class="gn-icon gn-icon-projects">Proyectos</a></li>
-                <li><a href="#sobre-nosotros" class="gn-icon gn-icon-us">Sobre nosotros</a></li>
-                <li>
-                  <a href="#transparencia" class="gn-icon gn-icon-search">Transparencia</a>
-<!--                   <ul class="gn-submenu">
-                    <li><a class="gn-icon gn-icon-illustrator">Vector Illustrations</a></li>
-                    <li><a class="gn-icon gn-icon-photoshop">Photoshop files</a></li>
-                  </ul> -->
-                </li>
-                <li><a href="http://blog.ciudadanointeligente.org/" target="_blank" class="gn-icon gn-icon-blog">Blog</a></li>
-                <li>
-                  <a href="#newsletter" class="gn-icon gn-icon-paperplane">Suscripción y Contacto</a>
-                </li>
-              </ul>
-            </div><!-- /gn-scroller -->
-          </nav>
-        </li>
-      </ul>
-      </div>
-    </nav>
 
 <!-- AUTOSCROLL -->
 <script type="text/javascript">
@@ -86,12 +73,5 @@
   </script>
 
 
-    <script src="js/classie.js"></script>
-    <script src="js/gnmenu.js"></script>
-    <script>
-      new gnMenu( document.getElementById( 'gn-menu' ) );
-    </script>
-
-  </div>
 
 </header>

@@ -5,6 +5,7 @@ description: "Usamos tecnología para transparentar y participar en democracia, 
 baseurl: http://ciudadanointeligente.org
 basedomain: ciudadanointeligente.org
 analytics: 'UA-31247996-1'
+jquery_version: "2.1.3"
 
 # build settings
 markdown: kramdown
