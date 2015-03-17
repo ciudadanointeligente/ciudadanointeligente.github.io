@@ -826,7 +826,7 @@ section#blog ul {
 /*Header*/
 
 .nav>li>a:hover, .nav>li>a:focus {
-  background-color: #af2c58;
+  background-color: #22224D;
 }
 
 li.current {
@@ -915,6 +915,10 @@ li.current {
 .navbar-nav {
   float: right;
   padding: 10px 0;
+}
+
+.nav>li>a {
+  font-size: 14px;
 }
 
 /*Pantallas*/
