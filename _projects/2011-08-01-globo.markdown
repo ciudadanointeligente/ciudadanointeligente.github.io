@@ -7,7 +7,7 @@ img: img/projects/globo.png
 thumb: img/projects/thumbs/globo-thumb.png
 description: Elevamos un globo a 20 metros de altura amarrado a un celular 3G con video, para traerte la imagen real de lo que ocurre en las marchas.
 site_url: /project/2011/08/01/globo/
-estado: archivado
+status: archivado
 ---
 
 Este proyecto nació como respuesta a la imagen mostrada por la prensa sobre las marchas y se busca contrastarla con lo que realmente sucede durante ellas. Tomó lugar principalmente durante las movilizaciones por la educación en Chile durante el año 2011.
