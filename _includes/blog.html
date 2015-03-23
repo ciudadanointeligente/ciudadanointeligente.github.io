@@ -1,45 +1,35 @@
 <h2>Blog</h2>
 <p>Estos son los últimos post del Blog FCI. Revisa aquí <a href="http://blog.ciudadanointeligente.org/">todas las publicaciones</a>.</p>
 <div id="blog">
-    
-<script type="text/javascript">
-(function(blog, limit) {
-limit = +limit || 10;
-
-var scriptTags = document.getElementsByTagName('script');
-var scriptNode = scriptTags[scriptTags.length - 1];
-var recent = document.createElement("div");
-scriptNode.parentNode.appendChild(recent);
-recent.setAttribute("class", "widget");
-recent.setAttribute("id", "TumblrRecentPosts");
-
-var script = document.createElement("script");
-script.src = "http://" + blog + "/api/read/json";
-script.onload = function(data) {
+    <script type="text/javascript">
+    (function(blog, limit) {
+    limit = +limit || 10;
+    var scriptTags = document.getElementsByTagName('script');
+    var scriptNode = scriptTags[scriptTags.length - 1];
+    var recent = document.createElement("div");
+    scriptNode.parentNode.appendChild(recent);
+    recent.setAttribute("class", "widget");
+    recent.setAttribute("id", "TumblrRecentPosts");
+    var script = document.createElement("script");
+    script.src = "http://" + blog + "/api/read/json";
+    script.onload = function(data) {
     if(!tumblr_api_read) return;
-
     var response = tumblr_api_read.posts;
     var post;
     var len = Math.min(response.length, limit);
     var html = "<div class='row'>";
-
-    for(var i = 0; i < len; ++i) {
+        for(var i = 0; i < len; ++i) {
         post = response[i];
         var post_title="(Sin título)";
         if (post['regular-title']){post_title=post['regular-title'];};
         var post_tags="";
         if (post['tags']){post_tags="<div class='blog-tags'><span>" + post['tags'].join('</span><span>') +"</span></div>";};
-        html += "<div class='col-md-3'><div class='box'><a href='" + (post['url-with-slug'] || post.url) + "'>" + 
-            post_title + "</a>" + post_tags + "</div></div>";
-    }
-
-    recent.innerHTML = html;
-};
-
-document.body.appendChild(script);
-
-})("comunidadi.tumblr.com", 8); //enter your blog name here, and adjust number of posts on display
-</script>
-
-</div>
-
+        html += "<div class='col-md-3'><div class='box'><a href='" + (post['url-with-slug'] || post.url) + "'>" +
+        post_title + "</a>" + post_tags + "</div></div>";
+        }
+        recent.innerHTML = html;
+        };
+        document.body.appendChild(script);
+        })("comunidadi.tumblr.com", 8); //enter your blog name here, and adjust number of posts on display
+        </script>
+    </div>

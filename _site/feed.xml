@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
+    <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Fundación Ciudadano Inteligente</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Usamos tecnología para transparentar y participar en democracia, trabajamos para trasladar poder desde los pocos hacia los muchos.">
     <link rel="canonical" href="">
-
     <!-- open graph -->
     <meta property="og:title" content="Fundación Ciudadano Inteligente">
     <meta property="og:type" content="website">
     <meta property="og:url" content="">
     <meta property="og:image" content="/img/logo-fci-600x600.png">
     <meta property="og:description" content="Usamos tecnología para transparentar y participar en democracia, trabajamos para trasladar poder desde los pocos hacia los muchos.">
-
     <!-- twitter card -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@ciudadanoi">
@@ -22,15 +20,13 @@
     <meta name="twitter:description" content="Usamos tecnología para transparentar y participar en democracia, trabajamos para trasladar poder desde los pocos hacia los muchos.">
     <meta name="twitter:creator" content="@ciudadanoi">
     <meta name="twitter:image" content="http:/img/logo-fci-600x600.png">
-
     <!-- custom CSS -->
     <link rel="stylesheet" type="text/css" href="/css/projects.css" />
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
     <link rel="stylesheet" type="text/css" href="/css/animate.min.css" />
-    <link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css'/>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
     <!-- Js -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
@@ -38,274 +34,243 @@
     <script src="/js/jquery.nav.js"></script>
     <script src="/js/main.js"></script>
     <script src="/js/jquery.scrollTo.js"></script>
-    
 </head>
-
-  <!-- <div class="notificaciones">
-    <div class="alert alert-success" role="alert">Mira nuestro nuevo proyecto!!!<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button></div>
+    <!-- <div class="notificaciones">
+        <div class="alert alert-success" role="alert">Mira nuestro nuevo proyecto!!!<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button></div>
     <script type="text/javascript">$(".alert").alert()</script>
 </div> -->
-
-<!--   <div class="fondo">
-    <img src="img/fondo-inicio.jpg">
-  </div> -->
-
     <body>
-
-    <header id="header" class="site-header">
-
-  	<div id="menu" class="header-menu fixed">
-		<div class="container">
-			<div class="row">
-				<nav role="navigation" class="col-sm-12">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-
-						<!--== Logo ==-->
-						<span class="navbar-brand logo">
-							<img src="/img/logo-ciudadanoi.png">
-						</span>
-
-					</div>
-					<div class="navbar-collapse collapse">
-
-						<!--== Navigation Menu ==-->
-						<ul class="nav navbar-nav">
-							<li class="current"><a href="#header">Inicio</a></li>
-							<li><a href="#proyectos">Proyectos</a></li>
-							<li><a href="#sobre-nosotros">Sobre nosotros</a></li>
-							<li><a href="#transparencia">Transparencia</a></li>
-							<li><a href="http://blog.ciudadanointeligente.org/" target="_blank" class="gn-icon gn-icon-blog">Blog</a></li>
-							<li><a href="#newsletter">Suscripción y Contacto</a></li>
-						</ul>
-
-					</div>
-				</nav>
-			</div>
-		</div>
-	</div>
-
-    <div id="bgvid" class="video-wrapper">
-      <section id="inicio">
-          <video class="bgvid" loop muted autoplay poster="/img/team-vid.jpg">
-            <source src="/vid/LoopWeb.webm"type="video/webm">
-            <source src="/vid/LoopWeb.mp4" type="video/mp4">
-            <source src="/vid/LoopWeb.ogv" type="video/ogg">
-            
-            <p>Your browser does not support HTML5 video.</p>
-          </video>
-           <div class="container">
-                  <h1>Usamos tecnología para transparentar y participar en democracia, trabajamos para trasladar poder desde los pocos hacia los muchos.</h1>
-                  <div class="row pilares">
-                    <div class="col-md-4">
-                      <img src="img/1-transparencia.svg">
-                      <h4>Promover la <strong>Transparencia</strong> para propiciar el establecimiento de una cultura de acceso a la información pública y de reutilización de los datos abiertos.</h4>
-                    </div>
-                    <div class="col-md-4">
-                      <img src="img/2-rendicion.svg">
-                      <h4>Impulsar la <strong>Rendición de Cuentas</strong> desarrollando mayores y mejores mecanismos que permitan privilegiar el interés colectivo por sobre los intereses individuales.</h4>
-                    </div>
-                    <div class="col-md-4">
-                      <img src="img/3-accioncolectiva.svg">
-                      <h4>Fortalecer la <strong>Participación Ciudadana</strong> efectiva y fomentar la acción colectiva, consolidando así democracias más representativas y deliberativas.</h4>
-                    </div>
-                  </div>
-                </div>         
-      </section>
+        <header id="header" class="site-header">
+    <div id="menu" class="header-menu fixed">
+    <div class="container">
+        <div class="row">
+            <nav role="navigation" class="col-sm-12">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <!--== Logo ==-->
+                    <span class="navbar-brand logo">
+                    <img src="/img/logo-ciudadanoi.png">
+                    </span>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <!--== Navigation Menu ==-->
+                    <ul class="nav navbar-nav">
+                        <li class="current"><a href="#header">Inicio</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
+                        <li><a href="#transparencia">Transparencia</a></li>
+                        <li><a href="http://blog.ciudadanointeligente.org/" target="_blank" class="gn-icon gn-icon-blog">Blog</a></li>
+                        <li><a href="#newsletter">Suscripción y Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </div>
+</div>
+    <div id="bgvid" class="video-wrapper">
+        <section id="inicio">
+            <video class="bgvid" loop muted autoplay poster="/img/team-vid.jpg">
+                <source src="/vid/LoopWeb.webm"type="video/webm">
+                <source src="/vid/LoopWeb.mp4" type="video/mp4">
+                <source src="/vid/LoopWeb.ogv" type="video/ogg">
 
-
-<!-- AUTOSCROLL -->
-<script type="text/javascript">
-  $(document).ready(function(){
+                <p>Your browser does not support HTML5 video.</p>
+            </video>
+            <div class="container">
+                <h1>Usamos tecnología para transparentar y participar en democracia, trabajamos para trasladar poder desde los pocos hacia los muchos.</h1>
+                <div class="row pilares">
+                    <div class="col-md-4">
+                        <img src="img/1-transparencia.svg">
+                        <h4>Promover la <strong>Transparencia</strong> para propiciar el establecimiento de una cultura de acceso a la información pública y de reutilización de los datos abiertos.</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/2-rendicion.svg">
+                        <h4>Impulsar la <strong>Rendición de Cuentas</strong> desarrollando mayores y mejores mecanismos que permitan privilegiar el interés colectivo por sobre los intereses individuales.</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/3-accioncolectiva.svg">
+                        <h4>Fortalecer la <strong>Participación Ciudadana</strong> efectiva y fomentar la acción colectiva, consolidando así democracias más representativas y deliberativas.</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- AUTOSCROLL -->
+    <script type="text/javascript">
+    $(document).ready(function(){
     $('a[href^="#"]').on('click',function (e) {
-        e.preventDefault();
-
-        var target = this.hash,
-        $target = $(target);
-
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
-        }, 900, 'swing', function () {
-            window.location.hash = target;
-        });
+    e.preventDefault();
+    var target = this.hash,
+    $target = $(target);
+    $('html, body').stop().animate({
+    'scrollTop': $target.offset().top
+    }, 900, 'swing', function () {
+    window.location.hash = target;
     });
-  });
-</script>
+    });
+    });
+    </script>
+    <!-- SCROLL TO TOP -->
+    <script>
+    jQuery(document).ready(function() {
+    var offset = 200;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > offset) {
+    jQuery('.scroll-to-top').fadeIn(duration);
+    } else {
+    jQuery('.scroll-to-top').fadeOut(duration);
+    }
+    });
 
-<!-- SCROLL TO TOP -->
-
-    <script>            
-      jQuery(document).ready(function() {
-        var offset = 200;
-        var duration = 500;
-        jQuery(window).scroll(function() {
-          if (jQuery(this).scrollTop() > offset) {
-            jQuery('.scroll-to-top').fadeIn(duration);
-          } else {
-            jQuery('.scroll-to-top').fadeOut(duration);
-          }
-        });
-        
-        jQuery('.scroll-to-top').click(function(event) {
-          event.preventDefault();
-          jQuery('html, body').animate({scrollTop: 0}, duration);
-          return false;
-        })
-      });
-  </script>
-
-
-
+    jQuery('.scroll-to-top').click(function(event) {
+    event.preventDefault();
+    jQuery('html, body').animate({scrollTop: 0}, duration);
+    return false;
+    })
+    });
+    </script>
 </header>
 
-    
-          <div class="scroll-to-top">
-          </div>
-
-    <div class="container content">
-      <?xml version="1.0" encoding="UTF-8"?>
+        <div class="scroll-to-top">
+        </div>
+        <div class="container content">
+            <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Fundación Ciudadano Inteligente</title>
-    <description>Usamos tecnología para transparentar y participar en democracia, trabajamos para trasladar poder desde los pocos hacia los muchos.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    
-      <item>
-        <title>Abrelatam</title>
-        <description>
+	<channel>
+		<title>Fundación Ciudadano Inteligente</title>
+		<description>Usamos tecnología para transparentar y participar en democracia, trabajamos para trasladar poder desde los pocos hacia los muchos.</description>
+		<link>/</link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Abrelatam</title>
+				<description>
 </description>
-        <pubDate>Sat, 28 Feb 2015 00:00:00 -0300</pubDate>
-        <link>/project/2015/02/28/abrelatam/</link>
-        <guid isPermaLink="true">/project/2015/02/28/abrelatam/</guid>
-      </item>
-    
-      <item>
-        <title>Ley de lobby</title>
-        <description>
+				<pubDate>Sat, 28 Feb 2015 00:00:00 -0300</pubDate>
+				<link>/project/2015/02/28/abrelatam/</link>
+				<guid isPermaLink="true">/project/2015/02/28/abrelatam/</guid>
+			</item>
+		
+			<item>
+				<title>Ley de lobby</title>
+				<description>
 </description>
-        <pubDate>Thu, 01 Jan 2015 00:00:00 -0300</pubDate>
-        <link>/project/2015/01/01/lobby/</link>
-        <guid isPermaLink="true">/project/2015/01/01/lobby/</guid>
-      </item>
-    
-      <item>
-        <title>Desarrollando América</title>
-        <description>
+				<pubDate>Thu, 01 Jan 2015 00:00:00 -0300</pubDate>
+				<link>/project/2015/01/01/lobby/</link>
+				<guid isPermaLink="true">/project/2015/01/01/lobby/</guid>
+			</item>
+		
+			<item>
+				<title>Desarrollando América</title>
+				<description>
 </description>
-        <pubDate>Fri, 01 Aug 2014 10:46:22 -0400</pubDate>
-        <link>/project/2014/08/01/dal/</link>
-        <guid isPermaLink="true">/project/2014/08/01/dal/</guid>
-      </item>
-    
-      <item>
-        <title>Hay Acuerdo</title>
-        <description>
+				<pubDate>Fri, 01 Aug 2014 10:46:22 -0400</pubDate>
+				<link>/project/2014/08/01/dal/</link>
+				<guid isPermaLink="true">/project/2014/08/01/dal/</guid>
+			</item>
+		
+			<item>
+				<title>Hay Acuerdo</title>
+				<description>
 </description>
-        <pubDate>Fri, 01 Aug 2014 00:00:00 -0400</pubDate>
-        <link>/project/2014/08/01/hayacuerdo/</link>
-        <guid isPermaLink="true">/project/2014/08/01/hayacuerdo/</guid>
-      </item>
-    
-      <item>
-        <title>Congreso Abierto</title>
-        <description>
+				<pubDate>Fri, 01 Aug 2014 00:00:00 -0400</pubDate>
+				<link>/project/2014/08/01/hayacuerdo/</link>
+				<guid isPermaLink="true">/project/2014/08/01/hayacuerdo/</guid>
+			</item>
+		
+			<item>
+				<title>Congreso Abierto</title>
+				<description>
 </description>
-        <pubDate>Wed, 25 Jun 2014 10:46:22 -0400</pubDate>
-        <link>/project/2014/06/25/congresoabierto/</link>
-        <guid isPermaLink="true">/project/2014/06/25/congresoabierto/</guid>
-      </item>
-    
-      <item>
-        <title>Del Dicho al Hecho</title>
-        <description>
+				<pubDate>Wed, 25 Jun 2014 10:46:22 -0400</pubDate>
+				<link>/project/2014/06/25/congresoabierto/</link>
+				<guid isPermaLink="true">/project/2014/06/25/congresoabierto/</guid>
+			</item>
+		
+			<item>
+				<title>Del Dicho al Hecho</title>
+				<description>
 </description>
-        <pubDate>Thu, 01 May 2014 10:46:22 -0400</pubDate>
-        <link>/project/2014/05/01/ddah/</link>
-        <guid isPermaLink="true">/project/2014/05/01/ddah/</guid>
-      </item>
-    
-      <item>
-        <title>Quién te financia</title>
-        <description>
+				<pubDate>Thu, 01 May 2014 10:46:22 -0400</pubDate>
+				<link>/project/2014/05/01/ddah/</link>
+				<guid isPermaLink="true">/project/2014/05/01/ddah/</guid>
+			</item>
+		
+			<item>
+				<title>Quién te financia</title>
+				<description>
 </description>
-        <pubDate>Fri, 01 Nov 2013 11:46:22 -0300</pubDate>
-        <link>/project/2013/11/01/qtf/</link>
-        <guid isPermaLink="true">/project/2013/11/01/qtf/</guid>
-      </item>
-    
-      <item>
-        <title>Votainteligente</title>
-        <description>
+				<pubDate>Fri, 01 Nov 2013 11:46:22 -0300</pubDate>
+				<link>/project/2013/11/01/qtf/</link>
+				<guid isPermaLink="true">/project/2013/11/01/qtf/</guid>
+			</item>
+		
+			<item>
+				<title>Votainteligente</title>
+				<description>
 </description>
-        <pubDate>Tue, 01 Oct 2013 11:46:22 -0300</pubDate>
-        <link>/project/2013/10/01/votainteligente/</link>
-        <guid isPermaLink="true">/project/2013/10/01/votainteligente/</guid>
-      </item>
-    
-      <item>
-        <title>Populusaurio</title>
-        <description>
+				<pubDate>Tue, 01 Oct 2013 11:46:22 -0300</pubDate>
+				<link>/project/2013/10/01/votainteligente/</link>
+				<guid isPermaLink="true">/project/2013/10/01/votainteligente/</guid>
+			</item>
+		
+			<item>
+				<title>Populusaurio</title>
+				<description>
 </description>
-        <pubDate>Thu, 08 Aug 2013 00:00:00 -0400</pubDate>
-        <link>/project/2013/08/08/populusaurio/</link>
-        <guid isPermaLink="true">/project/2013/08/08/populusaurio/</guid>
-      </item>
-    
-      <item>
-        <title>Poplus</title>
-        <description>
+				<pubDate>Thu, 08 Aug 2013 00:00:00 -0400</pubDate>
+				<link>/project/2013/08/08/populusaurio/</link>
+				<guid isPermaLink="true">/project/2013/08/08/populusaurio/</guid>
+			</item>
+		
+			<item>
+				<title>Poplus</title>
+				<description>
 </description>
-        <pubDate>Thu, 01 Aug 2013 10:46:22 -0400</pubDate>
-        <link>/project/2013/08/01/poplus/</link>
-        <guid isPermaLink="true">/project/2013/08/01/poplus/</guid>
-      </item>
-    
-  </channel>
+				<pubDate>Thu, 01 Aug 2013 10:46:22 -0400</pubDate>
+				<link>/project/2013/08/01/poplus/</link>
+				<guid isPermaLink="true">/project/2013/08/01/poplus/</guid>
+			</item>
+		
+	</channel>
 </rss>
 
-    </div>
-
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-              <ul>
-                  <li><a href="https://github.com/ciudadanointeligente" target="_blank"><i class="fa fa-github-alt"></i> Revisa este y todos nuestros proyectos en Github</a></li>
-              </ul>
-          </div>
-          <div class="col-md-4">
-            <ul>
-              <li>
-                Desarrollado por <a href="http://ciudadanointeligente.org" target="_blank"><img src="/img/logo-fci-201x61.png" alt="Fundación Ciudadano Inteligente" title="Fundación Ciudadano Inteligente"></a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-              <ul>
-                  <li><a href="tel:+56224192770"><i class="fa fa-phone"></i> +56 2 2419 2770</a></li>
-                  <li><a href="mailto:prensa@ciudadanointeligente.org" class="email-prensa" target="_top"><i class="fa fa-envelope-o"></i> Contacto prensa</a></li>
-                  <li><a href="//bit.ly/17qiMkf" target="_blank"><i class="fa fa-map-marker"></i> Holanda 895, Providencia, Santiago, Chile</a></li>
-              </ul>
-          </div>
         </div>
-      </div>
-
+        <footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <ul>
+                    <li><a href="https://github.com/ciudadanointeligente" target="_blank"><i class="fa fa-github-alt"></i> Revisa este y todos nuestros proyectos en Github</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li>
+                        Desarrollado por <a href="http://ciudadanointeligente.org" target="_blank"><img src="/img/logo-fci-201x61.png" alt="Fundación Ciudadano Inteligente" title="Fundación Ciudadano Inteligente"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li><a href="tel:+56224192770"><i class="fa fa-phone"></i> +56 2 2419 2770</a></li>
+                    <li><a href="mailto:prensa@ciudadanointeligente.org" class="email-prensa" target="_top"><i class="fa fa-envelope-o"></i> Contacto prensa</a></li>
+                    <li><a href="//bit.ly/17qiMkf" target="_blank"><i class="fa fa-map-marker"></i> Holanda 895, Providencia, Santiago, Chile</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </footer>
-
-
-
-    <!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5433f951335f264a" async></script>
-
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5433f951335f264a" async></script>
+        <!-- Google Analytics: change site.analytics to be your site's ID. -->
+        <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -313,7 +278,7 @@
         ga('create', "UA-31247996-1", "ciudadanointeligente.org");
         ga('require', 'displayfeatures');
         ga('send', 'pageview');
-    </script>
-    <script src="//my.hellobar.com/d048afc9e5c3fc453169b16f161c0b315678028c.js" type="text/javascript" charset="utf-8" async="async"></script>
+        </script>
+        <script src="//my.hellobar.com/d048afc9e5c3fc453169b16f161c0b315678028c.js" type="text/javascript" charset="utf-8" async="async"></script>
     </body>
 </html>

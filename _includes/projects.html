@@ -1,17 +1,17 @@
-  <h2>Proyectos</h2>
-      <ul id="og-grid" class="og-grid">
-        {% for post in site.posts %}
-          <li>
-            <a href="{{ post.site_url }}" data-largesrc="{{ post.img }}" data-title="{{ post.title }}" data-description="{{ post.description }}" data-siteurl="{{ post.site_url }}">
-              <img src="{{ post.thumb }}" alt="{{ post.img }}"/>
-              <div class="{{ post.estado }}">{{ post.estado }}</div>
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    <script src="{{ site.baseurl }}/js/grid.js"></script>
-    <script>
-      $(function() {
-        Grid.init();
-      });
-    </script>
+<h2>Proyectos</h2>
+<ul id="og-grid" class="og-grid">
+    {% for post in site.posts %}
+    <li>
+        <a href="{{ post.site_url }}" data-largesrc="{{ post.img }}" data-title="{{ post.title }}" data-description="{{ post.description }}" data-siteurl="{{ post.site_url }}">
+        <img src="{{ post.thumb }}" alt="{{ post.img }}"/>
+        <div class="{{ post.estado }}">{{ post.estado }}</div>
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+<script src="{{ site.baseurl }}/js/grid.js"></script>
+<script>
+$(function() {
+Grid.init();
+});
+</script>

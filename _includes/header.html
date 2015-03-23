@@ -1,77 +1,66 @@
 <header id="header" class="site-header">
-
-  {% include nav.html%}
-
+    {% include nav.html%}
     <div id="bgvid" class="video-wrapper">
-      <section id="inicio">
-          <video class="bgvid" loop muted autoplay poster="{{ site.baseurl }}/img/team-vid.jpg">
-            <source src="{{ site.baseurl }}/vid/LoopWeb.webm"type="video/webm">
-            <source src="{{ site.baseurl }}/vid/LoopWeb.mp4" type="video/mp4">
-            <source src="{{ site.baseurl }}/vid/LoopWeb.ogv" type="video/ogg">
-            
-            <p>Your browser does not support HTML5 video.</p>
-          </video>
-           <div class="container">
-                  <h1>Usamos tecnología para transparentar y participar en democracia, trabajamos para trasladar poder desde los pocos hacia los muchos.</h1>
-                  <div class="row pilares">
+        <section id="inicio">
+            <video class="bgvid" loop muted autoplay poster="{{ site.baseurl }}/img/team-vid.jpg">
+                <source src="{{ site.baseurl }}/vid/LoopWeb.webm"type="video/webm">
+                <source src="{{ site.baseurl }}/vid/LoopWeb.mp4" type="video/mp4">
+                <source src="{{ site.baseurl }}/vid/LoopWeb.ogv" type="video/ogg">
+
+                <p>Your browser does not support HTML5 video.</p>
+            </video>
+            <div class="container">
+                <h1>Usamos tecnología para transparentar y participar en democracia, trabajamos para trasladar poder desde los pocos hacia los muchos.</h1>
+                <div class="row pilares">
                     <div class="col-md-4">
-                      <img src="img/1-transparencia.svg">
-                      <h4>Promover la <strong>Transparencia</strong> para propiciar el establecimiento de una cultura de acceso a la información pública y de reutilización de los datos abiertos.</h4>
+                        <img src="img/1-transparencia.svg">
+                        <h4>Promover la <strong>Transparencia</strong> para propiciar el establecimiento de una cultura de acceso a la información pública y de reutilización de los datos abiertos.</h4>
                     </div>
                     <div class="col-md-4">
-                      <img src="img/2-rendicion.svg">
-                      <h4>Impulsar la <strong>Rendición de Cuentas</strong> desarrollando mayores y mejores mecanismos que permitan privilegiar el interés colectivo por sobre los intereses individuales.</h4>
+                        <img src="img/2-rendicion.svg">
+                        <h4>Impulsar la <strong>Rendición de Cuentas</strong> desarrollando mayores y mejores mecanismos que permitan privilegiar el interés colectivo por sobre los intereses individuales.</h4>
                     </div>
                     <div class="col-md-4">
-                      <img src="img/3-accioncolectiva.svg">
-                      <h4>Fortalecer la <strong>Participación Ciudadana</strong> efectiva y fomentar la acción colectiva, consolidando así democracias más representativas y deliberativas.</h4>
+                        <img src="img/3-accioncolectiva.svg">
+                        <h4>Fortalecer la <strong>Participación Ciudadana</strong> efectiva y fomentar la acción colectiva, consolidando así democracias más representativas y deliberativas.</h4>
                     </div>
-                  </div>
-                </div>         
-      </section>
+                </div>
+            </div>
+        </section>
     </div>
-
-
-<!-- AUTOSCROLL -->
-<script type="text/javascript">
-  $(document).ready(function(){
+    <!-- AUTOSCROLL -->
+    <script type="text/javascript">
+    $(document).ready(function(){
     $('a[href^="#"]').on('click',function (e) {
-        e.preventDefault();
-
-        var target = this.hash,
-        $target = $(target);
-
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
-        }, 900, 'swing', function () {
-            window.location.hash = target;
-        });
+    e.preventDefault();
+    var target = this.hash,
+    $target = $(target);
+    $('html, body').stop().animate({
+    'scrollTop': $target.offset().top
+    }, 900, 'swing', function () {
+    window.location.hash = target;
     });
-  });
-</script>
+    });
+    });
+    </script>
+    <!-- SCROLL TO TOP -->
+    <script>
+    jQuery(document).ready(function() {
+    var offset = 200;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > offset) {
+    jQuery('.scroll-to-top').fadeIn(duration);
+    } else {
+    jQuery('.scroll-to-top').fadeOut(duration);
+    }
+    });
 
-<!-- SCROLL TO TOP -->
-
-    <script>            
-      jQuery(document).ready(function() {
-        var offset = 200;
-        var duration = 500;
-        jQuery(window).scroll(function() {
-          if (jQuery(this).scrollTop() > offset) {
-            jQuery('.scroll-to-top').fadeIn(duration);
-          } else {
-            jQuery('.scroll-to-top').fadeOut(duration);
-          }
-        });
-        
-        jQuery('.scroll-to-top').click(function(event) {
-          event.preventDefault();
-          jQuery('html, body').animate({scrollTop: 0}, duration);
-          return false;
-        })
-      });
-  </script>
-
-
-
+    jQuery('.scroll-to-top').click(function(event) {
+    event.preventDefault();
+    jQuery('html, body').animate({scrollTop: 0}, duration);
+    return false;
+    })
+    });
+    </script>
 </header>
