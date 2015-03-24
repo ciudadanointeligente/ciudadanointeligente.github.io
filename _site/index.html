@@ -6,7 +6,7 @@
     <title>Fundación Ciudadano Inteligente</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Usamos tecnología para transparentar y participar en democracia, trabajamos para trasladar poder desde los pocos hacia los muchos.">
-    <link rel="canonical" href="">
+    <link rel="canonical" href="" />
     <!-- open graph -->
     <meta property="og:title" content="Fundación Ciudadano Inteligente">
     <meta property="og:type" content="website">
@@ -22,11 +22,11 @@
     <meta name="twitter:image" content="http:/img/logo-fci-600x600.png">
     <!-- custom CSS -->
     <link rel="stylesheet" type="text/css" href="/css/projects.css" />
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
     <link rel="stylesheet" type="text/css" href="/css/animate.min.css" />
-    <link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css'/>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css' />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
     <!-- Js -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
@@ -35,10 +35,6 @@
     <script src="/js/main.js"></script>
     <script src="/js/jquery.scrollTo.js"></script>
 </head>
-    <!-- <div class="notificaciones">
-        <div class="alert alert-success" role="alert">Mira nuestro nuevo proyecto!!!<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button></div>
-    <script type="text/javascript">$(".alert").alert()</script>
-</div> -->
     <body>
         <header id="header" class="site-header">
     <div id="menu" class="header-menu fixed">
@@ -47,25 +43,25 @@
             <nav role="navigation" class="col-sm-12">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
-                    <!--== Logo ==-->
+                    <!-- logo-->
                     <span class="navbar-brand logo">
-                    <img src="/img/logo-ciudadanoi.png">
+                        <img src="/img/logo-ciudadanoi.png">
                     </span>
                 </div>
                 <div class="navbar-collapse collapse">
-                    <!--== Navigation Menu ==-->
+                    <!-- navigation menu-->
                     <ul class="nav navbar-nav">
                         <li class="current"><a href="#header">Inicio</a></li>
                         <li><a href="#proyectos">Proyectos</a></li>
                         <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
                         <li><a href="#transparencia">Transparencia</a></li>
                         <li><a href="http://blog.ciudadanointeligente.org/" target="_blank" class="gn-icon gn-icon-blog">Blog</a></li>
-                        <li><a href="#newsletter">Suscripción y Contacto</a></li>
+                        <li><a href="#newsletter">Suscripción y contacto</a></li>
                     </ul>
                 </div>
             </nav>
@@ -75,9 +71,9 @@
     <div id="bgvid" class="video-wrapper">
         <section id="inicio">
             <video class="bgvid" loop muted autoplay poster="/img/team-vid.jpg">
-                <source src="/vid/LoopWeb.webm"type="video/webm">
-                <source src="/vid/LoopWeb.mp4" type="video/mp4">
-                <source src="/vid/LoopWeb.ogv" type="video/ogg">
+                <source src="/video/LoopWeb.webm"type="video/webm">
+                <source src="/video/LoopWeb.mp4" type="video/mp4">
+                <source src="/video/LoopWeb.ogv" type="video/ogg">
 
                 <p>Your browser does not support HTML5 video.</p>
             </video>
@@ -102,43 +98,42 @@
     </div>
     <!-- AUTOSCROLL -->
     <script type="text/javascript">
-    $(document).ready(function(){
-    $('a[href^="#"]').on('click',function (e) {
-    e.preventDefault();
-    var target = this.hash,
-    $target = $(target);
-    $('html, body').stop().animate({
-    'scrollTop': $target.offset().top
-    }, 900, 'swing', function () {
-    window.location.hash = target;
-    });
-    });
-    });
+        $(document).ready(function(){
+        $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+        var target = this.hash,
+        $target = $(target);
+        $('html, body').stop().animate({
+        'scrollTop': $target.offset().top
+        }, 900, 'swing', function () {
+        window.location.hash = target;
+        });
+        });
+        });
     </script>
     <!-- SCROLL TO TOP -->
     <script>
-    jQuery(document).ready(function() {
-    var offset = 200;
-    var duration = 500;
-    jQuery(window).scroll(function() {
-    if (jQuery(this).scrollTop() > offset) {
-    jQuery('.scroll-to-top').fadeIn(duration);
-    } else {
-    jQuery('.scroll-to-top').fadeOut(duration);
-    }
-    });
+        jQuery(document).ready(function() {
+        var offset = 200;
+        var duration = 500;
+        jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+        jQuery('.scroll-to-top').fadeIn(duration);
+        } else {
+        jQuery('.scroll-to-top').fadeOut(duration);
+        }
+        });
 
-    jQuery('.scroll-to-top').click(function(event) {
-    event.preventDefault();
-    jQuery('html, body').animate({scrollTop: 0}, duration);
-    return false;
-    })
-    });
+        jQuery('.scroll-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+        })
+        });
     </script>
 </header>
 
-        <div class="scroll-to-top">
-        </div>
+        <div class="scroll-to-top"></div>
         <div class="container content">
             <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5433f951335f264a" async="async"></script>
@@ -301,149 +296,251 @@
                     <h4 class="modal-title" id="myModalLabel">El Equipo</h4>
                 </div>
                 <div class="modal-body">
-                    <div class="row team">
-    <div class="col-md-4">
-        <img src="/img/team/felipe.png">
-        <div>
-            <h5>Felipe Álvarez - Desarrollador</h5>
-            <p>Originalmente de Valdivia, idealista, ciclista, trapecista y artesano de software.</p>
-            <p>
-            <a class="btn btn-primary btn-xs" href="https://twitter.com/lfalvarez"><i class="fa fa-twitter"></i></a>
-            <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/in/luisfelipealvarez"><i class="fa fa-linkedin"></i></a>
-            <a class="btn btn-primary btn-xs" href="https://github.com/lfalvarez"><i class="fa fa-github"></i></a>
-            <a class="btn btn-primary btn-xs" href="mailto:falvarez@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a>
-            </p>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <img src="/img/team/marcel.png">
-        <div>
-            <h5>Marcel Augsburger - Desarrollador</h5>
-            <p>Ciudadano, amante de la ciencia y el conocimiento, de espíritu sureño, escalador amateur, y computín de pasatiempo.</p>
-            <p>
-            <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/profile/view?id=36785620"><i class="fa fa-linkedin"></i></a>
-            <a class="btn btn-primary btn-xs" href="mailto:maugsburger@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a>
-            </p>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <img src="/img/team/alvaro.png">
-        <div>
-            <h5>Álvaro Castañón - Coordinador Legislativo</h5>
-            <p>Abogado fuera de lo común. Trabajando para empoderar a los ciudadanos con más transparencia y Gobiernos Abiertos.</p>
-            <p>
-            <a class="btn btn-primary btn-xs" href="https://twitter.com/a_castanon"><i class="fa fa-twitter"></i></a>
-            <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/in/alvarocastanon"><i class="fa fa-linkedin"></i></a>
-            <a class="btn btn-primary btn-xs" href="mailto:acastanon@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a>
-            </p>
-        </div>
-    </div>
-</div>
+                    
 <div class="row team">
-    <div class="col-md-4">
-        <img src="/img/team/pablo.png">
-        <div>
-            <h5>Pablo Collada - Director Ejecutivo</h5>
-            <p>Construir ciudadanía comienza caracterizando creencias con certeza comunitaria.</p>
-            <p>
-            <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/profile/view?id=4993024&trk=nav_responsive_tab_profile"><i class="fa fa-linkedin"></i></a>
-            <a class="btn btn-primary btn-xs" href="mailto:pcollada@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a>
-            </p>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <img src="/img/team/damian.png">
-        <div>
-            <h5>José Damián Garrido - Desarrollador</h5>
-            <p>Obrero Digital. Beer lover, Dog lover. Una frase: "Amulepe taiñ weichan!"</i></p>
-            <p>
-            <a class="btn btn-primary btn-xs" href="https://twitter.com/jgarrido"><i class="fa fa-twitter"></i></a>
-            <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/pub/jos%C3%A9-dami%C3%A1n-garrido-m/4b/380/61b"><i class="fa fa-linkedin"></i></a>
-            <a class="btn btn-primary btn-xs" href="mailto:dgarrido@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a>
-            </p>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <img src="/img/team/maria.png">
-        <div>
-            <h5>María Jaraquemada - Directora Investigación e Incidencia</h5>
-            <p>Abogada de las causas perdidas y la transparencia, sirena, lectora, viajera y comilona. En cualquier minuto me echo al pollo.</p>
-            <p>
-            <a class="btn btn-primary btn-xs" href="https://twitter.com/mariajaraqmada"><i class="fa fa-twitter"></i></a>
-            <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/pub/maria-jaraquemada/23/7a0/b18"><i class="fa fa-linkedin"></i></a>
-            <a class="btn btn-primary btn-xs" href="mailto:mjaraquemada@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a>
-            </p>
-        </div>
-    </div>
-</div>
-<div class="row team">
-    <div class="col-md-4">
-        <img src="/img/team/cata.png">
-        <div>
-            <h5>Catalina Margozzini - Diseñadora</h5>
-            <p>Creo profundamente en mi trabajo y en mi querido equipo que me hace cada día más data nerd.</p>
-            <p>
-            <a class="btn btn-primary btn-xs" href="https://twitter.com/CaMargozzini"><i class="fa fa-twitter"></i></a>
-            <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/pub/catalina-margozzini-del-valle/33/377/39a"><i class="fa fa-linkedin"></i></a>
-            <a class="btn btn-primary btn-xs" href="https://www.github.com/camargozzini"><i class="fa fa-github"></i></a>
-            <a class="btn btn-primary btn-xs" href="mailto:cmargozzini@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a>
-            </p>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <img src="/img/team/jp.png">
-        <div>
-            <h5>Juan Pablo Pérez - Desarrollador</h5>
-            <p>Vengo del cálido Arica, cinéfilo, ciclista, ñoño, desarrollador, amo la comida picante y ↑ ↑ ↓ ↓ ← → ← →, (B), (A), [Start]</p>
-            <p>
-            <a class="btn btn-primary btn-xs" href="https://twitter.com/rezzo"><i class="fa fa-twitter"></i></a>
-            <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/in/jpereztrabucco"><i class="fa fa-linkedin"></i></a>
-            <a class="btn btn-primary btn-xs" href="https://www.github.com/rezzo"><i class="fa fa-github"></i></a>
-            <a class="btn btn-primary btn-xs" href="mailto:jpperez@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a>
-            </p>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <img src="/img/team/jose.png">
-        <div>
-            <h5>María José Tapia - Encargada de Prensa y Comunidad</h5>
-            <p>OLA KE ASE. Escultora de mensajes. Tejedora y Costurera de Redes.</p>
-            <p>
-            <a class="btn btn-primary btn-xs" href="https://twitter.com/MjoseTapia"><i class="fa fa-twitter"></i></a>
-            <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/profile/view?trk=tab_pro&id=90305028"><i class="fa fa-linkedin"></i></a>
-            <a class="btn btn-primary btn-xs" href="mailto:mjtapia@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a>
-            </p>
-        </div>
-    </div>
-</div>
-<div class="row team">
-    <div class="col-md-4">
-        <img src="/img/team/dani.png">
-        <div>
-            <h5>Daniela Tejada - Coordinadora de Estudios</h5>
-            <p>Me encargo de armar los carretes, almuerzos, happy hours en la fundación. Cuando me sobra tiempo, me dedico a la investigación. </p>
-            <p>
-            <a class="btn btn-primary btn-xs" href="https://twitter.com/ladanitejada"><i class="fa fa-twitter"></i></a>
-            <a class="btn btn-primary btn-xs" href="https://github.com/dtejada"><i class="fa fa-github"></i></a>
-            <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/profile/view?id=96262855&trk=spm_pic"><i class="fa fa-linkedin"></i></a>
-            <a class="btn btn-primary btn-xs" href="mailto:dtejada@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a>
-            </p>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <img src="/img/team/fiera.png">
-        <div>
-            <h5>Fiera Feroz - Terapeuta Laboral</h5>
-            <p>¡Guau guau guau!</p>
-            <p>
-            <a class="btn btn-primary btn-xs" href="https://twitter.com/ciudadanafiera"><i class="fa fa-twitter"></i></a>
-            <a class="btn btn-primary btn-xs" href="https://plus.google.com/u/0/108212560504131165924"><i class="fa fa-google-plus"></i></a>
-            <a class="btn btn-primary btn-xs" href="https://www.facebook.com/laciudadanafiera"><i class="fa fa-facebook"></i></a>
-            <a class="btn btn-primary btn-xs" href="http://instagram.com/ciudadanafiera"><i class="fa fa-instagram"></i></a>
-            <a class="btn btn-primary btn-xs" href="mailto:fierita@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a>
-            </p>
-        </div>
-    </div>
+
+	
+		<div class="col-md-4">
+			<img src="/img/team/felipe.png">
+			<div>
+				<h5>Felipe Álvarez - Desarrollador</h5>
+				<p>Originalmente de Valdivia, idealista, ciclista, trapecista y artesano de software.</p>
+				<p>
+				 <a class="btn btn-primary btn-xs" href="https://twitter.com/lfalvarez"><i class="fa fa-twitter"></i></a> 
+				 <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/in/luisfelipealvarez"><i class="fa fa-linkedin"></i></a> 
+				 <a class="btn btn-primary btn-xs" href="https://github.com/lfalvarez"><i class="fa fa-github"></i></a> 
+				
+				
+				
+				 <a class="btn btn-primary btn-xs" href="mailto:falvarez@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a> 
+				</p>
+			</div>
+		</div>
+		
+		
+	
+
+	
+		<div class="col-md-4">
+			<img src="/img/team/marcel.png">
+			<div>
+				<h5>Marcel Augsburger - Desarrollador</h5>
+				<p>Ciudadano, amante de la ciencia y el conocimiento, de espíritu sureño, escalador amateur, y computín de pasatiempo.</p>
+				<p>
+				
+				 <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/profile/view?id=36785620"><i class="fa fa-linkedin"></i></a> 
+				
+				
+				
+				
+				 <a class="btn btn-primary btn-xs" href="mailto:maugsburger@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a> 
+				</p>
+			</div>
+		</div>
+		
+		
+	
+
+	
+
+	
+		<div class="col-md-4">
+			<img src="/img/team/alvaro.png">
+			<div>
+				<h5>Álvaro Castañón - Coordinador Legislativo</h5>
+				<p>Abogado fuera de lo común. Trabajando para empoderar a los ciudadanos con más transparencia y Gobiernos Abiertos.</p>
+				<p>
+				 <a class="btn btn-primary btn-xs" href="https://twitter.com/a_castanon"><i class="fa fa-twitter"></i></a> 
+				 <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/in/alvarocastanon"><i class="fa fa-linkedin"></i></a> 
+				
+				
+				
+				
+				 <a class="btn btn-primary btn-xs" href="mailto:acastanon@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a> 
+				</p>
+			</div>
+		</div>
+		
+		</div>
+		<div class="row team">
+		
+		
+	
+
+	
+		<div class="col-md-4">
+			<img src="/img/team/pablo.png">
+			<div>
+				<h5>Pablo Collada - Director Ejecutivo</h5>
+				<p>Construir ciudadanía comienza caracterizando creencias con certeza comunitaria.</p>
+				<p>
+				
+				 <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/profile/view?id=4993024"><i class="fa fa-linkedin"></i></a> 
+				
+				
+				
+				
+				 <a class="btn btn-primary btn-xs" href="mailto:pcollada@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a> 
+				</p>
+			</div>
+		</div>
+		
+		
+	
+
+	
+		<div class="col-md-4">
+			<img src="/img/team/damian.png">
+			<div>
+				<h5>José Damián Garrido - Desarrollador</h5>
+				<p>Obrero Digital. Beer lover, Dog lover. Una frase: "Amulepe taiñ weichan!"</p>
+				<p>
+				 <a class="btn btn-primary btn-xs" href="https://twitter.com/jgarrido"><i class="fa fa-twitter"></i></a> 
+				 <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/pub/jos%C3%A9-dami%C3%A1n-garrido-m/4b/380/61b"><i class="fa fa-linkedin"></i></a> 
+				
+				
+				
+				
+				 <a class="btn btn-primary btn-xs" href="mailto:dgarrido@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a> 
+				</p>
+			</div>
+		</div>
+		
+		
+	
+
+	
+		<div class="col-md-4">
+			<img src="/img/team/fiera.png">
+			<div>
+				<h5>Fiera Feroz - Terapeuta laboral</h5>
+				<p>¡Guau guau guau!</p>
+				<p>
+				 <a class="btn btn-primary btn-xs" href="https://twitter.com/ciudadanafiera"><i class="fa fa-twitter"></i></a> 
+				
+				
+				 <a class="btn btn-primary btn-xs" href="https://plus.google.com/u/0/108212560504131165924"><i class="fa fa-google-plus"></i></a> 
+				 <a class="btn btn-primary btn-xs" href="https://www.facebook.com/laciudadanafiera"><i class="fa fa-facebook"></i></a> 
+				 <a class="btn btn-primary btn-xs" href="http://instagram.com/ciudadanafiera"><i class="fa fa-instagram"></i></a> 
+				 <a class="btn btn-primary btn-xs" href="mailto:fiera@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a> 
+				</p>
+			</div>
+		</div>
+		
+		</div>
+		<div class="row team">
+		
+		
+	
+
+	
+		<div class="col-md-4">
+			<img src="/img/team/maria.png">
+			<div>
+				<h5>María Jaraquemada - Directora Investigación e Incidencia</h5>
+				<p>Abogada de las causas perdidas y la transparencia, sirena, lectora, viajera y comilona. En cualquier minuto me echo al pollo.</p>
+				<p>
+				 <a class="btn btn-primary btn-xs" href="https://twitter.com/mariajaraqmada"><i class="fa fa-twitter"></i></a> 
+				 <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/pub/maria-jaraquemada/23/7a0/b18"><i class="fa fa-linkedin"></i></a> 
+				
+				
+				
+				
+				 <a class="btn btn-primary btn-xs" href="mailto:mjaraquemada@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a> 
+				</p>
+			</div>
+		</div>
+		
+		
+	
+
+	
+		<div class="col-md-4">
+			<img src="/img/team/cata.png">
+			<div>
+				<h5>Catalina Margozzini - Diseñadora</h5>
+				<p>Creo profundamente en mi trabajo y en mi querido equipo que me hace cada día más data nerd.</p>
+				<p>
+				 <a class="btn btn-primary btn-xs" href="https://twitter.com/CaMargozzini"><i class="fa fa-twitter"></i></a> 
+				 <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/pub/catalina-margozzini-del-valle/33/377/39a"><i class="fa fa-linkedin"></i></a> 
+				 <a class="btn btn-primary btn-xs" href="https://github.com/camargozzini"><i class="fa fa-github"></i></a> 
+				
+				
+				
+				 <a class="btn btn-primary btn-xs" href="mailto:cmargozzini@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a> 
+				</p>
+			</div>
+		</div>
+		
+		
+	
+
+	
+		<div class="col-md-4">
+			<img src="/img/team/jp.png">
+			<div>
+				<h5>Juan Pablo Pérez - Desarrollador</h5>
+				<p>Vengo del cálido Arica, cinéfilo, ciclista, ñoño, desarrollador, amo la comida picante y ↑ ↑ ↓ ↓ ← → ← →, (B), (A), [Start]</p>
+				<p>
+				 <a class="btn btn-primary btn-xs" href="https://twitter.com/rezzo"><i class="fa fa-twitter"></i></a> 
+				 <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/in/jpereztrabucco"><i class="fa fa-linkedin"></i></a> 
+				 <a class="btn btn-primary btn-xs" href="https://github.com/rezzo"><i class="fa fa-github"></i></a> 
+				
+				
+				
+				 <a class="btn btn-primary btn-xs" href="mailto:jpperez@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a> 
+				</p>
+			</div>
+		</div>
+		
+		</div>
+		<div class="row team">
+		
+		
+	
+
+	
+		<div class="col-md-4">
+			<img src="/img/team/jose.png">
+			<div>
+				<h5>María José Tapia - Encargada de Prensa y Comunidad</h5>
+				<p>OLA KE ASE. Escultora de mensajes. Tejedora y Costurera de Redes.</p>
+				<p>
+				 <a class="btn btn-primary btn-xs" href="https://twitter.com/MjoseTapia"><i class="fa fa-twitter"></i></a> 
+				 <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/profile/view?trk=tab_pro&id=90305028"><i class="fa fa-linkedin"></i></a> 
+				
+				
+				
+				
+				 <a class="btn btn-primary btn-xs" href="mailto:mjtapia@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a> 
+				</p>
+			</div>
+		</div>
+		
+		
+	
+
+	
+		<div class="col-md-4">
+			<img src="/img/team/dani.png">
+			<div>
+				<h5>Daniela Tejada - Coordinadora de Estudios</h5>
+				<p>Me encargo de armar los carretes, almuerzos, happy hours en la fundación. Cuando me sobra tiempo, me dedico a la investigación.</p>
+				<p>
+				 <a class="btn btn-primary btn-xs" href="https://twitter.com/ladanitejada"><i class="fa fa-twitter"></i></a> 
+				 <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/profile/view?id=96262855"><i class="fa fa-linkedin"></i></a> 
+				 <a class="btn btn-primary btn-xs" href="https://github.com/dtejada"><i class="fa fa-github"></i></a> 
+				
+				
+				
+				 <a class="btn btn-primary btn-xs" href="mailto:dtejada@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a> 
+				</p>
+			</div>
+		</div>
+		
+		
+	
+
 </div>
                 </div>
                 <div class="modal-footer">
@@ -460,78 +557,123 @@
                     <h4 class="modal-title" id="myModalLabel">El Directorio</h4>
                 </div>
                 <div class="modal-body">
-                    <div class="row team">
-    <div class="col-md-4">
-        <img src="/img/team/hazel.png">
-        <div>
-            <h5>Hazel Feigenblatt - Directora</h5>
-            <p>Periodista convencida de que cada ciudadano lleva un investigador adentro que puede hacer la diferencia por una mayor rendición de cuentas.</p>
-            <p>
-            <a class="btn btn-primary btn-xs" href="www.linkedin.com/in/hazelfeigenblatt"><i class="fa fa-linkedin"></i></a>
-            <a class="btn btn-primary btn-xs" href="mailto:hfeigenblatt@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a>
-            </p>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <img src="/img/team/nono.png">
-        <div>
-            <h5>Felipe Heusser - Director</h5>
-            <p>Busco en la tecnología una herramienta de acción social y política para empoderar a ciudadanos, y trasladar poder desde los pocos hacia los muchos. Orgulloso y #chocho de @ciudadanoi</p>
-            <p>
-            <a class="btn btn-primary btn-xs" href="https://twitter.com/fheusser"><i class="fa fa-twitter"></i></a>
-            <a class="btn btn-primary btn-xs" href="http://cl.linkedin.com/in/felipeheusser"><i class="fa fa-linkedin"></i></a>
-            <a class="btn btn-primary btn-xs" href="mailto:fheusser@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a>
-            </p>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <img src="/img/team/rodrigo.png">
-        <div>
-            <h5>Rodrigo Mobarec - Director</h5>
-            <p>Apasionado x lo q podemos hacer con la acción colectiva, mi favorito @ciudadanoi y todo lo q queda por hacer #innovacionsocial #desarrollosostenible #familia</p>
-            <p>
-            <a class="btn btn-primary btn-xs" href="https://twitter.com/rmobarec"><i class="fa fa-twitter"></i></a>
-            <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/pub/rodrigo-mobarec/21/248/347"><i class="fa fa-linkedin"></i></a>
-            <a class="btn btn-primary btn-xs" href="mailto:rmobarec@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a>
-            </p>
-        </div>
-    </div>
-</div>
+                    
 <div class="row team">
-    <div class="col-md-4">
-        <img src="/img/team/paula.jpg">
-        <div>
-            <h5>Paula Rojo - Directora</h5>
-            <p>Socia fundadora y gerenta de clientes en el Grupo Mi Voz, ejerció como CEO de Fundación Mercator, además como directora nacional de movimiento y participación ciudadana en Atina Chile.</p>
-            <p>
-            <a class="btn btn-primary btn-xs" href="https://twitter.com/paularojo"><i class="fa fa-twitter"></i></a>
-            <a class="btn btn-primary btn-xs" href="mailto:projo@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a>
-            <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/profile/view?id=196439757"><i class="fa fa-linkedin"></i></a>
-            </p>
+
+    
+        <div class="col-md-4">
+            <img src="/img/team/hazel.png">
+            <div>
+                <h5>Hazel Feigenblatt - Directora</h5>
+                <p>Periodista convencida de que cada ciudadano lleva un investigador adentro que puede hacer la diferencia por una mayor rendición de cuentas.</p>
+                <p>
+                
+                 <a class="btn btn-primary btn-xs" href="http://www.linkedin.com/in/hazelfeigenblatt"><i class="fa fa-linkedin"></i></a> 
+                
+                 <a class="btn btn-primary btn-xs" href="mailto:hfeigenblatt@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a> 
+                </p>
+            </div>
         </div>
-    </div>
-    <div class="col-md-4">
-        <img src="/img/team/david.jpg">
-        <div>
-            <h5>David Sasaki - Director</h5>
-            <p>
-            <a class="btn btn-primary btn-xs" href="mailto:dsasaki@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a>
-            <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/profile/view?id=10261037"><i class="fa fa-linkedin"></i></a>
-            </p>
+        
+        
+    
+
+    
+        <div class="col-md-4">
+            <img src="/img/team/nono.png">
+            <div>
+                <h5>Felipe Heusser - Director</h5>
+                <p>Busco en la tecnología una herramienta de acción social y política para empoderar a ciudadanos, y trasladar poder desde los pocos hacia los muchos. Orgulloso y #chocho de @ciudadanoi</p>
+                <p>
+                 <a class="btn btn-primary btn-xs" href="https://twitter.com/fheusser"><i class="fa fa-twitter"></i></a> 
+                 <a class="btn btn-primary btn-xs" href="http://cl.linkedin.com/in/felipeheusser"><i class="fa fa-linkedin"></i></a> 
+                
+                 <a class="btn btn-primary btn-xs" href="mailto:fheusser@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a> 
+                </p>
+            </div>
         </div>
-    </div>
-    <div class="col-md-4">
-        <img src="/img/team/agustin.png">
-        <div>
-            <h5>Agustin Villena - Director</h5>
-            <p>Computin transmutado en Hacker de Culturas. Practicante de la Agilidad y el Lean Thinking. Interesado en compartir conocimiento y la colaboración abierta para el bien común.</p>
-            <p>
-            <a class="btn btn-primary btn-xs" href="https://twitter.com/agustinvillena"><i class="fa fa-twitter"></i></a>
-            <a class="btn btn-primary btn-xs" href="http://cl.linkedin.com/in/agustinvillena"><i class="fa fa-linkedin"></i></a>
-            <a class="btn btn-primary btn-xs" href="mailto:avillena@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a>
-            </p>
+        
+        
+    
+
+    
+        <div class="col-md-4">
+            <img src="/img/team/rodrigo.png">
+            <div>
+                <h5>Rodrigo Mobarec - Director</h5>
+                <p>Apasionado x lo q podemos hacer con la acción colectiva, mi favorito @ciudadanoi y todo lo q queda por hacer #innovacionsocial #desarrollosostenible #familia</p>
+                <p>
+                 <a class="btn btn-primary btn-xs" href="https://twitter.com/rmobarec"><i class="fa fa-twitter"></i></a> 
+                 <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/pub/rodrigo-mobarec/21/248/347"><i class="fa fa-linkedin"></i></a> 
+                
+                 <a class="btn btn-primary btn-xs" href="mailto:rmobarec@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a> 
+                </p>
+            </div>
         </div>
-    </div>
+        
+        </div>
+        <div class="row team">
+        
+        
+    
+
+    
+        <div class="col-md-4">
+            <img src="/img/team/paula.jpg">
+            <div>
+                <h5>Paula Rojo - Directora</h5>
+                <p>Socia fundadora y gerenta de clientes en el Grupo Mi Voz, ejerció como CEO de Fundación Mercator, además como directora nacional de movimiento y participación ciudadana en Atina Chile.</p>
+                <p>
+                 <a class="btn btn-primary btn-xs" href="https://twitter.com/paularojo"><i class="fa fa-twitter"></i></a> 
+                 <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/profile/view?id=196439757"><i class="fa fa-linkedin"></i></a> 
+                
+                 <a class="btn btn-primary btn-xs" href="mailto:projo@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a> 
+                </p>
+            </div>
+        </div>
+        
+        
+    
+
+    
+        <div class="col-md-4">
+            <img src="/img/team/david.jpg">
+            <div>
+                <h5>David Sasaki - Director</h5>
+                <p></p>
+                <p>
+                
+                 <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/profile/view?id=10261037"><i class="fa fa-linkedin"></i></a> 
+                
+                 <a class="btn btn-primary btn-xs" href="mailto:dsasaki@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a> 
+                </p>
+            </div>
+        </div>
+        
+        
+    
+
+    
+        <div class="col-md-4">
+            <img src="/img/team/agustin.png">
+            <div>
+                <h5>Agustin Villena - Director</h5>
+                <p>Computin transmutado en Hacker de Culturas. Practicante de la Agilidad y el Lean Thinking. Interesado en compartir conocimiento y la colaboración abierta para el bien común.</p>
+                <p>
+                 <a class="btn btn-primary btn-xs" href="https://twitter.com/agustinvillena"><i class="fa fa-twitter"></i></a> 
+                 <a class="btn btn-primary btn-xs" href="http://cl.linkedin.com/in/agustinvillena"><i class="fa fa-linkedin"></i></a> 
+                
+                 <a class="btn btn-primary btn-xs" href="mailto:avillena@ciudadanointeligente.org" target="_top"><i class="fa fa-envelope"></i></a> 
+                </p>
+            </div>
+        </div>
+        
+        </div>
+        <div class="row team">
+        
+        
+    
+
 </div>
                 </div>
                 <div class="modal-footer">

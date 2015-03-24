@@ -12,5 +12,9 @@ markdown: kramdown
 permalink: pretty
 
 collections:
+  rockstars:
+    output: true
   projects:
+    output: true
+  board_members:
     output: true
