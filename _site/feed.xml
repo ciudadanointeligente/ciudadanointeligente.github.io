@@ -6,7 +6,7 @@
     <title>Fundación Ciudadano Inteligente</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Usamos tecnología para transparentar y participar en democracia, trabajamos para trasladar poder desde los pocos hacia los muchos.">
-    <link rel="canonical" href="">
+    <link rel="canonical" href="" />
     <!-- open graph -->
     <meta property="og:title" content="Fundación Ciudadano Inteligente">
     <meta property="og:type" content="website">
@@ -22,11 +22,11 @@
     <meta name="twitter:image" content="http:/img/logo-fci-600x600.png">
     <!-- custom CSS -->
     <link rel="stylesheet" type="text/css" href="/css/projects.css" />
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
     <link rel="stylesheet" type="text/css" href="/css/animate.min.css" />
-    <link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css'/>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css' />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
     <!-- Js -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
@@ -35,10 +35,6 @@
     <script src="/js/main.js"></script>
     <script src="/js/jquery.scrollTo.js"></script>
 </head>
-    <!-- <div class="notificaciones">
-        <div class="alert alert-success" role="alert">Mira nuestro nuevo proyecto!!!<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button></div>
-    <script type="text/javascript">$(".alert").alert()</script>
-</div> -->
     <body>
         <header id="header" class="site-header">
     <div id="menu" class="header-menu fixed">
@@ -47,25 +43,25 @@
             <nav role="navigation" class="col-sm-12">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
-                    <!--== Logo ==-->
+                    <!-- logo-->
                     <span class="navbar-brand logo">
-                    <img src="/img/logo-ciudadanoi.png">
+                        <img src="/img/logo-ciudadanoi.png">
                     </span>
                 </div>
                 <div class="navbar-collapse collapse">
-                    <!--== Navigation Menu ==-->
+                    <!-- navigation menu-->
                     <ul class="nav navbar-nav">
                         <li class="current"><a href="#header">Inicio</a></li>
                         <li><a href="#proyectos">Proyectos</a></li>
                         <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
                         <li><a href="#transparencia">Transparencia</a></li>
                         <li><a href="http://blog.ciudadanointeligente.org/" target="_blank" class="gn-icon gn-icon-blog">Blog</a></li>
-                        <li><a href="#newsletter">Suscripción y Contacto</a></li>
+                        <li><a href="#newsletter">Suscripción y contacto</a></li>
                     </ul>
                 </div>
             </nav>
@@ -75,9 +71,9 @@
     <div id="bgvid" class="video-wrapper">
         <section id="inicio">
             <video class="bgvid" loop muted autoplay poster="/img/team-vid.jpg">
-                <source src="/vid/LoopWeb.webm"type="video/webm">
-                <source src="/vid/LoopWeb.mp4" type="video/mp4">
-                <source src="/vid/LoopWeb.ogv" type="video/ogg">
+                <source src="/video/LoopWeb.webm"type="video/webm">
+                <source src="/video/LoopWeb.mp4" type="video/mp4">
+                <source src="/video/LoopWeb.ogv" type="video/ogg">
 
                 <p>Your browser does not support HTML5 video.</p>
             </video>
@@ -102,43 +98,42 @@
     </div>
     <!-- AUTOSCROLL -->
     <script type="text/javascript">
-    $(document).ready(function(){
-    $('a[href^="#"]').on('click',function (e) {
-    e.preventDefault();
-    var target = this.hash,
-    $target = $(target);
-    $('html, body').stop().animate({
-    'scrollTop': $target.offset().top
-    }, 900, 'swing', function () {
-    window.location.hash = target;
-    });
-    });
-    });
+        $(document).ready(function(){
+        $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+        var target = this.hash,
+        $target = $(target);
+        $('html, body').stop().animate({
+        'scrollTop': $target.offset().top
+        }, 900, 'swing', function () {
+        window.location.hash = target;
+        });
+        });
+        });
     </script>
     <!-- SCROLL TO TOP -->
     <script>
-    jQuery(document).ready(function() {
-    var offset = 200;
-    var duration = 500;
-    jQuery(window).scroll(function() {
-    if (jQuery(this).scrollTop() > offset) {
-    jQuery('.scroll-to-top').fadeIn(duration);
-    } else {
-    jQuery('.scroll-to-top').fadeOut(duration);
-    }
-    });
+        jQuery(document).ready(function() {
+        var offset = 200;
+        var duration = 500;
+        jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+        jQuery('.scroll-to-top').fadeIn(duration);
+        } else {
+        jQuery('.scroll-to-top').fadeOut(duration);
+        }
+        });
 
-    jQuery('.scroll-to-top').click(function(event) {
-    event.preventDefault();
-    jQuery('html, body').animate({scrollTop: 0}, duration);
-    return false;
-    })
-    });
+        jQuery('.scroll-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+        })
+        });
     </script>
 </header>
 
-        <div class="scroll-to-top">
-        </div>
+        <div class="scroll-to-top"></div>
         <div class="container content">
             <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
