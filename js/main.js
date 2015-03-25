@@ -1,14 +1,10 @@
 (function($) {
     "use strict";
-    ///////////////////////////////////////////////////// Your
-    var venueAddress = "Liber Bernardo O'Higgins 227, Santiago"; // Venue
-    var placeName = "Centro Gabriela Mistral";
-    /////////////////////////////////////////////////// Adress
     var fn = {
         // Launch Functions
         Launch: function() {
             fn.MenuSticky();
-            fn.Navigation();
+            // fn.Navigation();
         },
         // Sticky Menu
         MenuSticky: function() {
