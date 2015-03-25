@@ -3,8 +3,8 @@
     <ul id="og-grid" class="og-grid">
         {% for project in site.projects %}
         <li>
-            <a href="{{ project.site_url }}" data-largesrc="{{ project.img }}" data-title="{{ project.title }}" data-description="{{ project.description }}" data-siteurl="{{ project.site_url }}">
-                <img src="{{ project.thumb }}" alt="{{ project.img }}"/>
+            <a href="{{ project.site_url }}" data-largesrc="img/projects/{{ project.img }}" data-title="{{ project.title }}" data-description="{{ project.description }}" data-siteurl="{{ project.site_url }}">
+                <img src="img/projects/thumbs/{{ project.thumb }}" alt="img/projects/{{ project.img }}"/>
                 <div class="{{ project.status }}">{{ project.status }}</div>
             </a>
         </li>

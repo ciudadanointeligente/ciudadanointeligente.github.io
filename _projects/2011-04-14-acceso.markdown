@@ -1,10 +1,8 @@
 ---
-layout: post
-title:  "Acceso Inteligente"
-date:   2011-04-14 14:46:22
-categories: project
-img: img/projects/acceso.png
-thumb: img/projects/thumbs/acceso-thumb.png
+title: Acceso Inteligente
+date: 2011-04-14 14:46:22
+img: acceso.png
+thumb: acceso-thumb.png
 description: El proyecto Acceso Inteligente es la primera plataforma web de Chile que centraliza el sistema de solicitudes de información en línea, promoviendo la demanda de solicitudes de información pública desde la ciudadanía, así como visibilizando dichas peticiones.
 site_url: /project/2011/04/14/acceso/
 status: archivado

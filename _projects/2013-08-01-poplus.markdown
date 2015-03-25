@@ -1,10 +1,8 @@
 ---
-layout: post
-title:  "Poplus"
-date:   2013-08-01 14:46:22
-categories: project
-img: img/projects/poplus.png
-thumb: img/projects/thumbs/poplus-thumb.png
+title: Poplus
+date: 2013-08-01 14:46:22
+img: poplus.png
+thumb: poplus-thumb.png
 description: Plataforma de desarrollo de aplicaciones con fines civicos.
 site_url: http://poplus.org
 status: activo

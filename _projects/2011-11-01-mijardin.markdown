@@ -1,10 +1,8 @@
 ---
-layout: post
-title:  "Por qué en mi jardín"
-date:   2011-11-01 14:46:22
-categories: project
-img: img/projects/mijardin.png
-thumb: img/projects/thumbs/mijardin-thumb.png
+title: Por qué en mi jardín
+date: 2011-11-01 14:46:22
+img: mijardin.png
+thumb: mijardin-thumb.png
 description: Programa de televisión que fomenta temas ciudadanos.
 site_url: /project/2011/11/01/mijardin/
 status: archivado
