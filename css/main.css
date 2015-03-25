@@ -921,6 +921,10 @@ li.current {
   font-size: 14px;
 }
 
+.menu-interno {
+  text-align: center;
+}
+
 /*Pantallas*/
 
 @media (max-width: 1300px) {
