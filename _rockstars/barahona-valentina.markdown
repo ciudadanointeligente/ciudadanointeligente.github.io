@@ -1,7 +1,7 @@
 ---
 name: Valentina Barahona
 function:
-bio:
+bio: Oli!
 image: fiera.png
 email: vbarahona@ciudadanointeligente.org
 network_twitter:
