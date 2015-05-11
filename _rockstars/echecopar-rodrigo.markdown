@@ -7,5 +7,5 @@ email: rechecopar@ciudadanointeligente.org
 network_twitter: https://twitter.com/r_echecopar
 network_github:https://github.com/rechecopar
 network_facebook:https://www.facebook.com/rechecopar
-active: false
+active: true
 ---
