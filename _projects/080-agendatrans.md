@@ -1,4 +1,5 @@
 ---
+layout: projects-history
 title: Agenda Transparencia
 date: 2015-07-07 00:00:01
 img: agendatrans.png

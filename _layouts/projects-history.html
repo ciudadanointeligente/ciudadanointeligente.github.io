@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body>
+        {% include nav.html %}
+
+        <div class="scroll-to-top"></div>
+        <div class="content">
+                mapa
+            <div class="container">
+                <h2 class="text-center">{{ page.title }}</h2>
+                <p>{{ page.description }}</p>
+            </div>
+
+            {{ content }}
+
+        </div>
+        {% include footer.html %}
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5433f951335f264a" async></script>
+        <!-- Google Analytics: change site.analytics to be your site's ID. -->
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', "{{ site.analytics }}", "{{ site.basedomain }}");
+        ga('require', 'displayfeatures');
+        ga('send', 'pageview');
+        </script>
+        <script src="//my.hellobar.com/d048afc9e5c3fc453169b16f161c0b315678028c.js" type="text/javascript" charset="utf-8" async="async"></script>
+    </body>
+</html>
+
