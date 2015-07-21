@@ -14,9 +14,17 @@
               <div class="container">
                   <h2 class="text-center">{{ page.title }}</h2>
                   <p>{{ page.description }}</p>
-                  <div class="col-md-7 browser"><img src="http://placehold.it/530x265"></div>
-                  <div class="col-md-5">
-                    <blockquote>bla</blockquote>
+                  <div class="row">
+                    <div class="col-md-7 browser"><img src="{{ site.baseurl }}/img/projects/mockups/{{ page.mockup }}"></div>
+                    <div class="col-md-5">
+                      <p class="mockup-txt">
+                        <ol>
+                          {% for p in page.mockup-text %}
+                            <li>{{ p.txt }}</li>
+                          {% endfor %}
+                        </ol>
+                      </p>
+                    </div>
                   </div>
               </div>
             </div>

@@ -957,6 +957,15 @@ li.current {
   margin-top: -6px;
 }
 
+.project-mockup .row {
+  margin-top: 80px;
+}
+
+.mockup-txt {
+  border-left: 4px solid #FF7F72;
+  padding-left: 12px
+}
+
 /*Pantallas*/
 
 @media (max-width: 1300px) {
