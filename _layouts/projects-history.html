@@ -27,6 +27,32 @@
               </div>
             </div>
 
+            {% for proyecto in page.proyectos %}
+            <div class="project-history">
+                <div class="row">
+                  <div class="container">
+                    {% for img in proyecto.img %}
+                    <div class="col-md-7 browser"><img src="{{ img.txt }}"></div>
+                    {% endfor %}
+                    
+                    <div class="col-md-5">
+                      <h4>{{ proyecto.name }}</h4>
+                      {% for link in proyecto.link %}
+                        <small><a href="{{ link.txt }}">ver sitio</a></small>
+                      {% endfor %}
+                      {% for date in proyecto.date %}
+                        <small> | {{ date.txt }}</small>
+                      {% endfor %}
+                      {% for history in proyecto.history %}
+                        <p>{{ history.txt }}</p>
+                      {% endfor %}
+                    </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+
+
             {{ content }}
 
         </div>

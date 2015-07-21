@@ -22,4 +22,23 @@ mockup_txt:
   - txt: Promesas con sus estados de cumplimiento y documentos de verificación.
   - txt: A partir de la segunda categoría las promesas se encuentran ocultas para facilitar una visión más general. Para ver el detalle se debe expandir la caja contenedora.
   - txt: Footer. Puede contener información de contacto, logos de autores del sitio, etc.
+proyectos:
+  - name: proyecto 01
+    img:
+      - txt: http://placehold.it/500x265   
+    link:
+      - txt: http://deldichoalhecho.cl
+    date:
+      - txt: 00/11/22
+    history:
+      - txt: Minions ipsum hahaha hana dul sae hahaha poulet tikka masala tank yuuu! Bappleees underweaaar poopayee. Poopayee pepete potatoooo tulaliloo tulaliloo bee do bee do bee do bee do bee do bee do.
+  - name: proyecto 02
+    img:
+      - txt: http://placehold.it/530x265  
+    link:
+      - txt: http://deldichoalhecho.cl
+    date:
+      - txt: 11/22/33
+    history:
+      - txt: Ipsum hahaha hana dul sae hahaha poulet tikka masala tank yuuu! Bappleees underweaaar poopayee. Poopayee pepete potatoooo tulaliloo tulaliloo bee do bee do bee do bee do bee do bee do.
 ---
