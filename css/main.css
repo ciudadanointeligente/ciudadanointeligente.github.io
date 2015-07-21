@@ -951,6 +951,12 @@ li.current {
   background: #313160;
 }
 
+.project-mockup {
+  background-color: #E85343;
+  padding: 90px 0;
+  margin-top: -6px;
+}
+
 /*Pantallas*/
 
 @media (max-width: 1300px) {

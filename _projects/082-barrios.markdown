@@ -12,7 +12,7 @@ status: activo
 <div class="project-history">
   <div class="row">
     <div class="container">
-      <div class="col-md-7"><img src="http://placehold.it/530x265"></div>
+      <div class="col-md-7 browser"><img src="http://placehold.it/530x265"></div>
       <div class="col-md-5">
         <h4>Barrios en Acción</h4>
         <small><a href="/">ver sitio</a> | {{ page.date }}</small>
@@ -24,7 +24,7 @@ status: activo
   <div class="row">
     <div class="container">
       <div class="col-md-7 browser"><img src="http://placehold.it/530x265"></div>
-      <div class="col-md-5"><h4>Barrios en Acción</h4>
+      <div class="col-md-5"><h4>Bellavista en Acción</h4>
         <small><a href="/">ver sitio</a> | {{ page.date }}</small>
       </div>
     </div>
