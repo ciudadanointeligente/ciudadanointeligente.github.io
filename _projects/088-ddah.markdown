@@ -8,7 +8,18 @@ description: Del Dicho al Hecho es un estudio que realiza un análisis detallado
 site_url: http://deldichoalhecho.cl
 status: activo
 mockup: ddah-mock.png
-mockup-txt:
+mockup_txt:
   - txt: Logo o nombre del sitio.
-  - txt: menú para páginas extra.
+  - txt: Menú para páginas extra o links externos.
+  - txt: Imagen que ilustra la temática del sitio.
+  - txt: Gráfico que muestra el % de cumplimiento total.
+  - txt: Título del estudio o edición.
+  - txt: Botones para compartir el sitio redes sociales
+  - txt: Introducción.
+  - txt: Filtros temáticos por categoría
+  - txt: Título de categoría y cantidad de promesas
+  - txt: Gráfico con % de cumplimiento por categoría 
+  - txt: Promesas con sus estados de cumplimiento y documentos de verificación.
+  - txt: A partir de la segunda categoría las promesas se encuentran ocultas para facilitar una visión más general. Para ver el detalle se debe expandir la caja contenedora.
+  - txt: Footer. Puede contener información de contacto, logos de autores del sitio, etc.
 ---

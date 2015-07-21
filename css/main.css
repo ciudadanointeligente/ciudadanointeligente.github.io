@@ -962,8 +962,34 @@ li.current {
 }
 
 .mockup-txt {
-  border-left: 4px solid #FF7F72;
-  padding-left: 12px
+  z-index: 1;
+  padding-left: 45px;
+}
+
+.mockup-txt ol {
+  counter-reset: item;
+  list-style-type: none;
+}
+
+.mockup-txt li {
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.mockup-txt li:before {
+  font-size: 14px;
+  background: #FF7F72;
+  border-radius: 17px;
+  padding: 1px 8px;
+  position: absolute;
+  z-index: -1;
+  left: -33px;
+  top: 0px;
+  content: counter(item) " ";
+  counter-increment: item;
+  width: 25px;
+  height: 25px;
 }
 
 /*Pantallas*/

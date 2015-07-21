@@ -16,14 +16,12 @@
                   <p>{{ page.description }}</p>
                   <div class="row">
                     <div class="col-md-7 browser"><img src="{{ site.baseurl }}/img/projects/mockups/{{ page.mockup }}"></div>
-                    <div class="col-md-5">
-                      <p class="mockup-txt">
+                    <div class="col-md-5 mockup-txt">
                         <ol>
-                          {% for p in page.mockup-text %}
+                          {% for p in page.mockup_txt %}
                             <li>{{ p.txt }}</li>
                           {% endfor %}
                         </ol>
-                      </p>
                     </div>
                   </div>
               </div>
