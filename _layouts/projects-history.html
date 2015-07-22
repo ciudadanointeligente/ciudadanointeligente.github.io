@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body>
+        {% include nav.html %}
+
+        <div class="scroll-to-top"></div>
+        <div class="content">
+            <!-- Map -->
+            <iframe width='100%' height='300px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/camargozzini.mp89dpi2/attribution,zoomwheel.html?access_token=pk.eyJ1IjoiY2FtYXJnb3p6aW5pIiwiYSI6InhXRjdLamcifQ.Gdafit2TZ0SSH_LS0dt2qg'></iframe>
+            <!-- End map -->
+
+
+            <div class="project-mockup">
+              <div class="container">
+                <!-- Single button -->
+                <div class="btn-group pull-right">
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Elige un proyecto <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="{{ site.baseurl }}/projects/088-ddah.html">Del dicho al hecho</a></li>
+                    <!-- <li><a href="{{ site.baseurl }}/projects/090-votainteligente.html">Votainteligente</a></li> -->
+                  </ul>
+                </div>
+                  <h2 class="text-center">{{ page.title }}</h2>
+                  <p>{{ page.description }}</p>
+                  <div class="row">
+                    <div class="col-md-7 browser"><img src="{{ site.baseurl }}/img/projects/mockups/{{ page.mockup }}"></div>
+                    <div class="col-md-5 mockup-txt">
+                        <ol>
+                          {% for p in page.mockup_txt %}
+                            <li>{{ p.txt }}</li>
+                          {% endfor %}
+                        </ol>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="project-history">
+            {% for proyecto in page.proyectos %}
+                <div class="row">
+                  <div class="container">
+                    {% for img in proyecto.img %}
+                    <div class="col-md-7 browser"><img src="{{ site.baseurl }}/img/projects/screenshots/{{ img.txt }}"></div>
+                    {% endfor %}
+                    
+                    <div class="col-md-5">
+                      <h4>{{ proyecto.name }}</h4>
+                      {% for link in proyecto.link %}
+                        <small><a href="{{ link.txt }}" target="_blank">ver sitio</a></small>
+                      {% endfor %}
+                      {% for date in proyecto.date %}
+                        <small> | {{ date.txt }}</small>
+                      {% endfor %}
+                      {% for history in proyecto.history %}
+                        <p>{{ history.txt }}</p>
+                      {% endfor %}
+                    </div>
+                </div>
+              </div>
+            {% endfor %}
+            </div>
+
+
+            {{ content }}
+
+        </div>
+        {% include footer.html %}
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5433f951335f264a" async></script>
+        <!-- Google Analytics: change site.analytics to be your site's ID. -->
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', "{{ site.analytics }}", "{{ site.basedomain }}");
+        ga('require', 'displayfeatures');
+        ga('send', 'pageview');
+        </script>
+        <script src="//my.hellobar.com/d048afc9e5c3fc453169b16f161c0b315678028c.js" type="text/javascript" charset="utf-8" async="async"></script>
+    </body>
+</html>
+

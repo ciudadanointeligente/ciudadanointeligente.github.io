@@ -917,11 +917,94 @@ li.current {
 }
 
 .nav>li>a {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .menu-interno {
   text-align: center;
+}
+
+/*Project history*/
+
+.browser {
+  position: relative;
+}
+
+.browser img {
+  width: 100%;
+  border-top: 20px solid #E5E5E5;
+  border-radius: 6px 6px 0 0;
+}
+
+.browser:before {
+  position: absolute;
+  content: url(../img/browser-border.svg);
+  top: -3px;
+  left: 20px;
+}
+
+.project-history .row {
+  padding: 90px 0 0;
+}
+
+.project-history .row:nth-child(even) {
+  background: #313160;
+}
+
+.project-mockup {
+  background-color: #E85343;
+  padding: 90px 0;
+  margin-top: -6px;
+}
+
+.project-mockup .row {
+  margin-top: 80px;
+}
+
+.mockup-txt {
+  z-index: 1;
+  padding-left: 45px;
+}
+
+.mockup-txt ol {
+  counter-reset: item;
+  list-style-type: none;
+}
+
+.mockup-txt li {
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.mockup-txt li:before {
+  font-size: 14px;
+  background: #FF7F72;
+  border-radius: 17px;
+  padding: 1px 8px;
+  position: absolute;
+  z-index: -1;
+  left: -33px;
+  top: 0px;
+  content: counter(item) " ";
+  counter-increment: item;
+  width: 25px;
+  height: 25px;
+}
+
+.project-mockup .btn-primary {
+    background-color: #ffffff;
+    color: #e85343;
+  transition: background-color .3s ease-in;
+  -moz-transition: background-color .3s ease-in;
+  -webkit-transition: background-color .3s ease-in;
+  padding: 10px 20px;
+}
+
+.project-mockup .btn-primary:hover, .project-mockup .btn-primary:focus, .project-mockup .btn-primary:active, .project-mockup .btn-primary.active, .project-mockup .open .dropdown-toggle.btn-primary {
+    background-color: #77B5BF;
+    color: #ffffff;
+  border-color: transparent;
 }
 
 /*Pantallas*/
