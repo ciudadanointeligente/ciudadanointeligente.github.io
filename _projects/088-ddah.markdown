@@ -23,6 +23,87 @@ mockup_txt:
   - txt: A partir de la segunda categoría las promesas se encuentran ocultas para facilitar una visión más general. Para ver el detalle se debe expandir la caja contenedora.
   - txt: Footer. Puede contener información de contacto, logos de autores del sitio, etc.
 proyectos:
+  - name: Discurso 21 de Mayo 2015 Bachelet
+    img:
+      - txt: ddah10.png
+    link:
+      - txt: http://deldichoalhecho.cl/
+    date:
+      - txt: Mayo 2015
+    history:
+      - txt: Bienvenido al sitio de monitoreo y rendición de cuentas de Ciudadano Inteligente. A continuación encontrarás el balance de cumplimiento de las promesas en materia legislativa del 21 de mayo de la Presidenta Bachelet al 2015.
+  - name: Promesas de infancia Niños Ahora
+    img:
+      - txt: ddah-infancia.png
+    link:
+      - txt: http://sabias.cl/
+    date:
+      - txt: Mayo 2015
+    history:
+      - txt: En conjunto con la Fundación Niños Ahora creamos este es el sitio de monitoreo de las promesas de gobierno sobre infancia y adolescencia.
+  - name: Programa de gobierno Bachelet estudio 2015
+    img:
+      - txt: ddah09.png
+    link:
+      - txt: http://primerano2015.deldichoalhecho.cl/
+    date:
+      - txt: Marzo 2015
+    history:
+      - txt: Bienvenido al sitio de monitoreo y rendición de cuentas de Ciudadano Inteligente. A continuación encontrarás en balance de cumplimiento del primer año de gestión de la Presidenta Bachelet.
+  - name: Cumplimiento primeros 100 días
+    img:
+      - txt: ddah08.png
+    link:
+      - txt: http://deldichoalhecho.herokuapp.com/
+    date:
+      - txt: Mayo 2014
+    history:
+      - txt: Bienvenido al sitio de monitoreo y rendición de cuentas de Ciudadano Inteligente. A continuación encontrarás la medición del cumplimiento de las 56 promesas de los 100 primeros días de la Presidenta Bachelet.
+  - name: Discurso 21 de Mayo 2014 Bachelet
+    img:
+      - txt: ddah07.png
+    link:
+      - txt: http://21m14.deldichoalhecho.cl/
+    date:
+      - txt: Mayo 2014
+    history:
+      - txt: Durante la Cuenta Pública estuvimos tomando notas respecto a las promesas que iban siendo enunciadas.
+  - name: Cierre de Gobierno Piñera  estudio 2014
+    img:
+      - txt: ddah06.png
+    link:
+      - txt: http://anteriores.deldichoalhecho.cl/cumplimiento-pinera-2010-2014/
+    date:
+      - txt: Marzo 2014
+    history:
+      - txt: Durante los cuatro años de gobierno del Presidente Sebastián Piñera, Ciudadano Inteligente ha llevado a cabo seis estudios de cumplimiento de promesas en materia legislativa. El estudio que presentamos en esta oportunidad tiene por objeto cerrar un ciclo, y permitir que cada ciudadano analice los resultados y saque sus propias conclusiones ante la pregunta que nos hemos planteado para esta edición ¿Cuánto cumplió el Presidente Piñera?
+  - name: Discurso 21 de Mayo 2013 Piñera
+    img:
+      - txt: ddah05.png
+    link:
+      - txt: http://anteriores.deldichoalhecho.cl/cumplimiento-de-promesas-discurso-21m-2013/
+    date:
+      - txt: Mayo 2013
+    history:
+      - txt: El estudio presentado en este sitio, representa un análisis del cumplimiento de las promesas de gobierno en materia legislativa. Es decir, el cumplimiento de todas aquellas promesas del discurso vinculadas a la promoción y aprobación de un determinado proyecto de ley.
+  - name: Programa de gobierno Piñera estudio 2013
+    img:
+      - txt: ddah04.png
+    link:
+      - txt: http://anteriores.deldichoalhecho.cl/cumplimiento-programa-de-gobierno-en-materia-legislativa-al-2013/
+    date:
+      - txt: Marzo 2013
+    history:
+      - txt: DelDichoAlHecho.cl nace como un ejercicio de fiscalización ciudadana a la labor de nuestras autoridades, porque sabemos que la rendición de cuentas fortalece nuestra democracia y le otorga legitimidad a la gestión de nuestros representantes.
+  - name: Discurso 21 de Mayo 2012 Piñera
+    img:
+      - txt: ddah03.png
+    link:
+      - txt: http://anteriores.deldichoalhecho.cl/cumplimiento-de-promesas-discurso-21m-2011/
+    date:
+      - txt: Mayo 2012
+    history:
+      - txt: Análisis detallado del cumplimiento del discurso del 21 de mayo del 2011 en materia legislativa con datos comparativos con el avance del cumplimiento del discurso del 2010 a la fecha. La edición 2012 del cumplimiento de las promesas del 21 de mayo se calcula a partir de la construcción de un índice, el que señala que, en materia legislativa, se ha cumplido un 56% de lo anunciado por el Presidente en su discurso del año 2011.
   - name: Programa de gobierno Piñera estudio 2012
     img:
       - txt: ddah02.png

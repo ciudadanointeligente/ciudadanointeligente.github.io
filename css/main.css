@@ -926,8 +926,17 @@ li.current {
 
 /*Project history*/
 
+
+.project-history h3 {
+    margin: 100px 0 -50px;
+}
+
 .browser {
   position: relative;
+}
+
+.col-md-7.browser {
+    padding-left: 0px;
 }
 
 .browser img {
@@ -947,7 +956,7 @@ li.current {
   padding: 90px 0 0;
 }
 
-.project-history .row:nth-child(even) {
+.project-history .row:nth-child(odd) {
   background: #313160;
 }
 
