@@ -23,22 +23,22 @@ mockup_txt:
   - txt: A partir de la segunda categoría las promesas se encuentran ocultas para facilitar una visión más general. Para ver el detalle se debe expandir la caja contenedora.
   - txt: Footer. Puede contener información de contacto, logos de autores del sitio, etc.
 proyectos:
-  - name: proyecto 01
+  - name: Programa de gobierno Piñera estudio 2012
     img:
-      - txt: http://placehold.it/500x265   
+      - txt: ddah02.png
     link:
-      - txt: http://deldichoalhecho.cl
+      - txt: http://anteriores.deldichoalhecho.cl/programa-de-gobierno-2012/
     date:
-      - txt: 00/11/22
+      - txt: Marzo 2012
     history:
-      - txt: Minions ipsum hahaha hana dul sae hahaha poulet tikka masala tank yuuu! Bappleees underweaaar poopayee. Poopayee pepete potatoooo tulaliloo tulaliloo bee do bee do bee do bee do bee do bee do.
-  - name: proyecto 02
+      - txt: Análisis detallado del Programa de Gobierno en materia legislativa, y la revisión del estado de cumplimiento de dicho Programa al cumplirse dos años de Gobierno. El estudio realizado por la Fundación Ciudadano Inteligente sólo incluye promesas que implican iniciativas de ley, no abarcando otros aspectos de la gestión ejecutiva, al no existir suficiente información sobre aspectos que nos permitan fiscalizar la gestión pública.
+  - name: Discurso 21 de Mayo 2011 Piñera
     img:
-      - txt: http://placehold.it/530x265  
+      - txt: ddah01.png
     link:
-      - txt: http://deldichoalhecho.cl
+      - txt: http://21demayo.ciudadanointeligente.cl/Intro.html
     date:
-      - txt: 11/22/33
+      - txt: Mayo 2011
     history:
-      - txt: Ipsum hahaha hana dul sae hahaha poulet tikka masala tank yuuu! Bappleees underweaaar poopayee. Poopayee pepete potatoooo tulaliloo tulaliloo bee do bee do bee do bee do bee do bee do.
+      - txt: Queremos entregar a la ciudadanía información completa y detallada sobre el cumplimiento de los compromisos presidenciales asumidos por el Presidente en la cuenta pública del 2010, de modo que la propia ciudadanía pueda utilizar estos datos para fijar un criterio de evaluación sobre la gestión del Gobierno.  Este estudio centra su análisis en la capacidad legislativa del Gobierno para cumplir con sus promesas presidenciales.
 ---

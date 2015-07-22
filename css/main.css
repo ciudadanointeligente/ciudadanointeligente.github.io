@@ -992,6 +992,21 @@ li.current {
   height: 25px;
 }
 
+.project-mockup .btn-primary {
+    background-color: #ffffff;
+    color: #e85343;
+  transition: background-color .3s ease-in;
+  -moz-transition: background-color .3s ease-in;
+  -webkit-transition: background-color .3s ease-in;
+  padding: 10px 20px;
+}
+
+.project-mockup .btn-primary:hover, .project-mockup .btn-primary:focus, .project-mockup .btn-primary:active, .project-mockup .btn-primary.active, .project-mockup .open .dropdown-toggle.btn-primary {
+    background-color: #77B5BF;
+    color: #ffffff;
+  border-color: transparent;
+}
+
 /*Pantallas*/
 
 @media (max-width: 1300px) {

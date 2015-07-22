@@ -1,4 +1,5 @@
 ---
+layout: projects-history
 title: Votainteligente
 date: 2013-10-01 14:46:22
 img: votainteligente.png
