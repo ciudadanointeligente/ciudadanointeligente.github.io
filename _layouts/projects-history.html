@@ -20,7 +20,7 @@
                   </button>
                   <ul class="dropdown-menu">
                     <li><a href="{{ site.baseurl }}/projects/088-ddah.html">Del dicho al hecho</a></li>
-                    <!-- <li><a href="{{ site.baseurl }}/projects/090-votainteligente.html">Votainteligente</a></li> -->
+                    <li><a href="{{ site.baseurl }}/projects/090-votainteligente.html">Votainteligente</a></li>
                   </ul>
                 </div>
                   <h2 class="text-center">{{ page.title }}</h2>
@@ -52,7 +52,9 @@
                     <div class="col-md-5">
                       <h4>{{ proyecto.name }}</h4>
                       {% for link in proyecto.link %}
-                        <small><a href="{{ link.txt }}" target="_blank">ver sitio</a></small>
+                        {% if proyecto.link %}
+                          <small><a href="{{ link.txt }}" target="_blank">Ver sitio</a></small>
+                        {% endif %}
                       {% endfor %}
                       {% for date in proyecto.date %}
                         <small> | {{ date.txt }}</small>

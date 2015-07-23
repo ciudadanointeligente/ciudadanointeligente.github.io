@@ -7,4 +7,73 @@ thumb: votainteligente-thumb.png
 description: Vota Inteligente es un espacio de información y comunicación entre ciudadanos y candidatos, al igual que una herramienta abierta y adaptable a todos los distintos escenarios electorales. Su objetivo principal es ayudar a resolver dudas respecto a las elecciones, abrir y explicar las propuestas de los candidatos, compararlos, escribirles dudas o inquietudes, así como también ser el lugar donde puedes encontrar a el/la candidato/a que mejor represente tus intereses individuales. Diseñado como un kit de herramientas ciudadanas, la interacción a través de sus componentes permite a la ciudadanía ejercer un rol activo más allá del acto de votar en las elecciones, abriendo otros canales de participación.
 site_url: http://votainteligente.cl
 status: activo
+mockup: votainteligente-mock.png
+mockup_txt:
+  - txt: Logo o nombre del sitio.
+  - txt: Menú a páginas de información extra.
+  - txt: Frase llamativa e introductoria.
+  - txt: Espacio para elección o elecciónes destacadas. Contiene una galería dinámica que va mostrando a los diferentes candidatos de la elección.
+  - txt: Nombre y descripción de la elección.
+  - txt: Buscador de elecciones.
+  - txt: Buscador para información de contacto y otros.
+proyectos:
+  - name: Voto Informado y Transparente, Bolivia
+    img:
+      - txt: vi07.png
+    link:
+      - txt: http://votoinformadobolivia.org/
+    date:
+      - txt: Octubre 2014
+    history:
+      - txt: Desarrollado para las Elecciones Generales donde los los bolivianos votarán por Presidente, Vice-presidente, Senadores, Diputados y representantes ante Organismos Supraestatales.
+  - name: Elige tu Candidato, Venezuela
+    img:
+      - txt: no-img.png
+    date:
+      - txt: 2013
+    history:
+      - txt: Desarrollado para las elecciones de Venezuela.
+  - name: A Quien Elegimos, Argentina
+    img:
+      - txt: vi05.png
+    link:
+      - txt: http://www.aquienelegimos.org/
+    date:
+      - txt: Octubre 2013
+    history:
+      - txt: Desarrollado para las elecciones de Senadores y Diputados en Argentina.
+  - name: Presidenciales Chile 2013
+    img:
+      - txt: vi04.png
+    link:
+      - txt: http://votainteligente.cl/
+    date:
+      - txt: 2013
+    history:
+      - txt: Desarrollado para las elecciones presidenciales, senatoriales y de COREs del 2013 en Chile.
+  - name: A Quienes Elegimos, Paraguay
+    img:
+      - txt: vi03.png
+    link:
+      - txt: http://paraguay.votainteligente.cl/
+    date:
+      - txt: 2013
+    history:
+      - txt: Desarrollado en conjunto con el Centro de Información y Recursos para el desarrollo (CIRD), para las elecciones de Presidente, Vicepresidente, Senadores y Parlasur de Paraguay el año 2013.
+  - name: Municipales Chile 2012
+    img:
+      - txt: vi02.png
+    link:
+      - txt: http://municipales2012.votainteligente.cl/#
+    date:
+      - txt: 2012
+    history:
+      - txt: Revisa y comparte información de tu comuna y candidatos.
+  - name: Presidenciales Argentina 2011
+    img:
+      - txt: no-img.png
+    date:
+      - txt: Octubre 2011
+    history:
+      - txt: Poder Ciudadano, CIPPEC y YoQuieroSaber junto a la Fundación Ciudadano Inteligente de Chile lanzaron la herramienta Vota Inteligente, para promover un voto informado y la participación ciudadana en las presidenciales del 2011. El objetivo es que los ciudadanos puedan evaluar las distintas propuestas y plataformas de los candidatos y saber con cuál de ellos tienen mayor afinidad política.
 ---
