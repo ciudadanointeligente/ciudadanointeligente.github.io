@@ -939,6 +939,13 @@ li.current {
   text-align: center;
 }
 
+.dropdown-menu {
+    margin: 4px 0 0;
+    border: none;
+    border: none;
+    border-radius: 0px;
+}
+
 /*Project history*/
 
 
