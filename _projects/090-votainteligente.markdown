@@ -4,7 +4,7 @@ title: Votainteligente
 date: 2013-10-01 14:46:22
 img: votainteligente.png
 thumb: votainteligente-thumb.png
-description: Vota Inteligente es un espacio de información y comunicación entre ciudadanos y candidatos, al igual que una herramienta abierta y adaptable a todos los distintos escenarios electorales. Su objetivo principal es ayudar a resolver dudas respecto a las elecciones, abrir y explicar las propuestas de los candidatos, compararlos, escribirles dudas o inquietudes, así como también ser el lugar donde puedes encontrar a el/la candidato/a que mejor represente tus intereses individuales. Diseñado como un kit de herramientas ciudadanas, la interacción a través de sus componentes permite a la ciudadanía ejercer un rol activo más allá del acto de votar en las elecciones, abriendo otros canales de participación.
+description: Vota Inteligente surge como un espacio de información y comunicación entre ciudadanos y candidatos, y como una herramienta abierta y adaptable a los distintos escenarios electorales. Su objetivo principal es generar un canal con información clara y comprensible que promueva el voto informado. A través de sus herramientas, es posible comparar las propuestas de los candidatos, encontrar a el/la candidato/a que mejor represente tus intereses individuales, y escribir directamente a equipos de campaña para plantearles dudas. De esta forma, la interacción a través de sus componentes permite a la ciudadanía ejercer un rol activo más allá del acto de votar en las elecciones, abriendo otros canales de participación.
 site_url: http://votainteligente.cl
 status: activo
 mockup: votainteligente-mock.png
@@ -12,7 +12,7 @@ mockup_txt:
   - txt: Logo o nombre del sitio.
   - txt: Menú a páginas de información extra.
   - txt: Frase llamativa e introductoria.
-  - txt: Espacio para elección o elecciónes destacadas. Contiene una galería dinámica que va mostrando a los diferentes candidatos de la elección.
+  - txt: Espacio para elección(es) destacadas, con galería dinámica de los candidatos.
   - txt: Nombre y descripción de la elección.
   - txt: Buscador de elecciones.
   - txt: Buscador para información de contacto y otros.
