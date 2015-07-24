@@ -28,7 +28,7 @@ proyectos:
       - txt: Desarrollado para las Elecciones Generales donde los los bolivianos votarán por Presidente, Vice-presidente, Senadores, Diputados y representantes ante Organismos Supraestatales.
   - name: Elige tu Candidato, Venezuela
     img:
-      - txt: no-img.png
+      - txt: vi06.png
     date:
       - txt: 2013
     history:
