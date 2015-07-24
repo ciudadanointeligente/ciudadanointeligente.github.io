@@ -76,4 +76,11 @@ proyectos:
       - txt: Octubre 2011
     history:
       - txt: Poder Ciudadano, CIPPEC y YoQuieroSaber junto a la Fundación Ciudadano Inteligente de Chile lanzaron la herramienta Vota Inteligente, para promover un voto informado y la participación ciudadana en las presidenciales del 2011. El objetivo es que los ciudadanos puedan evaluar las distintas propuestas y plataformas de los candidatos y saber con cuál de ellos tienen mayor afinidad política.
+  - name: Presidenciales Chile 2010
+    img:
+      - txt: vi01.png
+    date:
+      - txt: 2010
+    history:
+      - txt: Primer Votainteligente desarrollado para las elecciones presidenciales en Chile el 2010.
 ---
