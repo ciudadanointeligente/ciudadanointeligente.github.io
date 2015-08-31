@@ -3,7 +3,7 @@ name: Lissett García
 function: Diseñadora
 bio: 
 image: default.png
-email: lgarcia@ciudadanoi.org
+email: lgarcia@ciudadanointeligente.org
 network_twitter: 
 network_linkedin: 
 network_github:
