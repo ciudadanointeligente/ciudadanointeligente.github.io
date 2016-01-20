@@ -274,10 +274,27 @@ border-radius: 0px;
 /*PANEL*/
 .panel {
   border-radius: 0;
-  background: #18184c;
+  background-color: #e85343;
   border: none;
   padding: 15px;
+  -webkit-animation: background-color 2s infinite; /* Chrome, Safari, Opera */
+    animation: background-color 2s infinite;
 }
+
+  /* Chrome, Safari, Opera */
+  @-webkit-keyframes background-color {
+      0%   {background-color: #e85343}
+      50%  {background-color: #af2c58}
+      100%   {background-color: #e85343}
+  }
+
+  /* Standard syntax */
+  @keyframes background-color {
+      0%   {background-color:#e85343}
+      50%  {background-color: #af2c58}
+      100%   {background-color: #e85343}
+  }
+
 
 
 /* Layout Styles */
