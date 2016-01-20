@@ -271,6 +271,15 @@ border-radius: 0px;
   border-top: none;
 }
 
+/*PANEL*/
+.panel {
+  border-radius: 0;
+  background: #18184c;
+  border: none;
+  padding: 15px;
+}
+
+
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
