@@ -7,5 +7,5 @@ email: dsasaki@ciudadanointeligente.org
 network_twitter:
 network_linkedin: https://www.linkedin.com/profile/view?id=10261037
 network_github:
-active: true
+active: false
 ---
