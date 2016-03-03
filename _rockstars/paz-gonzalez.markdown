@@ -5,7 +5,7 @@ bio:
 image: default.png
 email: pgonzalez@ciudadanoi.org
 network_twitter:
-network_linkedin:
+network_linkedin: https://linkedin.com/pazgonzalez88
 network_github: https://github.com/pazgon
 network_googleplus:
 network_facebook:
