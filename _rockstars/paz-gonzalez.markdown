@@ -1,12 +1,12 @@
 ---
 name: Paz González
 function: Diseñadora
-bio: 
+bio:
 image: default.png
 email: pgonzalez@ciudadanoi.org
-network_twitter: 
-network_linkedin: 
-network_github: 
+network_twitter:
+network_linkedin:
+network_github: https://github.com/pazgon
 network_googleplus:
 network_facebook:
 network_instagram:
