@@ -1,14 +1,15 @@
 ---
 layout: projects-history
-title: Votainteligente
-date: 2013-10-01 14:46:22
-img: votainteligente.png
-thumb: votainteligente-thumb.png
-description: Vota Inteligente surge como un espacio de información y comunicación entre ciudadanos y candidatos, y como una herramienta abierta y adaptable a los distintos escenarios electorales. Su objetivo principal es generar un canal con información clara y comprensible que promueva el voto informado. A través de sus herramientas, es posible comparar las propuestas de los candidatos, encontrar a el/la candidato/a que mejor represente tus intereses individuales, y escribir directamente a equipos de campaña para plantearles dudas. De esta forma, la interacción a través de sus componentes permite a la ciudadanía ejercer un rol activo más allá del acto de votar en las elecciones, abriendo otros canales de participación.
-site_url: http://votainteligente.cl
-status: activo
-mockup: votainteligente-mock.png
-mockup_txt:
+proj_minisite: true
+proj_title: Votainteligente
+proj_date: 2013-10-01 14:46:22
+proj_img: votainteligente.png
+proj_thumb: votainteligente-thumb.png
+proj_description: Vota Inteligente surge como un espacio de información y comunicación entre ciudadanos y candidatos, y como una herramienta abierta y adaptable a los distintos escenarios electorales. Su objetivo principal es generar un canal con información clara y comprensible que promueva el voto informado. A través de sus herramientas, es posible comparar las propuestas de los candidatos, encontrar a el/la candidato/a que mejor represente tus intereses individuales, y escribir directamente a equipos de campaña para plantearles dudas. De esta forma, la interacción a través de sus componentes permite a la ciudadanía ejercer un rol activo más allá del acto de votar en las elecciones, abriendo otros canales de participación.
+proj_site_url: http://votainteligente.cl
+proj_status: activo
+proj_mockup: votainteligente-mock.png
+proj_mockup_txt:
   - txt: Logo o nombre del sitio.
   - txt: Menú a páginas de información extra.
   - txt: Frase llamativa e introductoria.
@@ -16,7 +17,7 @@ mockup_txt:
   - txt: Nombre y descripción de la elección.
   - txt: Buscador de elecciones.
   - txt: Buscador para información de contacto y otros.
-proyectos:
+proj_projects:
   - name: Voto Informado y Transparente, Bolivia
     img:
       - txt: vi07.png

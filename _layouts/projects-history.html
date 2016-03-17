@@ -7,7 +7,7 @@
         <div class="scroll-to-top"></div>
         <div class="content">
             <!-- Map -->
-          <iframe width='100%' height='300px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/camargozzini.mp89dpi2/attribution,zoompan.html?access_token=pk.eyJ1IjoiY2FtYXJnb3p6aW5pIiwiYSI6InhXRjdLamcifQ.Gdafit2TZ0SSH_LS0dt2qg'></iframe>
+          <iframe width='100%' height='300px' frameBorder='0' src='//a.tiles.mapbox.com/v4/camargozzini.mp89dpi2/attribution,zoompan.html?access_token=pk.eyJ1IjoiY2FtYXJnb3p6aW5pIiwiYSI6InhXRjdLamcifQ.Gdafit2TZ0SSH_LS0dt2qg'></iframe>
             <!-- End map -->
 
 
@@ -19,17 +19,20 @@
                     Elige un proyecto <span class="caret"></span>
                   </button>
                   <ul class="dropdown-menu">
-                    <li><a href="{{ site.baseurl }}/projects/088-ddah.html">Del dicho al hecho</a></li>
-                    <li><a href="{{ site.baseurl }}/projects/090-votainteligente.html">Votainteligente</a></li>
+                    {% for project in site.projects %}
+                      {% if project.proj_minisite %}
+                      <li><a href="{{ site.baseurl }}/{{project.url}}">{{project.proj_title}}</a></li>
+                      {% endif %}
+                    {% endfor %}
                   </ul>
                 </div>
-                  <h2 class="text-center">{{ page.title }}</h2>
-                  <p>{{ page.description }}</p>
+                  <h2 class="text-center">{{ page.proj_title }}</h2>
+                  <p>{{ page.proj_description }}</p>
                   <div class="row">
-                    <div class="col-md-7 browser"><img src="{{ site.baseurl }}/img/projects/mockups/{{ page.mockup }}"></div>
+                    <div class="col-md-7 browser"><img src="{{ site.baseurl }}/img/projects/mockups/{{ page.proj_mockup }}"></div>
                     <div class="col-md-5 mockup-txt">
                         <ol>
-                          {% for p in page.mockup_txt %}
+                          {% for p in page.proj_mockup_txt %}
                             <li>{{ p.txt }}</li>
                           {% endfor %}
                         </ol>
@@ -42,13 +45,13 @@
               <div class="container">
                   <h3>Ediciones</h3>
               </div>
-            {% for proyecto in page.proyectos %}
+            {% for proyecto in page.proj_projects %}
                 <div class="row">
                   <div class="container">
                     {% for img in proyecto.img %}
                     <div class="col-md-7 browser"><img src="{{ site.baseurl }}/img/projects/screenshots/{{ img.txt }}"></div>
                     {% endfor %}
-                    
+
                     <div class="col-md-5">
                       <h4>{{ proyecto.name }}</h4>
                       {% for link in proyecto.link %}

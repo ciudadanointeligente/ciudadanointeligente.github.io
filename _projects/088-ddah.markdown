@@ -1,14 +1,15 @@
 ---
 layout: projects-history
-title: Del dicho al hecho
-date: 2014-05-1 14:46:22
-img: ddah.png
-thumb: ddah-thumb.png
-description: Del Dicho al Hecho es un estudio que realiza un análisis detallado de las promesas establecidas por el Gobierno y una revisión del estado de cumplimiento legislativo y administrativo de éstas. Conscientes de las dificultades que tenemos los ciudadanos de ejercer nuestro derecho a exigir rendición de cuentas, nuestro estudio pretende empoderar a las personas y contribuir a la reducción de las brechas de información que hoy dificultan una fiscalización efectiva de nuestros representantes.
-site_url: http://deldichoalhecho.cl
-status: activo
-mockup: ddah-mock.png
-mockup_txt:
+proj_minisite: true
+proj_title: Del dicho al hecho
+proj_date: 2014-05-1 14:46:22
+proj_img: ddah.png
+proj_thumb: ddah-thumb.png
+proj_description: Del Dicho al Hecho es un estudio que realiza un análisis detallado de las promesas establecidas por el Gobierno y una revisión del estado de cumplimiento legislativo y administrativo de éstas. Conscientes de las dificultades que tenemos los ciudadanos de ejercer nuestro derecho a exigir rendición de cuentas, nuestro estudio pretende empoderar a las personas y contribuir a la reducción de las brechas de información que hoy dificultan una fiscalización efectiva de nuestros representantes.
+proj_site_url: http://deldichoalhecho.cl
+proj_status: activo
+proj_mockup: ddah-mock.png
+proj_mockup_txt:
   - txt: Logo o nombre del sitio.
   - txt: Menú para páginas extra o links externos.
   - txt: Imagen que ilustra la temática del sitio.
@@ -18,11 +19,11 @@ mockup_txt:
   - txt: Introducción.
   - txt: Filtros temáticos por categoría
   - txt: Título de categoría y cantidad de promesas
-  - txt: Gráfico con % de cumplimiento por categoría 
+  - txt: Gráfico con % de cumplimiento por categoría
   - txt: Promesas con sus estados de cumplimiento y documentos de verificación.
   - txt: A partir de la segunda categoría las promesas se encuentran ocultas para facilitar una visión más general. Para ver el detalle se debe expandir la caja contenedora.
   - txt: Footer. Puede contener información de contacto, logos de autores del sitio, etc.
-proyectos:
+proj_proyectos:
   - name: Discurso 21 de Mayo 2015 Bachelet
     img:
       - txt: ddah10.png

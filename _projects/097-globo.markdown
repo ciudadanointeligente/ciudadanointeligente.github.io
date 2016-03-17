@@ -1,11 +1,13 @@
 ---
-title: Globo Ciudadano
-date: 2011-08-01 14:46:22
-img: globo.png
-thumb: globo-thumb.png
-description: Elevamos un globo a 20 metros de altura amarrado a un celular 3G con video, para traerte la imagen real de lo que ocurre en las marchas.
-site_url: /project/2011/08/01/globo/
-status: archivado
+layout: projects-history
+proj_minisite: false
+proj_title: Globo Ciudadano
+proj_date: 2011-08-01 14:46:22
+proj_img: globo.png
+proj_thumb: globo-thumb.png
+proj_description: Elevamos un globo a 20 metros de altura amarrado a un celular 3G con video, para traerte la imagen real de lo que ocurre en las marchas.
+proj_site_url: /project/2011/08/01/globo/
+proj_status: archivado
 ---
 
 Este proyecto nació como respuesta a la imagen mostrada por la prensa sobre las marchas y se busca contrastarla con lo que realmente sucede durante ellas. Tomó lugar principalmente durante las movilizaciones por la educación en Chile durante el año 2011.

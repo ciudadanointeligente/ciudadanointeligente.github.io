@@ -344,8 +344,9 @@ var Grid = (function() {
 			// create Preview structure:
 			this.$title = $( '<h3></h3>' );
 			this.$description = $( '<p></p>' );
-			this.$href = $( '<a href="#" target="_blank">Ir al sitio</a>' );
-			this.$details = $( '<div class="og-details"></div>' ).append( this.$title, this.$description, this.$href );
+      this.$href = $( '<a href="#" target="_blank">Ir al sitio</a>' );
+			this.$href_minisite = $( '<a href="#">Ir al minisitio</a>' );
+			this.$details = $( '<div class="og-details"></div>' ).append( this.$title, this.$description, this.$href, this.$href_minisite );
 			this.$loading = $( '<div class="og-loading"></div>' );
 			this.$fullimage = $( '<div class="og-fullimg"></div>' ).append( this.$loading );
 			this.$closePreview = $( '<span class="og-close"></span>' );
@@ -383,15 +384,20 @@ var Grid = (function() {
 					href : $itemEl.attr( 'href' ),
 					largesrc : $itemEl.data( 'largesrc' ),
 					title : $itemEl.data( 'title' ),
-					description : $itemEl.data( 'description' )
+					description : $itemEl.data( 'description' ),
+          minisite: $itemEl.data( 'minisite' )
 				};
 
 			this.$title.html( eldata.title );
 			this.$description.html( eldata.description );
-			this.$href.attr( 'href', eldata.href );
+      this.$href.attr( 'href', eldata.href );
+			this.$href_minisite.attr( 'href', eldata.minisite );
 
       if($itemEl.data('status') == "archivado")
         this.$href.remove()
+
+      if(!$itemEl.data('haveminisite'))
+        this.$href_minisite.remove()
 
 			var self = this;
 

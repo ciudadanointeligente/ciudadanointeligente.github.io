@@ -1,9 +1,11 @@
 ---
-title: Quién te financia
-date: 2013-11-01 14:46:22
-img: qtf.png
-thumb: qtf-thumb.png
-description: Campaña para transparentar el financiamiento de la política en Chile, permitiendo a los ciudadanos solicitarle a los candidatos que transparenten sus donaciones. Petitorio de más de 6.000 personas para modificar y transparentar esta regulación.
-site_url: http://quientefinancia.cl
-status: activo
+layout: projects-history
+proj_minisite: false
+proj_title: Quién te financia
+proj_date: 2013-11-01 14:46:22
+proj_img: qtf.png
+proj_thumb: qtf-thumb.png
+proj_description: Campaña para transparentar el financiamiento de la política en Chile, permitiendo a los ciudadanos solicitarle a los candidatos que transparenten sus donaciones. Petitorio de más de 6.000 personas para modificar y transparentar esta regulación.
+proj_site_url: http://quientefinancia.cl
+proj_status: activo
 ---
