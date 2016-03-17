@@ -197,7 +197,7 @@ var Grid = (function() {
 		};
 
 	function init( config ) {
-		
+
 		// the settings..
 		settings = $.extend( true, {}, settings, config );
 
@@ -246,16 +246,16 @@ var Grid = (function() {
 	}
 
 	function initEvents() {
-		
+
 		// when clicking an item, show the preview with the item´s info and large image.
 		// close the item if already expanded.
 		// also close if clicking on the item´s cross
 		initItemsEvents( $items );
-		
+
 		// on window resize get the window´s size again
 		// reset some values..
 		$window.on( 'debouncedresize', function() {
-			
+
 			scrollExtra = 0;
 			previewPos = -1;
 			// save item´s offset
@@ -312,7 +312,7 @@ var Grid = (function() {
 				preview.update( $item );
 				return false;
 			}
-			
+
 		}
 
 		// update previewPos
@@ -344,7 +344,7 @@ var Grid = (function() {
 			// create Preview structure:
 			this.$title = $( '<h3></h3>' );
 			this.$description = $( '<p></p>' );
-			this.$href = $( '<a href="#">Ir al sitio</a>' );
+			this.$href = $( '<a href="#" target="_blank">Ir al sitio</a>' );
 			this.$details = $( '<div class="og-details"></div>' ).append( this.$title, this.$description, this.$href );
 			this.$loading = $( '<div class="og-loading"></div>' );
 			this.$fullimage = $( '<div class="og-fullimg"></div>' ).append( this.$loading );
@@ -364,7 +364,7 @@ var Grid = (function() {
 			if( $item ) {
 				this.$item = $item;
 			}
-			
+
 			// if already expanded remove class "og-expanded" from current item and add it to new item
 			if( current !== -1 ) {
 				var $currentItem = $items.eq( current );
@@ -390,8 +390,11 @@ var Grid = (function() {
 			this.$description.html( eldata.description );
 			this.$href.attr( 'href', eldata.href );
 
+      if($itemEl.data('status') == "archivado")
+        this.$href.remove()
+
 			var self = this;
-			
+
 			// remove the current image in the preview
 			if( typeof self.$largeImg != 'undefined' ) {
 				self.$largeImg.remove();
@@ -409,13 +412,13 @@ var Grid = (function() {
 						self.$largeImg = $img.fadeIn( 350 );
 						self.$fullimage.append( self.$largeImg );
 					}
-				} ).attr( 'src', eldata.largesrc );	
+				} ).attr( 'src', eldata.largesrc );
 			}
 
 		},
 		open : function() {
 
-			setTimeout( $.proxy( function() {	
+			setTimeout( $.proxy( function() {
 				// set the height for the preview and the item
 				this.setHeights();
 				// scroll to position the preview in the right place
@@ -434,22 +437,25 @@ var Grid = (function() {
 					self.$previewEl.remove();
 				};
 
-			setTimeout( $.proxy( function() {
 
-				if( typeof this.$largeImg !== 'undefined' ) {
-					this.$largeImg.fadeOut( 'fast' );
-				}
-				this.$previewEl.css( 'height', 0 );
-				// the current expanded item (might be different from this.$item)
-				var $expandedItem = $items.eq( this.expandedIdx );
-				$expandedItem.css( 'height', $expandedItem.data( 'height' ) ).on( transEndEventName, onEndFn );
+      setTimeout( $.proxy( function() {
 
-				if( !support ) {
-					onEndFn.call();
-				}
+        if( typeof this.$largeImg !== 'undefined' ) {
+          this.$largeImg.fadeOut( 'fast' );
+        }
+        this.$previewEl.css( 'height', 0 );
+        // the current expanded item (might be different from this.$item)
+        var $expandedItem = $items.eq( this.expandedIdx );
+        $expandedItem.css( 'height', $expandedItem.data( 'height' ) ).on( transEndEventName, onEndFn );
+
+        if( !support ) {
+          onEndFn.call();
+        }
+
+        this.$item.removeAttr('style')
 
 			}, this ), 25 );
-			
+
 			return false;
 
 		},
@@ -495,7 +501,7 @@ var Grid = (function() {
 			var position = this.$item.data( 'offsetTop' ),
 				previewOffsetT = this.$previewEl.offset().top - scrollExtra,
 				scrollVal = this.height + this.$item.data( 'height' ) + marginExpanded <= winsize.height ? position : this.height < winsize.height ? previewOffsetT - ( winsize.height - this.height ) : previewOffsetT;
-			
+
 			$body.animate( { scrollTop : scrollVal }, settings.speed );
 
 		},
@@ -508,7 +514,7 @@ var Grid = (function() {
 		}
 	}
 
-	return { 
+	return {
 		init : init,
 		addItems : addItems
 	};
