@@ -6,7 +6,7 @@ image: manuel.png
 email: mbarros@ciudadanointeligente.org
 network_twitter: https://twitter.com/manuelbarrosr
 network_linkedin: https://www.linkedin.com/in/manuelbarrosr
-network_github: 
+network_github: https://github.com/manuelbarrosr
 network_googleplus:
 network_facebook:
 network_instagram:
