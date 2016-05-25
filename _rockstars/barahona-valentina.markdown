@@ -10,5 +10,5 @@ network_github: https://github.com/lavalebarahona
 network_googleplus:
 network_facebook:
 network_instagram:
-active: true
+active: false
 ---
