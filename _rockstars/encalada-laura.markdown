@@ -1,7 +1,7 @@
 ---
 name: Laura Encalada
 function: Coordinadora metodológica
-bio: Politóloga y a veces cantante. Me dedico a pensar en las mejores formas de traspasar herramientas y metodologías con #AlegríayJuventud
+bio: Politóloga y a veces cantante. Me dedico a pensar en las mejores formas de traspasar herramientas y metodologías con  alegría y juventud.
 image: laura.jpg
 email: lencalada@ciudadanointeligente.org
 network_twitter: https://twitter.com/elefectolupa
