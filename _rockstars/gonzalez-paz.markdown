@@ -2,7 +2,7 @@
 name: Paz González
 function: Diseñadora
 bio:
-image: default.png
+image: paz.jpg
 email: pgonzalez@ciudadanoi.org
 network_twitter:
 network_linkedin: https://linkedin.com/pazgonzalez88
