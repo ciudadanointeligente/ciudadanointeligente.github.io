@@ -2,7 +2,7 @@
 name: Felipe Álvarez
 function: Desarrollador
 bio: Originalmente de Valdivia, idealista, ciclista, trapecista y artesano de software.
-image: felipe.png
+image: felipe.jpg
 email: falvarez@ciudadanointeligente.org
 network_twitter: https://twitter.com/lfalvarez
 network_linkedin: https://www.linkedin.com/in/luisfelipealvarez
