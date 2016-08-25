@@ -2,9 +2,6 @@
     <h2>Proyectos</h2>
     <div class="menu-interno">Selecciona el proyecto que quieras conocer. Para más detalles revisa la<a href="{{ site.baseurl}}/history-projects.html"> historia de nuestros proyectos</a>.</div>
     <ul id="og-grid" class="og-grid">
-        <div class="panel panel-default">
-        <p>Anunciamos la adjudicacion y el comienzo del desarrollo de un nuevo proyecto: <h4>Participación Ciudadana para Transparencia de Partidos Políticos,<br> financiado por el Fondo de Democracia de las Naciones Unidas.</h4></p>
-        </div>
         {% for project in site.projects %}
         <li>
             <a href="{{ project.proj_site_url }}" data-largesrc="{{ site.baseurl }}/assets/img/projects/{{ project.proj_img }}" data-title="{{ project.proj_title }}" data-description="{{ project.proj_description }}" data-siteurl="{{ project.proj_site_url }}" data-status="{{ project.proj_status }}" data-haveminisite="{{project.proj_minisite}}" data-minisite="{{ project.url}}">
