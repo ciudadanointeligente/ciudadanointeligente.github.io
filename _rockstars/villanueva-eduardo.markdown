@@ -10,5 +10,5 @@ network_github:
 network_googleplus:
 network_facebook: https://www.facebook.com/EdwardsHand
 network_instagram:
-active: true
+active: false
 ---
