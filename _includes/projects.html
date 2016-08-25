@@ -7,14 +7,14 @@
         </div>
         {% for project in site.projects %}
         <li>
-            <a href="{{ project.proj_site_url }}" data-largesrc="img/projects/{{ project.proj_img }}" data-title="{{ project.proj_title }}" data-description="{{ project.proj_description }}" data-siteurl="{{ project.proj_site_url }}" data-status="{{ project.proj_status }}" data-haveminisite="{{project.proj_minisite}}" data-minisite="{{ project.url}}">
-                <img src="img/projects/thumbs/{{ project.proj_thumb }}" alt="img/projects/{{ project.proj_title }}"/>
+            <a href="{{ project.proj_site_url }}" data-largesrc="{{ site.baseurl }}/assets/img/projects/{{ project.proj_img }}" data-title="{{ project.proj_title }}" data-description="{{ project.proj_description }}" data-siteurl="{{ project.proj_site_url }}" data-status="{{ project.proj_status }}" data-haveminisite="{{project.proj_minisite}}" data-minisite="{{ project.url}}">
+                <img src="{{ site.baseurl }}/assets/img/projects/thumbs/{{ project.proj_thumb }}" alt="{{ project.proj_title }}"/>
                 <div class="{{ project.proj_status }}">{{ project.proj_status }}</div>
             </a>
         </li>
         {% endfor %}
     </ul>
-    <script src="{{ site.baseurl }}/js/grid.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/grid.js"></script>
     <script>
     $(function() {
     Grid.init();

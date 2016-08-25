@@ -29,7 +29,7 @@
                   <h2 class="text-center">{{ page.proj_title }}</h2>
                   <p>{{ page.proj_description }}</p>
                   <div class="row">
-                    <div class="col-md-7 browser"><img src="{{ site.baseurl }}/img/projects/mockups/{{ page.proj_mockup }}"></div>
+                    <div class="col-md-7 browser"><img src="{{ site.baseurl }}/assets/img/projects/mockups/{{ page.proj_mockup }}"></div>
                     <div class="col-md-5 mockup-txt">
                         <ol>
                           {% for p in page.proj_mockup_txt %}
@@ -49,7 +49,7 @@
                 <div class="row">
                   <div class="container">
                     {% for img in proyecto.img %}
-                    <div class="col-md-7 browser"><img src="{{ site.baseurl }}/img/projects/screenshots/{{ img.txt }}"></div>
+                    <div class="col-md-7 browser"><img src="{{ site.baseurl }}/assets/img/projects/screenshots/{{ img.txt }}"></div>
                     {% endfor %}
 
                     <div class="col-md-5">
@@ -90,4 +90,3 @@
         </script>
     </body>
 </html>
-

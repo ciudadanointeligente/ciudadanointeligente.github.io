@@ -3,7 +3,7 @@
 {% for member in site.rockstars %}
 	{% if {{member.active}} == true %}
 		<div class="col-md-4">
-			<img src="{{ site.baseurl }}/img/team/{{member.image}}">
+			<img src="{{ site.baseurl }}/assets/img/team/{{member.image}}">
 			<div>
 				<h5>{{member.name}} - {{member.function}}</h5>
 				<p>{{member.bio}}</p>
