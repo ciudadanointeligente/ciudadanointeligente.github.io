@@ -1,6 +1,6 @@
 <section id="blog" class="clearfix">
     <h2>Blog</h2>
-    <p>Estos son los últimos post del blog de FCI. Revisa aquí <a href="http://blog.ciudadanointeligente.org/">todas las publicaciones</a>.</p>
+    <p>Estos son los últimos post del blog de FCI. Revisa aquí <a href="//blog.ciudadanointeligente.org/">todas las publicaciones</a>.</p>
     <div id="blog">
         <script type="text/javascript">
         (function(blog, limit) {
@@ -12,7 +12,7 @@
 	        recent.setAttribute("class", "widget");
 	        recent.setAttribute("id", "TumblrRecentPosts");
 	        var script = document.createElement("script");
-	        script.src = "http://" + blog + "/api/read/json";
+	        script.src = "//" + blog + "/api/read/json";
 	        script.onload = function(data) {
 		        if(!tumblr_api_read) return;
 		        var response = tumblr_api_read.posts;
