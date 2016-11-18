@@ -1,7 +1,7 @@
 ---
 name: Marianka Egaña
 function: Directora de Administración y Finanzas
-bio: Administradora Pública, felizmente casada, desembarqué en FCI para dar orden en un mar de ideas, com amor a la verdad, la libertad y al buen humor
+bio: Administradora Pública, felizmente casada, desembarqué en FCI para dar orden en un mar de ideas, com amor a la verdad, la libertad y al buen humor.
 image: marianka.jpg
 email: megana@ciudadanointeligente.org
 network_twitter: https://twitter.com/MariankaPieraEg
