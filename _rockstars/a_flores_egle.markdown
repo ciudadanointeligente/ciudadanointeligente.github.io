@@ -6,7 +6,7 @@ image: egle.jpg
 email: eflores@ciudadanointeligente.org
 network_twitter: https://twitter.com/solshinee
 network_linkedin: https://cl.linkedin.com/in/eglé-flores-43846b15
-network_github: 
+network_github:
 network_googleplus:
 network_facebook:
 network_instagram:
