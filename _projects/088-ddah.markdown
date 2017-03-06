@@ -6,7 +6,7 @@ proj_date: 2014-05-1 14:46:22
 proj_img: ddah.png
 proj_thumb: ddah-thumb.png
 proj_description: Del Dicho al Hecho es un estudio que realiza un análisis detallado de las promesas establecidas por el Gobierno y una revisión del estado de cumplimiento legislativo y administrativo de éstas. Conscientes de las dificultades que tenemos los ciudadanos de ejercer nuestro derecho a exigir rendición de cuentas, nuestro estudio pretende empoderar a las personas y contribuir a la reducción de las brechas de información que hoy dificultan una fiscalización efectiva de nuestros representantes.
-proj_site_url: http://21m16.deldichoalhecho.cl
+proj_site_url: https://deldichoalhecho.cl
 proj_status: activo
 proj_mockup: ddah-mock.png
 proj_mockup_txt:
@@ -28,7 +28,7 @@ proj_proyectos:
     img:
       - txt: ddah10.png
     link:
-      - txt: http://deldichoalhecho.cl/
+      - txt: https://deldichoalhecho.cl/
     date:
       - txt: Mayo 2015
     history:
