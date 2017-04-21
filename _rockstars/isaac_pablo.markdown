@@ -1,7 +1,7 @@
 ---
 name: Baplo Isaac
-function: Encargado de redes sociales
-bio: El  peor de la sociedad; zurdo, feminista, animalista, ateo, shuer-loco y gordo granudo. Llegue a FCI a callarme un rato y comenzar a propagandear el verdadero evangelio.
+function: Vocero de redes 
+bio: Shuer-loco y gordo granudo. Llegue a FCI a callarme un rato y comenzar a propagandear el verdadero evangelio.
 image: baplo.jpg
 email: pcontreras@ciudadanointeligente.org
 network_twitter: 
