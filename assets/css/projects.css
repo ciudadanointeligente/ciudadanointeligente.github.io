@@ -14,6 +14,27 @@
     src: url("../fonts/ecoicons/ecoicons.eot?#iefix") format("embedded-opentype"), url("../fonts/ecoicons/ecoicons.woff") format("woff"), url("../fonts/ecoicons/ecoicons.ttf") format("truetype"), url("../fonts/ecoicons/ecoicons.svg#ecoicons") format("svg");
 }
 
+
+/*OLDPROJECTS LIST*/
+
+.oldproject {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.oldproject div.op-right {
+  text-align: left;
+  vertical-align: top;
+}
+
+.oldproject div.op-right h3 {
+  text-align: left;
+  vertical-align: top;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+
 /*PROJECT GRID*/
 
 .og-grid {
