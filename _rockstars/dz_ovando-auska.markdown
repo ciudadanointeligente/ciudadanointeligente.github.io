@@ -1,6 +1,6 @@
 ---
 name: Auska Ovando
-function: Coordinadora de Investigación y Desarrollo Comunicacional
+function: Coordinadora de Investigación y Estrategia Comunicacional
 bio: Periodista, máster en Sociología. Power to the people!
 image: auska.jpg
 email: aovando@ciudadanointeligente.org

@@ -156,7 +156,8 @@ section#inicio {
   margin: 0;
   padding: 0;
   top: 0;
-  margin-top: -30px;
+  background: url(/assets/img/ciudadanoi.jpg);
+  background-size: cover;
 }
 
 /*FORM*/
@@ -186,17 +187,17 @@ input {
 
 :-moz-placeholder { /* Firefox 18- */
    color: #9E9ED9;
-   font-weight: 300;  
+   font-weight: 300;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
    color: #9E9ED9;
-   font-weight: 300;  
+   font-weight: 300;
 }
 
-:-ms-input-placeholder {  
+:-ms-input-placeholder {
    color: #9E9ED9;
-   font-weight: 300;  
+   font-weight: 300;
 }
 textarea {
   border: transparent;
@@ -881,7 +882,6 @@ li.current {
   position: relative;
   margin-bottom: -100px;
   overflow: hidden;
-  height: inherit;
 }
 
 .header-panel {
@@ -905,6 +905,7 @@ li.current {
   -webkit-animation: bounceInDown 0.5s;
   animation: bounceInDown 0.5s;
   background: #16163A;
+  height: 70px;
 }
 
 .header-menu.fixed {

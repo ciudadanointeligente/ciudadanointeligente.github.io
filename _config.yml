@@ -16,5 +16,7 @@ collections:
     output: true
   projects:
     output: true
+  oldprojects:
+    output: true
   board_members:
     output: true

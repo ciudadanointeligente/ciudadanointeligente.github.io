@@ -2,7 +2,7 @@
 layout: projects-history
 proj_minisite: false
 proj_title: Barrios en Acción
-proj_date: 03-07-2015
+proj_date: 2015-03-07 00:00:01
 proj_img: barrios.png
 proj_thumb: barrios-thumb.png
 proj_mockup: barrios-mock.png

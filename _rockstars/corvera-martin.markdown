@@ -1,6 +1,6 @@
 ---
 name: Martín Corvera
-function: Coordinador de contenidos y redes
+function: Coordinador de proyecto y campañas
 bio: Periodista de profesión. Fotógrafo y videísta amateur. Me dedico a comunicar porque la información es de todos y todas.
 image: martin.jpg
 email: mcorvera@ciudadanointeligente.org
