@@ -20,3 +20,5 @@ collections:
     output: true
   board_members:
     output: true
+  pasantes:
+    output: true
