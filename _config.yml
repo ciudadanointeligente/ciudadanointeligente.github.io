@@ -22,3 +22,5 @@ collections:
     output: true
   pasantes:
     output: true
+  equipobrasil:
+    output: true
