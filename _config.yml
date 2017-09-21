@@ -24,3 +24,5 @@ collections:
     output: true
   equipobrasil:
     output: true
+  propuestas:
+    output: true
