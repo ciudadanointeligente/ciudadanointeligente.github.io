@@ -1,4 +1,5 @@
 ---
 layout: clean
 uid: 'ley-sobre-cambio-climatico-en-chile'
+permalink: /votainteligente/propuesta/208
 ---
