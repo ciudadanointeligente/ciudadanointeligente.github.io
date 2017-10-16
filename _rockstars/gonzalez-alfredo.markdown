@@ -10,5 +10,5 @@ network_github: algo
 network_googleplus: algo
 network_facebook: algo
 network_instagram: algo
-active: true
+active: false
 ---
