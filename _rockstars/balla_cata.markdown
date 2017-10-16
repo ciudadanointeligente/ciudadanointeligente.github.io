@@ -1,6 +1,6 @@
 ---
 name: Catalina Balla
-function: Coordinadora de Prensa
+function: Coordinadora de Prensa y Comunidad
 bio: Periodista con Máster en cultura, pero mi verdadera escuela está en los viajes. Mochilera, amante de las redes y el trabajo en equipo. 
 image: cataballa.jpg
 email: cballa@ciudadanointeligente.org
