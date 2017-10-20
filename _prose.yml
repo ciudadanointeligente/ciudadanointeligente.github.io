@@ -12,6 +12,9 @@ prose:
     - _config.yml
     - /_layouts
     - /_includes
+    - CNAME
+    - _prose.yml
+    - README.md
   metadata:
     _rockstars:
       - name: "name"
