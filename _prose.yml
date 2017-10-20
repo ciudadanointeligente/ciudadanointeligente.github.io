@@ -20,14 +20,17 @@ prose:
       - name: "name"
         field:
           element: "text"
+          label: "Nombre"
           value: ""
       - name: "function"
         field:
           element: "text"
+          label: "Profesión"
           value: ""
       - name: "bio"
         field:
           element: "textarea"
+          label: "Bio"
           value: ""
       - name: "image"
         field:
@@ -35,8 +38,54 @@ prose:
           label: "Imagen"
           help: "Nombre de la imagen ej: felipee.jpg"
           value: ""
+      - name: "email"
+        field:
+          element: "text"
+          label: "Mail"
+          value: ""
       - name: "active"
         field:
           element: "checkbox"
           label: "Activa?"
           value: true
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Publicada?"
+          value: true
+      - name: "network_twitter"
+        field:
+          element: "text"
+          label: "twitter"
+          value: ""
+          help: "La url a twitter"
+      - name: "network_linkedin"
+        field:
+          element: "text"
+          label: "linkedin"
+          value: ""
+          help: "La url a linkedin"
+      - name: "network_github"
+        field:
+          element: "text"
+          label: "github"
+          value: ""
+          help: "La url a github"
+      - name: "network_googleplus"
+        field:
+          element: "text"
+          label: "googleplus"
+          value: ""
+          help: "La url a googleplus"
+      - name: "network_facebook"
+        field:
+          element: "text"
+          label: "facebook"
+          value: ""
+          help: "La url a facebook"
+      - name: "network_instagram"
+        field:
+          element: "text"
+          label: "instagram"
+          value: ""
+          help: "La url a instagram"
