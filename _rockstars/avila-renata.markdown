@@ -11,3 +11,5 @@ network_googleplus:
 network_facebook:
 network_instagram:
 active: true
+published: true
+---
