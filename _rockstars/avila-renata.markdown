@@ -6,7 +6,7 @@ image: renata-avila.jpg
 email: ravila@ciudadanointeligente.org
 network_twitter: https://twitter.com/avilarenata
 network_linkedin: https://www.linkedin.com/in/renatavila/
-network_github:
+network_github: https://github.com/avilarenata
 network_googleplus:
 network_facebook:
 network_instagram:
