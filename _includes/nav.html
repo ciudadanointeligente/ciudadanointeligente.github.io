@@ -1,32 +1,25 @@
 <div id="menu" class="header-menu fixed">
     <div class="container">
         <div class="row">
-            <nav role="navigation" class="col-sm-12">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <!-- logo-->
-                    <span class="navbar-brand logo">
-                        <img src="{{ site.baseurl }}/assets/img/logo-ciudadanoi.svg" tabindex="1">
-                    </span>
-                </div>
-                <div class="navbar-collapse collapse">
+            <nav role="navigation" class="navbar navbar-expand-lg navbar-light">
+              <span class="navbar-brand logo">
+                <img src="{{ site.baseurl }}/assets/img/logo-ciudadanoi.svg" tabindex="1">
+              </span>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- navigation menu-->
-                    <ul class="nav navbar-nav">
-                        <li class="current"><a href="{{ site.baseurl }}/#header" tabindex="2">Inicio</a></li>
-                        <li><a href="{{ site.baseurl }}/#proyectos" tabindex="3">Proyectos</a></li>
-                        <li><a href="{{ site.baseurl }}/#sobre-nosotros" tabindex="4">Sobre nosotros</a></li>
-                        <li><a href="{{ site.baseurl }}/#transparencia" tabindex="5">Transparencia</a></li>
-                        <li><a href="https://blog.ciudadanointeligente.org" target="_blank" tabindex="6">Blog</a></li>
-			<li><a href="//prensa.ciudadanointeligente.org/" target="_blank" tabindex="7">Prensa</a></li>
-			<li><a href="#newsletter" tabindex="8">Suscripción y contacto</a></li>
-                        <li><a href="//en.ciudadanointeligente.org/" tabindex="9">English version</a></li>  
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active"><a class="nav-link" href="{{ site.baseurl }}/#header" tabindex="2">Inicio <span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/#proyectos" tabindex="3">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/#sobre-nosotros" tabindex="4">Sobre nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://blog.ciudadanointeligente.org" target="_blank" tabindex="6">Blog</a></li>
+                  			<li class="nav-item"><a class="nav-link" href="//prensa.ciudadanointeligente.org/" target="_blank" tabindex="7">Prensa</a></li>
+                  			<li class="nav-item"><a class="nav-link" href="#newsletter" tabindex="8">Suscripción y contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="//en.ciudadanointeligente.org/" tabindex="9">EN</a></li>
                     </ul>
-                </div>
+              </div>
             </nav>
         </div>
     </div>

@@ -1,0 +1,228 @@
+		<script>
+		document.documentElement.className = "js";
+		var supportsCssVars = function() { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
+		supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+		</script>
+
+			<div class="slideshow">
+				<div class="slide">
+					<div class="slide__wrap">
+						<div class="slide__img" style="background-image: url(assets/img/1.jpg);"></div>
+						<div class="slide__title-wrap">
+							<h3 class="slide__title">Fancy Hats</h3>
+							<h4 class="slide__subtitle">Pivot gnarly ho-ho drop in mute-air shoveit airwalk</h4>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide__wrap">
+						<div class="slide__img" style="background-image: url({{ baseurl }}assets/img/2.jpg);"></div>
+						<div class="slide__title-wrap">
+							<h3 class="slide__title">Shirt Mania</h3>
+							<h4 class="slide__subtitle">Christ air pivot nosebone feeble quarter pipe</h4>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide__wrap">
+						<div class="slide__img" style="background-image: url({{ baseurl }}assets/img/3.jpg);"></div>
+						<div class="slide__title-wrap">
+							<h3 class="slide__title">Flow Scarfs</h3>
+							<h4 class="slide__subtitle">Layback goofy footed transfer birdie Julien Stranger</h4>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide__wrap">
+						<div class="slide__img" style="background-image: url({{ baseurl }}assets/img/4.jpg);"></div>
+						<div class="slide__title-wrap">
+							<h3 class="slide__title">Back Secrets</h3>
+							<h4 class="slide__subtitle">Nollie risers salad grind frigid air the faction</h4>
+						</div>
+					</div>
+				</div>
+			</div><!-- /slideshow -->
+			<nav class="boxnav">
+				<button class="boxnav__item boxnav__item--prev">
+					<svg class="icon icon--caret">
+						<use xlink:href="#icon-caret"></use>
+					</svg>
+				</button>
+				<div class="boxnav__item boxnav__item--label">
+					<span class="boxnav__label boxnav__label--current">1</span>
+					<span class="boxnav__label boxnav__label--total"></span>
+				</div>
+				<button class="boxnav__item boxnav__item--next">
+					<svg class="icon icon--caret-rot">
+						<use xlink:href="#icon-caret"></use>
+					</svg>
+				</button>
+			</nav>
+			<button class="action action--details">+ details</button>
+			<!-- details -->
+			<div class="details-wrap">
+				<div class="details">
+					<div class="details__item details__item-img" data-direction="ttb">
+						<div class="details__inner">
+							<img src="{{ baseurl }}assets/img/small/1.jpg" alt="Some image"/>
+						</div>
+					</div>
+					<div class="details__item details__item-sizes">
+						<div class="details__inner details__inner--sizes">
+							<span class="details__size">XL</span>
+							<span class="details__size">L</span>
+							<span class="details__size details__size--selected">M</span>
+							<span class="details__size">S</span>
+						</div>
+					</div>
+					<div class="details__item details__item--addtocart" data-direction="ttb">
+						<div class="details__inner">
+							<button class="action action--addtocart">
+								<svg class="icon icon--cart"><use xlink:href="#icon-cart"></use></svg>
+							</button>
+						</div>
+					</div>
+					<div class="details__item details__item-colors" data-direction="ttb">
+						<div class="details__inner details__inner--grid details__inner--colors">
+							<span class="details__color details__color--white">White</span>
+							<span class="details__color details__color--red">Red</span>
+							<span class="details__color details__color--black">Black</span>
+							<span class="details__color details__color--blue">Blue</span>
+							<span class="details__color details__color--beige">Beige</span>
+							<span class="details__color details__color--sky">Sky</span>
+						</div>
+					</div>
+					<div class="details__item details__item-price">
+						<div class="details__inner details__inner--price">$89</div>
+					</div>
+					<div class="details__item details__item--close" data-direction="ttb">
+						<div class="details__inner">
+							<button class="action action--close">Close</button>
+						</div>
+					</div>
+				</div><!-- /details -->
+				<div class="details">
+					<div class="details__item details__item-img" data-direction="ttb">
+						<div class="details__inner">
+							<img src="{{ baseurl }}assets/img/small/2.jpg" alt="Some image"/>
+						</div>
+					</div>
+					<div class="details__item details__item-sizes">
+						<div class="details__inner details__inner--sizes">
+							<span class="details__size">XL</span>
+							<span class="details__size">L</span>
+							<span class="details__size details__size--selected">M</span>
+							<span class="details__size">S</span>
+						</div>
+					</div>
+					<div class="details__item details__item--addtocart" data-direction="ttb">
+						<div class="details__inner">
+							<button class="action action--addtocart">
+								<svg class="icon icon--cart"><use xlink:href="#icon-cart"></use></svg>
+							</button>
+						</div>
+					</div>
+					<div class="details__item details__item-colors" data-direction="ttb">
+						<div class="details__inner details__inner--grid details__inner--colors">
+							<span class="details__color details__color--white">White</span>
+							<span class="details__color details__color--red">Red</span>
+							<span class="details__color details__color--black">Black</span>
+							<span class="details__color details__color--blue">Blue</span>
+							<span class="details__color details__color--beige">Beige</span>
+							<span class="details__color details__color--sky">Sky</span>
+						</div>
+					</div>
+					<div class="details__item details__item-price">
+						<div class="details__inner details__inner--price">$119</div>
+					</div>
+					<div class="details__item details__item--close" data-direction="ttb">
+						<div class="details__inner">
+							<button class="action action--close">Close</button>
+						</div>
+					</div>
+				</div><!-- /details -->
+				<div class="details">
+					<div class="details__item details__item-img" data-direction="ttb">
+						<div class="details__inner">
+							<img src="{{ baseurl }}assets/img/small/3.jpg" alt="Some image"/>
+						</div>
+					</div>
+					<div class="details__item details__item-sizes">
+						<div class="details__inner details__inner--sizes">
+							<span class="details__size">XL</span>
+							<span class="details__size">L</span>
+							<span class="details__size details__size--selected">M</span>
+							<span class="details__size">S</span>
+						</div>
+					</div>
+					<div class="details__item details__item--addtocart" data-direction="ttb">
+						<div class="details__inner">
+							<button class="action action--addtocart">
+								<svg class="icon icon--cart"><use xlink:href="#icon-cart"></use></svg>
+							</button>
+						</div>
+					</div>
+					<div class="details__item details__item-colors" data-direction="ttb">
+						<div class="details__inner details__inner--grid details__inner--colors">
+							<span class="details__color details__color--white">White</span>
+							<span class="details__color details__color--red">Red</span>
+							<span class="details__color details__color--black">Black</span>
+							<span class="details__color details__color--blue">Blue</span>
+							<span class="details__color details__color--beige">Beige</span>
+							<span class="details__color details__color--sky">Sky</span>
+						</div>
+					</div>
+					<div class="details__item details__item-price">
+						<div class="details__inner details__inner--price">$65</div>
+					</div>
+					<div class="details__item details__item--close" data-direction="ttb">
+						<div class="details__inner">
+							<button class="action action--close">Close</button>
+						</div>
+					</div>
+				</div><!-- /details -->
+				<div class="details">
+					<div class="details__item details__item-img" data-direction="ttb">
+						<div class="details__inner">
+							<img src="{{ baseurl }}assets/img/small/4.jpg" alt="Some image"/>
+						</div>
+					</div>
+					<div class="details__item details__item-sizes">
+						<div class="details__inner details__inner--sizes">
+							<span class="details__size">XL</span>
+							<span class="details__size">L</span>
+							<span class="details__size details__size--selected">M</span>
+							<span class="details__size">S</span>
+						</div>
+					</div>
+					<div class="details__item details__item--addtocart" data-direction="ttb">
+						<div class="details__inner">
+							<button class="action action--addtocart">
+								<svg class="icon icon--cart"><use xlink:href="#icon-cart"></use></svg>
+							</button>
+						</div>
+					</div>
+					<div class="details__item details__item-colors" data-direction="ttb">
+						<div class="details__inner details__inner--grid details__inner--colors">
+							<span class="details__color details__color--white">White</span>
+							<span class="details__color details__color--red">Red</span>
+							<span class="details__color details__color--black">Black</span>
+							<span class="details__color details__color--blue">Blue</span>
+							<span class="details__color details__color--beige">Beige</span>
+							<span class="details__color details__color--sky">Sky</span>
+						</div>
+					</div>
+					<div class="details__item details__item-price">
+						<div class="details__inner details__inner--price">$99</div>
+					</div>
+					<div class="details__item details__item--close" data-direction="ttb">
+						<div class="details__inner">
+							<button class="action action--close">Close</button>
+						</div>
+					</div>
+				</div><!-- /details -->
+			</div>
+		</main>
+		<script src="{{ baseurl }}assets/js/imagesloaded.pkgd.min.js"></script>
+		<script src="{{ baseurl }}assets/js/TweenMax.min.js"></script>
+		<script src="{{ baseurl }}assets/js/demo.js"></script>

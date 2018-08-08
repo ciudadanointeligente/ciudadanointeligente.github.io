@@ -1,3 +1,10 @@
+//colors
+$magenta: #FF6B57;
+$yellow: #41C3AC;
+$red: #FF884D;
+$gray: #F0F0F0;
+$blue: #72C5CE;
+
 /* Base */
 
 @font-face {
@@ -32,15 +39,13 @@
 html, body { height: 100%; }
 
 body {
-  font-family: 'Roboto Slab', serif;
-  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
   line-height: 1.5;
   font-weight: 400;
-  background-color: #090930;
   -webkit-font-smoothing: antialiased;
   -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
   text-shadow: rgba(0,0,0,.01) 0 0 1px;
-  color: #fff;
   margin: 0;
   padding: 0;
 }
@@ -58,6 +63,10 @@ a:hover   { color: #93D4DF; text-decoration: none; }
   padding: 0 30px;
   margin: 0 auto;
   zoom: 1;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Poppins', sans-serif;
 }
 
 h2, .h2 {
@@ -880,7 +889,6 @@ li.current {
 
 #header {
   position: relative;
-  margin-bottom: -100px;
   overflow: hidden;
 }
 
@@ -912,7 +920,6 @@ li.current {
   -moz-animation: bounceIn 0.5s;
   -webkit-animation: bounceIn 0.5s;
   animation: bounceIn 0.5s;
-  background: #16163A;
   min-height: 70px;
 }
 
