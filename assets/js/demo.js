@@ -4,7 +4,7 @@
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2018, Codrops
  * http://www.codrops.com
  */
@@ -13,7 +13,7 @@
     class Slide {
         constructor(el, settings) {
             this.DOM = {el: el};
-            
+
             this.settings = {
                 detailsEl: null,
                 onHideDetails: () => {return false;}
@@ -78,13 +78,13 @@
                     x: '0%',
                     scale: action === 'hide' ? 1.1 : 1,
                     onStart: () => {
-                        this.DOM.img.style.transformOrigin = action === 'hide' ? 
+                        this.DOM.img.style.transformOrigin = action === 'hide' ?
                                                                 direction === 'right' ? '100% 50%' : '0% 50%':
                                                                 direction === 'right' ? '0% 50%' : '100% 50%';
                         this.DOM.el.style.opacity = 1;
                     },
                     onComplete: () => {
-                        this.DOM.el.style.zIndex = 999;
+                        this.DOM.el.style.zIndex = 1;
                         this.DOM.el.style.opacity = action === 'hide' ? 0 : 1;
                         resolve();
                     }
@@ -107,19 +107,19 @@
                         // The duration and easing for the last 3 elements will be different to create a different feeling for the animation.
                         const duration = pos >= this.totalDetailItems-3 ? 0.7 : 0.2;
                         const ease = pos >= this.totalDetailItems-3 ? 'Expo.easeOut' : 'Power2.easeInOut';
-                        // Every box will have a delay. 
+                        // Every box will have a delay.
                         const delay = pos*0.08;
                         // The direction to animate the box. We can specify this as a data attribute otherwise we assume a default of rtl ("right to left")
                         // right to left (rtl) | left to right (ltr) | bottom to top (btt) | top to bottom (ttb).
                         const direction = item.dataset.direction || 'rtl';
-                        
+
                         let itemAnimOpts = {
                             ease: ease,
                             delay: delay,
                             x: '0%',
                             y: '0%'
                         };
-                        
+
                         let innerAnimOpts = {
                             ease: ease,
                             delay: delay,
@@ -158,19 +158,19 @@
                     resolve();
                     return false;
                 }
-    
+
                 const processItem = (item,pos) => {
                     return new Promise((resolve, reject) => {
                         const duration = pos === 0 ? 0.7 : 0.2;
                         const ease = pos === 0 ? 'Expo.easeOut' : 'Power2.easeInOut';
                         const delay = (this.totalDetailItems-pos-1)*0.08;
                         const direction = item.dataset.direction || 'rtl'; // right to left (rtl) | left to right (ltr) | bottom to top (btt) | top to bottom (ttb).
-                        
+
                         let itemAnimOpts = {
                             ease: ease,
                             delay: delay
                         };
-                        
+
                         let innerAnimOpts = {
                             ease: ease,
                             delay: delay,
@@ -242,7 +242,7 @@
                         startAt: {y: direction === 'right' ? '50%' : '-50%', opacity: 0},
                         y: '0%',
                         opacity: 1
-                    });    
+                    });
                 }
             });
         }
@@ -310,10 +310,10 @@
         openDetailsBoxes() {
             if ( this.isAnimating ) return;
             this.isAnimating = true;
-            
+
             // Overlay
             this.DOM.el.classList.add('slideshow--details');
-            
+
             this.DOM.detailsWrap.classList.add('details-wrap--open');
             this.DOM.details[this.current].classList.add('details--current');
             this.slides[this.current].showDetails().then(() => this.isAnimating = false);
@@ -336,7 +336,7 @@
             this.isAnimating = true;
 
             // The next/prev slide´s position.
-            const nextSlidePos = direction === 'right' ? 
+            const nextSlidePos = direction === 'right' ?
                     this.current < this.slidesTotal-1 ? this.current+1 : 0 :
                     this.current > 0 ? this.current-1 : this.slidesTotal-1;
 
@@ -344,7 +344,7 @@
             this.closeDetailsBoxes().then(() => {
                 // Update the current page element.
                 this.navigation.setCurrent(nextSlidePos+1, direction);
-                
+
                 Promise.all([this.slides[this.current].hide(direction), this.slides[nextSlidePos].show(direction)])
                        .then(() => {
                             // Update current.

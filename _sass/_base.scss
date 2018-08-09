@@ -50,7 +50,10 @@ body {
   padding: 0;
 }
 
-a         { color: #77b5bf; text-decoration: none; cursor: pointer; }
+a {
+  color: $red;
+  text-decoration: none; cursor: pointer;
+}
 a:hover   { color: #93D4DF; text-decoration: none; }
 
 /* Utility */
@@ -920,7 +923,7 @@ li.current {
   -moz-animation: bounceIn 0.5s;
   -webkit-animation: bounceIn 0.5s;
   animation: bounceIn 0.5s;
-  min-height: 70px;
+  height: 8vh;
 }
 
 .header-menu > .box {
