@@ -1,8 +1,9 @@
 //colors
 $magenta: #FF6B57;
 $yellow: #41C3AC;
-$red: #FF884D;
+$red: #E8453B;
 $gray: #F0F0F0;
+$gray-two: #6F7276;
 $blue: #72C5CE;
 
 /* Base */
@@ -48,6 +49,7 @@ body {
   text-shadow: rgba(0,0,0,.01) 0 0 1px;
   margin: 0;
   padding: 0;
+  color: $gray-two;
 }
 
 a {
@@ -70,6 +72,7 @@ a:hover   { color: #93D4DF; text-decoration: none; }
 
 h1, h2, h3, h4, h5 {
   font-family: 'Poppins', sans-serif;
+  color: #3B3B3B;
 }
 
 h2, .h2 {
@@ -85,18 +88,14 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: 21px;
-  line-height: 28px;
+  font-size: 28px;
   font-weight: 600;
 }
 
 h5, .h5 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
-}
-
-.pilares h4 {
-  font-weight: 300;
+  line-height: 25px;
 }
 
 .destacado{
@@ -516,25 +515,40 @@ border-radius: 0px;
 
 .post pre.terminal code { background-color: #333; }
 
+.section-padding {
+  padding: 7vw 0;
+  position: relative;
+}
+
 /*HERO*/
 
-#inicio h1 {
-  text-align: center;
-  width: 80%;
-  margin: 100px auto;
-  font-weight: 300;
-  line-height: 41px;
+.hero {
+    max-width: 540px;
+    & h1 {
+    font-size: 33px;
+    color: $red;
+    line-height: 47px;
+  }
+  &:before {
+    content: '.';
+    background: #ffffffb5;
+    width: 540px;
+    height: 240px;
+    position: absolute;
+    z-index: -1;
+    left: 90px;
+  }
 }
 
+// about
 
-.pilares {
- text-align: center;
- margin: 0 0 50px;
+.aside {
+  transform: rotate(-90deg);
+  position: absolute;
+  left: 0px;
+  top: 30px;
 }
 
-.pilares i.fa {
-  font-size: 60px;
-}
 
 .rules{
 	margin: 30px 0;
@@ -649,10 +663,6 @@ border-radius: 0px;
 
 .team .btn-xs {
   margin-right: 1px;
-}
-
-.team h5 {
-  margin-top: 5px;
 }
 
 .close {
@@ -1083,79 +1093,20 @@ li.current {
 
 @media (max-width: 1300px) {
 
-  .container {
-    max-width: 1040px;
-  }
-
-  h1, .h1 {
-    font-size: 30px;
-  }
-
-  h4, .h4 {
-    line-height: 21px;
-    font-size: 16px;
-  }
-
-  #inicio h1 {
-    width: 100%;
-    margin: 60px auto;
-  }
-
-  #header {
-    height: initial;
-  }
-
 }
 
 @media (max-width: 1150px) {
-
-  .container {
-    max-width: 880px;
-  }
 
 }
 
 @media (max-width: 1000px) {
 
-  .container {
-    max-width: 650px;
-  }
-
 }
 
 @media (max-width: 800px) {
 
-  table.table.table-striped {
-    font-size: 12px;
-  }
-
-  #inicio h1 {
-    font-size: 21px;
-    line-height: 30px;
-  }
-
-  .pilares {
-    display: none;
-  }
-
 }
 
 @media (max-width: 400px) {
-
-  section {
-    margin: 50px 0;
-  }
-
-  table.table.table-striped {
-    font-size: 10px;
-  }
-
-  h2, .h2 {
-    font-size: 36px;
-  }
-
-  #areas .col-md-2 {
-    margin-bottom: 0px;
-  }
 
 }
