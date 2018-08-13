@@ -517,7 +517,12 @@ border-radius: 0px;
 
 .section-padding {
   padding: 7vw 0;
-  position: relative;
+}
+
+// Margins and padding
+
+.mb-30 {
+  margin-bottom: 30px;
 }
 
 /*HERO*/
@@ -545,13 +550,12 @@ border-radius: 0px;
 .aside {
   transform: rotate(-90deg);
   position: absolute;
-  left: 0px;
-  top: 30px;
+  left: -2vw;
+  top: 6.4vw;
 }
 
-
-.rules{
-	margin: 30px 0;
+#about .row {
+  position: relative;
 }
 
 /*PROYECTOS*/
