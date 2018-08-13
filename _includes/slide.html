@@ -1,215 +1,24 @@
-		<script>
-		document.documentElement.className = "js";
-		var supportsCssVars = function() { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
-		supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
-		</script>
-		<div class="content content--fixed">
-			<div class="hero">
-				<h1 class="">Desarrollamos tecnología para fortalecer las democracias en América Latina.</h1>
-			</div>
-		</div>
-			<div class="slideshow">
-				<div class="slide">
-					<div class="slide__wrap">
-						<div class="slide__img" style="background-image: url(assets/img/1.jpg);"></div>
-						<div class="slide__title-wrap">
-							<p class="slide__subtitle">Pivot gnarly</p>
-						</div>
-					</div>
-				</div>
-				<div class="slide">
-					<div class="slide__wrap">
-						<div class="slide__img" style="background-image: url({{ baseurl }}assets/img/2.jpg);"></div>
-						<div class="slide__title-wrap">
-							<p class="slide__subtitle">Pie de foto</p>
-						</div>
-					</div>
-				</div>
-				<div class="slide">
-					<div class="slide__wrap">
-						<div class="slide__img" style="background-image: url({{ baseurl }}assets/img/3.jpg);"></div>
-						<div class="slide__title-wrap">
-							<p class="slide__subtitle">Pivot gnarly</p>
-						</div>
-					</div>
-				</div>
-			</div><!-- /slideshow -->
-			<nav class="boxnav">
-				<a class="boxnav__item boxnav__item--prev">
-					<i class="far fa-long-arrow-left"></i>
-				</a>
-				<div class="boxnav__item boxnav__item--label">
-					<span class="boxnav__label boxnav__label--current">1</span>
-					<span class="boxnav__label boxnav__label--total"></span>
-				</div>
-				<a class="boxnav__item boxnav__item--next">
-					<i class="far fa-long-arrow-right"></i>
-				</a>
-			</nav>
-			<!-- details -->
-			<div class="details-wrap">
-				<div class="details">
-					<div class="details__item details__item-img" data-direction="ttb">
-						<div class="details__inner">
-							<img src="{{ baseurl }}assets/img/small/1.jpg" alt="Some image"/>
-						</div>
-					</div>
-					<div class="details__item details__item-sizes">
-						<div class="details__inner details__inner--sizes">
-							<span class="details__size">XL</span>
-							<span class="details__size">L</span>
-							<span class="details__size details__size--selected">M</span>
-							<span class="details__size">S</span>
-						</div>
-					</div>
-					<div class="details__item details__item--addtocart" data-direction="ttb">
-						<div class="details__inner">
-							<button class="action action--addtocart">
-								<svg class="icon icon--cart"><use xlink:href="#icon-cart"></use></svg>
-							</button>
-						</div>
-					</div>
-					<div class="details__item details__item-colors" data-direction="ttb">
-						<div class="details__inner details__inner--grid details__inner--colors">
-							<span class="details__color details__color--white">White</span>
-							<span class="details__color details__color--red">Red</span>
-							<span class="details__color details__color--black">Black</span>
-							<span class="details__color details__color--blue">Blue</span>
-							<span class="details__color details__color--beige">Beige</span>
-							<span class="details__color details__color--sky">Sky</span>
-						</div>
-					</div>
-					<div class="details__item details__item-price">
-						<div class="details__inner details__inner--price">$89</div>
-					</div>
-					<div class="details__item details__item--close" data-direction="ttb">
-						<div class="details__inner">
-							<button class="action action--close">Close</button>
-						</div>
-					</div>
-				</div><!-- /details -->
-				<div class="details">
-					<div class="details__item details__item-img" data-direction="ttb">
-						<div class="details__inner">
-							<img src="{{ baseurl }}assets/img/small/2.jpg" alt="Some image"/>
-						</div>
-					</div>
-					<div class="details__item details__item-sizes">
-						<div class="details__inner details__inner--sizes">
-							<span class="details__size">XL</span>
-							<span class="details__size">L</span>
-							<span class="details__size details__size--selected">M</span>
-							<span class="details__size">S</span>
-						</div>
-					</div>
-					<div class="details__item details__item--addtocart" data-direction="ttb">
-						<div class="details__inner">
-							<button class="action action--addtocart">
-								<svg class="icon icon--cart"><use xlink:href="#icon-cart"></use></svg>
-							</button>
-						</div>
-					</div>
-					<div class="details__item details__item-colors" data-direction="ttb">
-						<div class="details__inner details__inner--grid details__inner--colors">
-							<span class="details__color details__color--white">White</span>
-							<span class="details__color details__color--red">Red</span>
-							<span class="details__color details__color--black">Black</span>
-							<span class="details__color details__color--blue">Blue</span>
-							<span class="details__color details__color--beige">Beige</span>
-							<span class="details__color details__color--sky">Sky</span>
-						</div>
-					</div>
-					<div class="details__item details__item-price">
-						<div class="details__inner details__inner--price">$119</div>
-					</div>
-					<div class="details__item details__item--close" data-direction="ttb">
-						<div class="details__inner">
-							<button class="action action--close">Close</button>
-						</div>
-					</div>
-				</div><!-- /details -->
-				<div class="details">
-					<div class="details__item details__item-img" data-direction="ttb">
-						<div class="details__inner">
-							<img src="{{ baseurl }}assets/img/small/3.jpg" alt="Some image"/>
-						</div>
-					</div>
-					<div class="details__item details__item-sizes">
-						<div class="details__inner details__inner--sizes">
-							<span class="details__size">XL</span>
-							<span class="details__size">L</span>
-							<span class="details__size details__size--selected">M</span>
-							<span class="details__size">S</span>
-						</div>
-					</div>
-					<div class="details__item details__item--addtocart" data-direction="ttb">
-						<div class="details__inner">
-							<button class="action action--addtocart">
-								<svg class="icon icon--cart"><use xlink:href="#icon-cart"></use></svg>
-							</button>
-						</div>
-					</div>
-					<div class="details__item details__item-colors" data-direction="ttb">
-						<div class="details__inner details__inner--grid details__inner--colors">
-							<span class="details__color details__color--white">White</span>
-							<span class="details__color details__color--red">Red</span>
-							<span class="details__color details__color--black">Black</span>
-							<span class="details__color details__color--blue">Blue</span>
-							<span class="details__color details__color--beige">Beige</span>
-							<span class="details__color details__color--sky">Sky</span>
-						</div>
-					</div>
-					<div class="details__item details__item-price">
-						<div class="details__inner details__inner--price">$65</div>
-					</div>
-					<div class="details__item details__item--close" data-direction="ttb">
-						<div class="details__inner">
-							<button class="action action--close">Close</button>
-						</div>
-					</div>
-				</div><!-- /details -->
-				<div class="details">
-					<div class="details__item details__item-img" data-direction="ttb">
-						<div class="details__inner">
-							<img src="{{ baseurl }}assets/img/small/4.jpg" alt="Some image"/>
-						</div>
-					</div>
-					<div class="details__item details__item-sizes">
-						<div class="details__inner details__inner--sizes">
-							<span class="details__size">XL</span>
-							<span class="details__size">L</span>
-							<span class="details__size details__size--selected">M</span>
-							<span class="details__size">S</span>
-						</div>
-					</div>
-					<div class="details__item details__item--addtocart" data-direction="ttb">
-						<div class="details__inner">
-							<button class="action action--addtocart">
-								<svg class="icon icon--cart"><use xlink:href="#icon-cart"></use></svg>
-							</button>
-						</div>
-					</div>
-					<div class="details__item details__item-colors" data-direction="ttb">
-						<div class="details__inner details__inner--grid details__inner--colors">
-							<span class="details__color details__color--white">White</span>
-							<span class="details__color details__color--red">Red</span>
-							<span class="details__color details__color--black">Black</span>
-							<span class="details__color details__color--blue">Blue</span>
-							<span class="details__color details__color--beige">Beige</span>
-							<span class="details__color details__color--sky">Sky</span>
-						</div>
-					</div>
-					<div class="details__item details__item-price">
-						<div class="details__inner details__inner--price">$99</div>
-					</div>
-					<div class="details__item details__item--close" data-direction="ttb">
-						<div class="details__inner">
-							<button class="action action--close">Close</button>
-						</div>
-					</div>
-				</div><!-- /details -->
-			</div>
-		</main>
-		<script src="{{ baseurl }}assets/js/imagesloaded.pkgd.min.js"></script>
-		<script src="{{ baseurl }}assets/js/TweenMax.min.js"></script>
-		<script src="{{ baseurl }}assets/js/demo.js"></script>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="{{ baseurl }}assets/img/2.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="{{ baseurl }}assets/img/1.jpg?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="{{ baseurl }}assets/img/3.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div class="hero">
+	<h1 class="">Desarrollamos tecnología para fortalecer las democracias en América Latina.</h1>
+</div>
