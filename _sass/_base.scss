@@ -1,10 +1,10 @@
 //colors
-$magenta: #FF6B57;
+$magenta: #D3326F;
 $yellow: #41C3AC;
 $red: #E8453B;
 $gray: #3B3B3B;
 $gray-two: #6F7276;
-$blue: #72C5CE;
+$cyan: #72C5CE;
 
 /* Base */
 
@@ -139,6 +139,12 @@ section {
   border-color: transparent;
 }
 
+.btn-secondary {
+  background: white;
+  color: $red;
+  border-color: transparent;
+}
+
 .btn-lg {
   width: 100%;
   height: 80px;
@@ -151,6 +157,29 @@ section {
 
 .btn .fa-long-arrow-right {
     padding-left: 15px;
+}
+
+// background
+
+.bg-red {
+  background: $red;
+  color: white;
+}
+
+.bg-cyan {
+  background: $cyan;
+  color: white;
+}
+
+.bg-magenta {
+  background: $magenta;
+  color: white;
+}
+
+// text color
+
+.white {
+  color: white;
 }
 
 /*FORM*/
