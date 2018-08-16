@@ -117,8 +117,9 @@ section {
 /*BUTTONS*/
 
 .btn {
-  border-radius: 0;
+  border-radius: 30px;
   font-size: 16px;
+  font-weight: 600;
   -webkit-font-smoothing: antialiased;
   -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
   text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -148,31 +149,8 @@ section {
   padding: 0px 6px;
 }
 
-/*Video*/
-
-.bgvid {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: auto;
-  padding: 0;
-  margin-top: 21px;
-  z-index: -1;
-  top: 0;
-}
-
-#bgvid {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-section#inicio {
-  margin: 0;
-  padding: 0;
-  top: 0;
-  background: url(/assets/img/ciudadanoi.jpg);
-  background-size: cover;
+.btn .fa-long-arrow-right {
+    padding-left: 15px;
 }
 
 /*FORM*/
