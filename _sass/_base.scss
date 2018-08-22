@@ -529,7 +529,7 @@ border-radius: 0px;
   left: 11vw;
   z-index: 1;
   max-width: 650px;
-  background: #ffffffa1;
+  background: #ffffffcc;
   padding: 2rem 0;
   color: #E8453B;
   & h1 {
@@ -538,11 +538,19 @@ border-radius: 0px;
   }
 }
 
-.hero-links a {
-    padding: 0 4px 0px 15px;
+.hero-links.text-center {
+    position: absolute;
+    bottom: 10px;
+    z-index: 1;
+    width: 100%;
 }
 
 // carousel
+
+.fullvh {
+  height: 100vh;
+   min-width: 100vw;
+}
 
 .carousel {
   height: 100vh;
@@ -626,7 +634,23 @@ border-radius: 0px;
 
 .box {
   padding: calc(15px + 1vw);
-  min-height: 344px;
+  min-height: 355px;
+}
+
+// team
+
+.team-intro {
+    display:none;
+    position: absolute;
+    background: white;
+    top: 0;
+    left: 0;
+}
+.team-box {
+  position: relative;
+  &:hover .team-intro {
+      display:block;
+  }
 }
 
 /*PROYECTOS*/
