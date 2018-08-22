@@ -77,7 +77,8 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  line-height: 3.5rem;
+  line-height: calc(2rem + 2vw);
+  font-size: calc(1.5rem + 1.5vw);
 }
 
 h2, .h2 {
@@ -107,6 +108,10 @@ h5, .h5 {
     font-size: 18px;
 }
 
+.relative {
+  position: relative;
+}
+
 section {
   margin: 100px 0;
 }
@@ -130,6 +135,7 @@ section {
   -webkit-font-smoothing: antialiased;
   -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
   text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  padding: 10px 20px;
 }
 
 .btn-primary {
@@ -138,7 +144,6 @@ section {
   transition: background-color .3s ease-in;
   -moz-transition: background-color .3s ease-in;
   -webkit-transition: background-color .3s ease-in;
-  padding: 10px 20px;
 }
 
 .btn-primary:hover {
@@ -163,8 +168,9 @@ section {
   margin-bottom: 10px;
 }
 
-.btn-xs {
-  padding: 0px 6px;
+.btn-sm {
+  font-size: .875rem;
+  padding: .25rem .5rem;
 }
 
 .btn .fa-long-arrow-right {
@@ -249,6 +255,12 @@ input[type=checkbox], input[type=radio] {
 
 label {
   font-weight: 400;
+}
+
+.input-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
 }
 
 /*TABLE*/
@@ -506,21 +518,28 @@ border-radius: 0px;
 
 #hero {
   position: relative;
+  & i {
+    font-size: 50px;
+  }
 }
 
 .intro-hero {
   position: absolute;
   top: 24vh;
-  left: 6vw;
+  left: 11vw;
   z-index: 1;
   max-width: 650px;
   background: #ffffffa1;
   padding: 2rem 0;
   color: #E8453B;
   & h1 {
-    margin-left: -3vw;
-    color: $red;
+    margin-left: -6vw;
+    color: $magenta;
   }
+}
+
+.hero-links a {
+    padding: 0 4px 0px 15px;
 }
 
 // carousel
@@ -559,6 +578,22 @@ border-radius: 0px;
 
 // about
 
+.about-title {
+  position: relative;
+  &:before {
+    content: 'Quienes somos';
+    font-size: 28px;
+    font-weight: 600;
+    transform: rotate(-90deg);
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: $gray-one;
+    transform-origin: top left;
+    left: -40px;
+    top: 223px;
+  }
+}
+
 .aside {
   transform: rotate(-90deg);
   position: absolute;
@@ -573,12 +608,20 @@ border-radius: 0px;
 
 // how
 
-#how .row {
+.how-title {
   position: relative;
-}
-
-#how .aside {
-  top: 22vh;
+  &:before {
+    content: 'Cómo lo hacemos';
+    font-size: 28px;
+    font-weight: 600;
+    transform: rotate(-90deg);
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: $gray-one;
+    transform-origin: top left;
+    left: -40px;
+    top: 258px;
+  }
 }
 
 .box {
@@ -883,7 +926,6 @@ li.current {
 .header-menu {
   width: 100%;
   z-index: 200;
-  height: 7.5vh;
 }
 
 .header-menu.sticky {
@@ -892,7 +934,7 @@ li.current {
   -moz-animation: bounceInDown 0.5s;
   -webkit-animation: bounceInDown 0.5s;
   animation: bounceInDown 0.5s;
-  background: #ffffffe3;
+  background: #fffffff5;
 }
 
 .header-menu.fixed {
