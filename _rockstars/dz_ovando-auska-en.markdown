@@ -3,8 +3,8 @@ ref: auska
 lang: en
 sede: chile
 name: Auska Ovando
-function: Coordinadora de Comunicaciones
-bio: Periodista, máster en Sociología y C. Política, creo en la acción colectiva para el cambio social!
+function: Communications Coordinator
+bio: BA in Journalism from Universidad Católica (Chile), MSc in Democracy and Comparative Politics from University College London and MPhil in Sociology from University of Cambridge. 
 image: auska-o.jpg
 email: aovando@ciudadanointeligente.org
 network_twitter: https://twitter.com/auskahareli
