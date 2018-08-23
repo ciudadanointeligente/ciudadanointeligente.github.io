@@ -4,7 +4,7 @@ lang: en
 sede: chile
 name: Catalina Balla
 function: Press Officer
-bio: Journalist with a master's degree in Cultural Journalism from the Universitat Pompeu Fabra in Barcelona.
+bio: Journalist. Holds a master's in Cultural Journalism from Universitat Pompeu Fabra (Barcelona).
 image: cataballa.jpg
 email: cballa@ciudadanointeligente.org
 network_twitter: https://twitter.com/cataballa
