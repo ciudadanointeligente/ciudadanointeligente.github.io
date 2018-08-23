@@ -1,9 +1,10 @@
 ---
 ref: egle
 lang: en
+sede: chile
 name: Eglé Flores
-function: Coordinadora Regional
-bio: Nomad, poet, bandit lover. I believe in collaboration as an inexhaustible source of creativity to transform our reality.
+function: Regional Coordinator
+bio: Feminist biologist with 13 years of experience in design, management and evaluation of collective impact processes. She writes, grows plants and questions her own colonialisms.
 image: egle.jpg
 email: eflores@ciudadanointeligente.org
 network_twitter: https://twitter.com/solshinee
