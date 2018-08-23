@@ -1,9 +1,10 @@
 ---
 ref: liss
 lang: en
+sede: chile
 name: Lissett García
-function: Diseñadora
-bio: Diseñadora por y para causas sociales. Busco comunicar en fácil lo que a veces parece chino. Creo en la formación ciudadana para lograr una ciudadanía inteligente.
+function: Designer - Coordinator of Child and Youth Participation
+bio: Designer from the P. Catholic University of Chile. Feminist and defender of children’s and adolescent’s participation..
 image: liss.jpg
 email: lgarcia@ciudadanointeligente.org
 network_twitter:
