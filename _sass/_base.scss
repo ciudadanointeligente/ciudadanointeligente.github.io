@@ -116,10 +116,6 @@ h5, .h5 {
   position: relative;
 }
 
-section {
-  margin: 100px 0;
-}
-
 .container.content {
   margin-top: 100px;
 }
@@ -583,15 +579,6 @@ border-radius: 0px;
     right: 7vw;
 }
 
-.carousel-caption {
-    right: 7vw;
-    left: auto;
-    color: $gray-two;
-    text-align: right;
-    bottom: 12.5vh;
-    padding: 0;
-}
-
 // about
 
 .about-title {
@@ -676,11 +663,14 @@ border-radius: 0px;
 /*PROYECTOS*/
 
 #projectscarousel .carousel-caption {
-    top: 15px;
+    top: 90px;
     left: 15px;
     right: auto;
-    background: #ffffffdb;
-    padding: 2rem;
+    & .caption-box{
+      background: #ffffffdb;
+      padding: 2rem;
+      text-align: left;
+    }
 }
 
 /* Syntax highlighting styles */
