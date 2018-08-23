@@ -1,9 +1,10 @@
 ---
 ref: manuel
 lang: en
+sede: chile
 name: Manuel Barros
-function: Coordinador OGP
-bio: Sociólogo y periodista librepensante. Nerd de los datos y la apertura, en donde estoy seguro que está el futuro de nuestras sociedades.
+function: Project Manager
+bio: Sociologist and journalist from the Universidad Diego Portales. #OpenGov preacher and defender of collaboration as a basis for stronger democracies. Mexican food fan and dog lover.
 image: manuel.jpg
 email: mbarros@ciudadanointeligente.org
 network_twitter: https://twitter.com/manuelbarrosr
