@@ -1,9 +1,10 @@
 ---
 ref: colombina
 lang: en
+sede: chile
 name: Colombina Schaeffer
-function: Subdirectora
-bio: Socióloga con doctorado en Ciencia Política. Comprometida con lo colectivo y lo público. La vida en común la tenemos que diseñar entre todas y todos.
+function: Deputy Director 
+bio: Sociologist from the P. Catholic University of Chile, PhD in Government and International Relations (University of Sydney).
 image: colombina.jpg
 email: cschaeffer@ciudadanointeligente.org
 network_twitter:
@@ -13,5 +14,4 @@ network_googleplus:
 network_facebook:
 network_instagram:
 active: true
-sede: chile
 ---
