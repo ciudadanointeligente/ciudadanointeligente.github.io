@@ -1,9 +1,10 @@
 ---
 ref: dani
 lang: en
+sede: chile
 name: Daniela Quiroz
-function: Desarrolladora
-bio: Desarrolladora, montañista, amante de los viajes y libros. Creo en la fuerza de la tecnología para crear espacios donde confluir y lograr cambios sociales.
+function: Developer
+bio: Information Technologies Engineer from Universidad Católica (Chile). Developer of civic technology, feminist, vegan and mountaineer.
 image: dani.jpg
 email: dquiroz@ciudadanointeligente.org
 network_twitter: https://twitter.com/DaniAQO
