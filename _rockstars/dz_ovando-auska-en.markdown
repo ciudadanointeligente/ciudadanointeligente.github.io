@@ -1,6 +1,6 @@
 ---
 ref: auska
-lang: es
+lang: en
 name: Auska Ovando
 function: Coordinadora de Comunicaciones
 bio: Periodista, máster en Sociología y C. Política, creo en la acción colectiva para el cambio social!
@@ -13,5 +13,4 @@ network_googleplus:
 network_facebook:
 network_instagram:
 active: true
-sede: chile
 ---

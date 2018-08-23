@@ -1,6 +1,6 @@
 ---
 ref: lula
-lang: es
+lang: en
 name: Lula
 function: Masajista de ideas
 bio: Quiltra mexicana, feminista hasta los huesos. ¿Huesos? ¡Ñam!

@@ -510,6 +510,10 @@ border-radius: 0px;
   margin-top: 60px;
 }
 
+.mt-75 {
+  margin-top: 75px;
+}
+
 .mb-90 {
   margin-bottom: 90px;
 }
@@ -643,6 +647,10 @@ border-radius: 0px;
 
 // team
 
+.team {
+    background: $gray-one;
+}
+
 .team-intro {
   display: none;
   position: absolute;
@@ -660,6 +668,9 @@ border-radius: 0px;
 
 .box-title {
     padding: 38% 15px;
+    & h1 {
+      color: white;
+    }
 }
 
 /*PROYECTOS*/

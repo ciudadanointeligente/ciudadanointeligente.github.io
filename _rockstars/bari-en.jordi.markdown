@@ -1,6 +1,6 @@
 ---
 ref: jordi
-lang: es
+lang: en
 name: Jordi Bari
 function: Desarrollador y técnico
 bio: Electro-anarco meditador. Aprieto teclas y cruzo cables.

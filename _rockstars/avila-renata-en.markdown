@@ -1,6 +1,6 @@
 ---
 ref: renata
-lang: es
+lang: en
 name: Renata Ávila
 function: Directora Ejecutiva
 bio: Guatemalteca, abogada, internacionalista. Me gusta tejer redes improbables, y la política para los más. También imaginar las instituciones del futuro y escribir.

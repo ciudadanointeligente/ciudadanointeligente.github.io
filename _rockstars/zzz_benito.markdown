@@ -1,11 +1,11 @@
 ---
-ref: lula
+ref: benito
 lang: es
-name: Lula
-function: Masajista de ideas
-bio: Quiltra mexicana, feminista hasta los huesos. ¿Huesos? ¡Ñam!
-image: lula.jpg
-email: ef
+name: Benito
+function: Cuidador de todas y todos
+bio: The best and fastest 3-legged citizen.
+image: benito.jpg
+email:
 network_twitter:
 network_linkedin:
 network_github:

@@ -1,4 +1,6 @@
 ---
+ref: malu
+lang: en
 name: Maria Luiza Freire
 function: Colaboradora
 bio: Licenciada en derecho con foco en derechos humanos, derecho urbanístico y diversidad, cree que la inclusión social y el debate interdisciplinario son fundamentales para democratizar los espacios de incidencia y resiliencia en las ciudades.

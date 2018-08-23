@@ -1,6 +1,6 @@
 ---
 ref: marga
-lang: es
+lang: en
 name: Margarita Maira
 function: Coordinadora de proyectos
 bio: Magíster en literatura victoriana, dejé la academia para trabajar para y con la ciudadanía. Aterricé en FCI buscando un trabajo con sentido. ¡Vamos por buen camino!

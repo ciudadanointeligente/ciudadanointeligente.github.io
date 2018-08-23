@@ -1,6 +1,6 @@
 ---
 ref: catab
-lang: es
+lang: en
 name: Catalina Balla
 function: Coordinadora de Prensa y Comunidad
 bio: Periodista con Máster en cultura, pero mi verdadera escuela está en los viajes. Mochilera, amante de las redes y el trabajo en equipo.

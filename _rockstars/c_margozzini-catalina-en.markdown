@@ -1,10 +1,10 @@
 ---
 ref: catam
-lang: es
+lang: en
 sede: chile
 name: Catalina Margozzini
-function: Diseñadora UX
-bio: Diseñadora de la Universidad Católica de Chile, especializada en experiencia de usuario y desarrollo front-end.
+function: UX designer
+bio: Creo profundamente en mi trabajo y en mi querido equipo que me hace cada día más data nerd.
 image: cata.jpg
 email: cmargozzini@ciudadanointeligente.org
 network_twitter: https://twitter.com/CaMargozzini

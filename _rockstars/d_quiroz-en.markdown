@@ -1,6 +1,6 @@
 ---
 ref: dani
-lang: es
+lang: en
 name: Daniela Quiroz
 function: Desarrolladora
 bio: Desarrolladora, montañista, amante de los viajes y libros. Creo en la fuerza de la tecnología para crear espacios donde confluir y lograr cambios sociales.
