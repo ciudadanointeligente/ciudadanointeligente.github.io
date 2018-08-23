@@ -2,10 +2,10 @@
 ref: malu
 lang: en
 name: Maria Luiza Freire
-function: Colaboradora
-bio: Licenciada en derecho con foco en derechos humanos, derecho urbanístico y diversidad, cree que la inclusión social y el debate interdisciplinario son fundamentales para democratizar los espacios de incidencia y resiliencia en las ciudades.
+function: Project and research coordinator
+bio: Lawyer from the PUC -Rio, feminist and decolonialist. Master student in public policies and urban planning in Latin America at IPPUR / UFRJ. Innovating in political participation.
 image: malu-br.jpg
-email:
+email:mfreire@cidadaniainteligente.org 
 network_twitter:
 network_linkedin:
 network_github:
