@@ -1,9 +1,10 @@
 ---
 ref: martin
 lang: en
+sede: chile
 name: Martín Corvera
-function: Coordinador de Proyectos y Campañas
-bio: Periodista de profesión. Fotógrafo y videísta amateur. Me dedico a comunicar porque la información es de todos y todas.
+function: Project Manager
+bio: BA in Journalism from Universidad Católica (Chile), studied Photography at Espacio Buenos Aires (Argentina). Received photojournalism award at the Etecom 2012 contest. .
 image: martin.jpg
 email: mcorvera@ciudadanointeligente.org
 network_twitter:
