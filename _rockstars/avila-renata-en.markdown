@@ -1,9 +1,10 @@
 ---
 ref: renata
 lang: en
+sede: chile
 name: Renata Ávila
-function: Directora Ejecutiva
-bio: Guatemalteca, abogada, internacionalista. Me gusta tejer redes improbables, y la política para los más. También imaginar las instituciones del futuro y escribir.
+function: Executive Director
+bio: Lawyer, International Human Rights & Technology (LL.M. University of Turin). Innovating in political participation and defending democracy in the digital age. 
 image: renata-avila.jpg
 email: ravila@ciudadanointeligente.org
 network_twitter: https://twitter.com/avilarenata
