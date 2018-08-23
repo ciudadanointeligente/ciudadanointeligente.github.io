@@ -1,6 +1,6 @@
 ---
 ref: natalia
-lang: es
+lang: en
 sede: chile
 name: Natalia Matayoshi 
 function: Designer
