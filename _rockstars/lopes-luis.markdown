@@ -1,9 +1,10 @@
 ---
 ref: luisfelipe
 lang: es
+sede: brasil
 name: Luis Felipe Lopes
-function: Gerente de projectos
-bio: Cientista político, urbanista, humanista. Busco inspiración en las ideas y prácticas que acumulé trabajando en más de diez países para apoyar la construcción de ciudades inclusivas, diversas y sustentables.
+function: Coordinador de proyectos
+bio: Científico político con maestría en gobernanza urbana y desarrollo local de Sciences Po París. Activista de los derechos de la población LGBT +.
 image: lipe.jpg
 email:
 network_twitter:
