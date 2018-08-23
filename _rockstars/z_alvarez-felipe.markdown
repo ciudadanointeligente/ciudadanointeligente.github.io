@@ -4,7 +4,7 @@ lang: es
 sede: brasil
 name: Felipe Álvarez
 function: Desarrollador
-bio: Valdiviano, idealista, ciclista, acróbata y artesano de software. Cometo errores y escribo fallas.
+bio: Ingeniero Civil en Informática.
 image: felipee.jpg
 email: falvarez@ciudadanointeligente.org
 network_twitter: 'https://twitter.com/lfalvarez'
