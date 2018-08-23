@@ -1,4 +1,6 @@
 ---
+ref: manuel
+lang: es
 name: Manuel Barros
 function: Coordinador OGP
 bio: Sociólogo y periodista librepensante. Nerd de los datos y la apertura, en donde estoy seguro que está el futuro de nuestras sociedades.

@@ -1,4 +1,6 @@
 ---
+ref: octavio
+lang: es
 name: Octavio Del Favero
 function: Coordinador Legislativo
 bio: Abogado en permanente formación. Aprendo de mis compañeros y proyectos en FCI para trabajar por una democracia que nos represente e integre a todos/as.

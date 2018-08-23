@@ -1,4 +1,6 @@
 ---
+ref: martin
+lang: es
 name: Martín Corvera
 function: Coordinador de Proyectos y Campañas
 bio: Periodista de profesión. Fotógrafo y videísta amateur. Me dedico a comunicar porque la información es de todos y todas.

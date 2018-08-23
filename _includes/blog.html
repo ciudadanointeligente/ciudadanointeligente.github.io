@@ -1,37 +1,10 @@
-<section id="blog" class="clearfix">
-    <h2>Blog</h2>
-    <p>Estos son los últimos post del blog de FCI. Revisa aquí <a href="https://blog.ciudadanointeligente.org">todas las publicaciones</a>.</p>
-    <div id="blog">
-        <script type="text/javascript">
-        (function(blog, limit) {
-	        limit = +limit || 10;
-	        var scriptTags = document.getElementsByTagName('script');
-	        var scriptNode = scriptTags[scriptTags.length - 1];
-	        var recent = document.createElement("div");
-	        scriptNode.parentNode.appendChild(recent);
-	        recent.setAttribute("class", "widget");
-	        recent.setAttribute("id", "TumblrRecentPosts");
-	        var script = document.createElement("script");
-	        script.src = "//" + blog + "/api/read/json";
-	        script.onload = function(data) {
-		        if(!tumblr_api_read) return;
-		        var response = tumblr_api_read.posts;
-		        var post;
-		        var len = Math.min(response.length, limit);
-		        var html = "<div class='row'>";
-		        for(var i = 0; i < len; ++i) {
-		            post = response[i];
-		            var post_title="(Sin título)";
-		            if (post['regular-title']){post_title=post['regular-title'];};
-		            var post_tags="";
-		            if (post['tags']){post_tags="<div class='blog-tags'><span>" + post['tags'].join('</span><span>') +"</span></div>";};
-		            html += "<div class='col-md-3'><div class='box'><a href='" + (post['url-with-slug'] || post.url) + "'>" +
-		            post_title + "</a>" + post_tags + "</div></div>";
-		        }
-		        recent.innerHTML = html;
-	        };
-	        document.body.appendChild(script);
-        })("comunidadi.tumblr.com", 8); //enter your blog name here, and adjust number of posts on display
-        </script>
+<div class="" style="background-image: url({{ site.baseurl }}/assets/img/hero04.png);">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 mt-90 mb-90">
+        <h4 class="white mb-30">Fortalecer las democracias en Latinoamérica es tejer cientos de historias.</h4>
+        <a class="btn btn-secondary" href="https://blog.ciudadanointeligente.org/" target="_blank">Revisa nuestro blog <i class="far fa-long-arrow-right"></i></a>
+      </div>
     </div>
-</section>
+  </div>
+</div>
