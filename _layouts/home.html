@@ -18,5 +18,13 @@ layout: default
 </div>
 
 {% include about-es.html %}
-{% include how-es.html %}
+
+{% if page.lang=='en' %}
+  {% include how-en.html %}
+{% endif %}
+
+{% if page.lang=='es' %}
+  {% include how.html %}
+{% endif %}
+
 {% include blog.html %}

@@ -675,26 +675,12 @@ border-radius: 0px;
 
 /*PROYECTOS*/
 
-.activo {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  background: #e85343;
-  padding: 0px 3px;
-  color: #fff;
-  text-transform: capitalize;
-  font-weight: 400;
-}
-
-.archivado {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  background: #808080;
-  padding: 0px 3px;
-  color: #fff;
-  text-transform: capitalize;
-  font-weight: 400;
+#projectscarousel .carousel-caption {
+    top: 15px;
+    left: 15px;
+    right: auto;
+    background: #ffffffdb;
+    padding: 2rem;
 }
 
 /* Syntax highlighting styles */
