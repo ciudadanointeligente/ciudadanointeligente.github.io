@@ -1,31 +1,29 @@
 <div id="menu" class="header-menu fixed">
     <div class="container">
         <div class="row">
-            <nav role="navigation" class="col-sm-12">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <!-- logo-->
-                    <span class="navbar-brand logo">
-                        <img src="{{ site.baseurl }}/assets/img/logo-ciudadanoi.svg" tabindex="1">
-                    </span>
-                </div>
-                <div class="navbar-collapse collapse">
+            <nav role="navigation" class="navbar navbar-expand-lg navbar-light">
+              <span class="navbar-brand logo">
+                <a class="nav-link" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/assets/img/logo-ciudadanoi.svg" tabindex="1"></a>
+              </span>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- navigation menu-->
-                    <ul class="nav navbar-nav">
-                        <li class="current"><a href="{{ site.baseurl }}/#header" tabindex="2">Inicio</a></li>
-                        <li><a href="{{ site.baseurl }}/#proyectos" tabindex="3">Proyectos</a></li>
-                        <li><a href="{{ site.baseurl }}/#sobre-nosotros" tabindex="4">Sobre nosotros</a></li>
-                        <li><a href="{{ site.baseurl }}/#transparencia" tabindex="5">Transparencia</a></li>
-                        <li><a href="//comunidadi.tumblr.com/" target="_blank" tabindex="6">Blog</a></li>
-			                  <li><a href="#newsletter" tabindex="7">Suscripción y contacto</a></li>
-                        <li><a href="//en.ciudadanointeligente.org/" tabindex="8">English version</a></li>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active"><a class="nav-link" href="{{ site.baseurl }}">Inicio <span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}about" tabindex="3">Sobre FCI</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}team" tabindex="4">Equipo</a></li>
+                  			<!-- <li class="nav-item"><a class="nav-link" href="#newsletter" tabindex="8">Directorio</a></li> -->
+                  			<!-- <li class="nav-item"><a class="nav-link" href="#newsletter" tabindex="8">Reglas</a></li> -->
+                        {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+                        {% for page in pages %}
+                        <li class="nav-item">
+                          <a href="{{ page.url }}" class="{{ page.lang }} nav-link small">{{ page.lang }}</a>
+                        </li>
+                        {% endfor %}
                     </ul>
-                </div>
+              </div>
             </nav>
         </div>
     </div>

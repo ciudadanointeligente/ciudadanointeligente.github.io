@@ -20,3 +20,9 @@ collections:
     output: true
   board_members:
     output: true
+  pasantes:
+    output: true
+  equipobrasil:
+    output: true
+  propuestas:
+    output: true

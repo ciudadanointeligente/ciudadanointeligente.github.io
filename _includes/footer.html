@@ -1,20 +1,27 @@
-<footer class="site-footer">
+<footer class="site-footer mt-60 mb-60">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <ul>
-                    <li>
-                        Desarrollado por <a href="//ciudadanointeligente.org" target="_blank"><img src="{{ site.baseurl }}/assets/img/logo-ciudadanoi-blanco.svg" alt="Fundación Ciudadano Inteligente" title="Fundación Ciudadano Inteligente"></a>
-                    </li>
+            <div class="col-md-12 mb-30">
+              <div class="small text-center">
+                <ul class="list-inline">
+                  <!-- <li class="list-inline-item"><a href="#">Gracias</a></li>
+                  <li class="list-inline-item"><a href="#">Contacto</a></li>
+                  <li class="list-inline-item"><a href="#">Descarga Logo</a></li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+                <ul class="list-inline rrss">
+                    <li class="list-inline-item"><a href="mailto:{{ site.email }}" class="email-prensa" target="_top"><i class="far fa-envelope"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="//www.facebook.com/ciudadanointeligente" ><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="//twitter.com/ciudadanoi" ><i class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="//github.com/ciudadanointeligente" ><i class="fab fa-github"></i></a></li>
                 </ul>
             </div>
-            <div class="col-md-8">
-                <ul class="list-inline text-right redes">
-                    <li><a href="mailto:{{ site.email }}" class="email-prensa" target="_top"><i class="fa fa-envelope"></i></a></li>
-                    <li><a target="_blank" href="//www.facebook.com/ciudadanointeligente" ><i class="fa fa-facebook"></i></a></li>
-                    <li><a target="_blank" href="//twitter.com/ciudadanoi" ><i class="fa fa-twitter"></i></a></li>
-                    <li><a target="_blank" href="//github.com/ciudadanointeligente" ><i class="fa fa-github"></i></a></li>
-                </ul>
+            <div class="col-md-4">
+              {% include newsletter.html %}
             </div>
         </div>
     </div>

@@ -1,7 +1,10 @@
 ---
+ref: octavio
+lang: es
+sede: chile
 name: Octavio Del Favero
-function: Coordinador Legislativo
-bio: Abogado en permanente formación. Aprendo de mis compañeros y proyectos en FCI para trabajar por una democracia que nos represente e integre a todos/as.
+function: Coordinador de Incidencia
+bio: Abogado de la Universidad de Chile. Diplomado en Análisis Político del Instituto de Asuntos Públicos de la misma universidad.
 image: octavio.jpg
 email: odfavero@ciudadanointeligente.org
 network_twitter: https://twitter.com/octaviodfb

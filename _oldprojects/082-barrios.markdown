@@ -7,7 +7,7 @@ proj_img: barrios.png
 proj_thumb: barrios-thumb.png
 proj_mockup: barrios-mock.png
 proj_description: Barrios en Acción es un proyecto realizado en conjunto entre CiudadViva y Ciudadano Inteligente promover la participación de la comunidad en estrategias de prevención a través de la identificación de problemas de convivencia y entorno urbano.
-proj_site_url: http://barriosenaccion.cl/
+proj_site_url: #
 proj_status: activo
 ---
 

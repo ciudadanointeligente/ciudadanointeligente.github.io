@@ -1,0 +1,47 @@
+<div class="mt-75">
+  {% assign counter=1 %}
+    <div class="row no-gutters team">
+      <div class="col-md-3">
+        <div class="box-title">
+          <h1>Equipo</h1>
+        </div>
+      </div>
+    {% assign member=site.rockstars | where:"lang", page.lang %}
+    {% for member in site.rockstars %}
+    	{% if {{member.lang}} == {{page.lang}} %}
+    		<div class="col-md-3">
+          <div class="team-box">
+            <a href="#">
+              <div class="team-img">
+                <img src="{{ site.baseurl }}/assets/img/team/{{member.image}}">
+              </div>
+              <div class="team-intro animated fadeInUp h-100">
+                  <h4>{{member.name}}</h4>
+                  <p class="small">{{member.function}} | Sede {{member.sede}}</p>
+                  <p>{{member.bio}}</p>
+                  <p class="rrss">
+                    {% if {{member.network_twitter}} != null %} <a class="" href="{{member.network_twitter}}"><i class="fab fa-twitter"></i></a> {% endif %}
+                    {% if {{member.network_linkedin}} != null %} <a class="" href="{{member.network_linkedin}}"><i class="fab fa-linkedin-in"></i></a> {% endif %}
+                    {% if {{member.network_github}} != null %} <a class="" href="{{member.network_github}}"><i class="fab fa-github"></i></a> {% endif %}
+                    {% if {{member.network_googleplus}} != null %} <a class="" href="{{member.network_googleplus}}"><i class="fa fa-google-plus"></i></a> {% endif %}
+                    {% if {{member.email}} != null %} <a class="" href="mailto:{{member.email}}" target="_top"><i class="far fa-envelope"></i></a> {% endif %}
+                  </p>
+              </div>
+            </a>
+          </div>
+    		</div>
+    		{% if counter == 3 %}
+    		</div>
+    		<div class="row no-gutters team">
+    		{% elsif counter == 7 %}
+    		</div>
+    		<div class="row no-gutters team">
+    		{% elsif counter == 11 %}
+    		</div>
+    		<div class="row no-gutters team">
+    		{% endif %}
+    		{% assign counter=counter | plus:1 %}
+    	{% endif %}
+    {% endfor %}
+    </div>
+</div>

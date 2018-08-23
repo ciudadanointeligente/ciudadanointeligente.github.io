@@ -1,8 +1,10 @@
 ---
+ref: auska
+lang: es
 name: Auska Ovando
-function: Coordinadora de Investigación y Estrategia Comunicacional
-bio: Periodista, máster en Sociología. Power to the people!
-image: auska.jpg
+function: Coordinadora de Comunicaciones
+bio: Periodista, máster en Sociología y C. Política, creo en la acción colectiva para el cambio social!
+image: auska-o.jpg
 email: aovando@ciudadanointeligente.org
 network_twitter: https://twitter.com/auskahareli
 network_linkedin: https://www.linkedin.com/in/auskaovando
@@ -11,4 +13,5 @@ network_googleplus:
 network_facebook:
 network_instagram:
 active: true
+sede: chile
 ---

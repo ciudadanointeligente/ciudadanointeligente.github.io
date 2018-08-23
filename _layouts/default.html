@@ -2,12 +2,14 @@
 <html>
     {% include head.html %}
     <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P8BXP8C"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
         {% include header.html %}
 
         <div class="scroll-to-top"></div>
-        <div class="container content">
             {{ content }}
-        </div>
         {% include footer.html %}
         <!-- Go to www.addthis.com/dashboard to customize your tools -->
         <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5433f951335f264a" async></script>
@@ -21,7 +23,5 @@
         ga('require', 'displayfeatures');
         ga('send', 'pageview');
         </script>
-
-<script src="//my.hellobar.com/f555ab8b223d0cc13ec9e504fbbc22b9dadb690b.js" type="text/javascript" charset="utf-8" async="async"></script>
     </body>
 </html>
