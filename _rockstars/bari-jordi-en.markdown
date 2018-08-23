@@ -1,9 +1,10 @@
 ---
 ref: jordi
 lang: en
+sede: chile
 name: Jordi Bari
-function: Desarrollador y técnico
-bio: Electro-anarco meditador. Aprieto teclas y cruzo cables.
+function: Developer
+bio: Technician in electronics of computer equipment.
 image: jordi.jpg
 email: jbari@ciudadanoi.org
 network_twitter: https://twitter.com/jordi__cl
