@@ -59,6 +59,10 @@ a {
 }
 a:hover   { color: $magenta; text-decoration: none; }
 
+p {
+  color: $gray-two;
+}
+
 /* Utility */
 
 .wrap:before,
@@ -339,7 +343,7 @@ border-radius: 0px;
     border: 1px solid $gray-four;
     width: 35px;
     height: 35px;
-    padding: 28%;
+    padding: 10px;
     border-radius: 30px;
     &.fa-facebook-f {
       padding: 28% 36%;
@@ -640,17 +644,22 @@ border-radius: 0px;
 // team
 
 .team-intro {
-    display:none;
-    position: absolute;
-    background: white;
-    top: 0;
-    left: 0;
+  display: none;
+  position: absolute;
+  background: #ffffffdb;
+  top: 0;
+  left: 0;
+  padding: 2rem;
 }
 .team-box {
   position: relative;
   &:hover .team-intro {
       display:block;
   }
+}
+
+.box-title {
+    padding: 38% 15px;
 }
 
 /*PROYECTOS*/

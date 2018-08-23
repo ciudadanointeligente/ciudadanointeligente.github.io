@@ -3,7 +3,13 @@ layout: default
 ---
 <div id="hero">
   <div class="intro-hero">
-  	<h1>Desarrollamos tecnología para fortalecer las democracias en América Latina.</h1>
+    {% if page.lang=='en' %}
+      <h1>We develop technology to strengthen democracies in Latin America.</h1>
+    {% endif %}
+
+    {% if page.lang=='es' %}
+      <h1>Desarrollamos tecnología para fortalecer las democracias en América Latina.</h1>
+    {% endif %}
   </div>
   <div class="hero-links text-center">
     <a href="#about"><i class="fal fa-angle-down"></i></a>

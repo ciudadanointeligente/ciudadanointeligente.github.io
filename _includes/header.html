@@ -1,5 +1,11 @@
 <header id="header" class="site-header">
+  {% if page.lang=='en' %}
+    {% include nav-en.html%}
+  {% endif %}
+
+  {% if page.lang=='es' %}
     {% include nav.html%}
+  {% endif %}
     <!-- AUTOSCROLL -->
     <script type="text/javascript">
         $(document).ready(function(){
