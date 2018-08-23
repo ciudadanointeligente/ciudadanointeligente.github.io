@@ -1,6 +1,7 @@
 ---
 ref: renata
 lang: en
+sede: chile
 name: Renata Ávila
 function: Executive Director
 bio: Lawyer, International Human Rights & Technology (LL.M. University of Turin). Innovating in political participation and defending democracy in the digital age. 
