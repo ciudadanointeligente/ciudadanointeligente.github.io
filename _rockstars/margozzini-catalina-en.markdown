@@ -4,7 +4,7 @@ lang: en
 sede: chile
 name: Catalina Margozzini
 function: UX designer
-bio: Creo profundamente en mi trabajo y en mi querido equipo que me hace cada día más data nerd.
+bio: BA in Design from Universidad Católica (Chile). Specialized in user experience and front-end development.
 image: cata.jpg
 email: cmargozzini@ciudadanointeligente.org
 network_twitter: https://twitter.com/CaMargozzini
