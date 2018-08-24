@@ -4,7 +4,7 @@ lang: en
 sede: brasil
 name: Felipe Álvarez
 function: Developer
-bio: Ingeniero Civil en Informática.
+bio: Civil Engineer in Computer Science.
 image: felipee.jpg
 email: falvarez@ciudadanointeligente.org
 network_twitter: 'https://twitter.com/lfalvarez'
