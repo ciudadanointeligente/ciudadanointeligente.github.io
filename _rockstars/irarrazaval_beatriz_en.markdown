@@ -2,7 +2,7 @@
 ref: beatriz
 lang: en
 sede: chile
-name: Beatriz Irarrazaval
+name: Beatriz Irarrázaval
 function: Financial Sustainability Coordinator
 bio: Degree in History at PUC Chile, Msc in internacional public policy at University College London, Master in managment of science and innovation, Universidad Politectica de Valencia.
 image: beatriz.jpg
