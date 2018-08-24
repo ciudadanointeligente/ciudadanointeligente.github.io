@@ -1,9 +1,10 @@
 ---
 ref: marga
 lang: es
+sede: chile
 name: Margarita Maira
 function: Coordinadora de proyectos
-bio: Magíster en literatura victoriana, dejé la academia para trabajar para y con la ciudadanía. Aterricé en FCI buscando un trabajo con sentido. ¡Vamos por buen camino!
+bio: Licenciada en Literatura y Lingüística Inglesa de la PUC Chile y Master en literatura victoriana de la Universidad de York. Ha pasado por la academia y el Gobierno de Chile. 
 image: margarita.jpg
 email: mmaira@ciudadanointeligente.org
 network_twitter: https://twitter.com/velvetmarga
@@ -13,5 +14,4 @@ network_googleplus:
 network_facebook:
 network_instagram:
 active: true
-sede: chile
 ---
