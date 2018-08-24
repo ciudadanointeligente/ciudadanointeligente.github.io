@@ -5,7 +5,7 @@ sede: brasil
 name: Thaynná Bastos
 function: Designer
 bio: Technique in visual communication. Graphic Designer at the Estácio de Sá University in Brazil. A lover of creation.
-image: thaynna.jpg
+image: thaynnab.jpg
 email: tbastos@cidadaniainteligente.org
 network_twitter: 
 network_linkedin: 
