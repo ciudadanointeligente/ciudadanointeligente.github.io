@@ -4,7 +4,7 @@ lang: es
 sede: brasil
 name: Luis Felipe Lopes
 function: Coordinador de proyectos
-bio: Científico político con maestría en gobernanza urbana y desarrollo local de Sciences Po París. Activista de los derechos de la población LGBT +.
+bio: Cientísta Político con maestría en gobernanza urbana y desarrollo local de Sciences Po París. Activista de los derechos de la población LGBT +.
 image: lipe.jpg
 email:
 network_twitter:
