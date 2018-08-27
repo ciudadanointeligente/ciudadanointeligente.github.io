@@ -162,9 +162,8 @@ h5, .h5 {
 }
 
 .btn-lg {
-  width: 100%;
-  height: 80px;
-  margin-bottom: 10px;
+  padding: calc(1rem + 1vw) calc(1.3rem + 1vw);
+  border-radius: 4vw;
 }
 
 .btn-sm {
@@ -599,12 +598,20 @@ border-radius: 0px;
   }
 }
 
-.aside {
-  transform: rotate(-90deg);
-  position: absolute;
-  left: 8vw;
-  top: 19vh;
-  transform-origin: bottom left;
+.independence-title {
+  position: relative;
+  &:before {
+    content: 'Independencia política';
+    font-size: 28px;
+    font-weight: 600;
+    transform: rotate(-90deg);
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: $gray-one;
+    transform-origin: top left;
+    left: -40px;
+    top: 338px;
+  }
 }
 
 #about .row {
