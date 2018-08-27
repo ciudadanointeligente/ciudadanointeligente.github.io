@@ -14,8 +14,8 @@
                         <li class="nav-item active"><a class="nav-link" href="{{ site.baseurl }}/#header" tabindex="2">Home <span class="sr-only">(current)</span></a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/about" tabindex="3">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/team" tabindex="4">Team</a></li>
-                  			<li class="nav-item"><a class="nav-link" href="#newsletter" tabindex="8">Board</a></li>
-                  			<li class="nav-item"><a class="nav-link" href="#newsletter" tabindex="8">Our rules</a></li>
+                  			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/board" tabindex="8">Board</a></li>
+                  			<!-- <li class="nav-item"><a class="nav-link" href="#newsletter" tabindex="8">Our rules</a></li> -->
                         {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
                         {% for page in pages %}
                         <li class="nav-item">
