@@ -1,59 +1,20 @@
-<section id="transparencia">
-    <h2>Transparencia</h2>
-    <div class="menu-interno"><a href="#estatutos" target="_blank"> Estatutos </a>/<a href="#desclasificacion"> Desclasificación </a>/<a href="#financiamiento"> Financiamiento</a></div>
-    <div id="estatutos"></div>
-    <h3>Estas son las reglas bajo las cuales nos regimos</h3>
-    <div class="h4">Descarga<a href="{{ site.baseurl }}/assets/attachments/estatutos-FCI.pdf" target="_blank"> nuestros estatutos <i class="fa fa-download"></i></a></div>
-    <div class="row rules">
-        <div class="col-md-2 hidden-xs"><img src="{{ site.baseurl }}/assets/img/ico-corazon.svg"></div>
-        <div class="col-md-10"><div class="h4">La Fundación es un lugar donde cualquier tipo de discriminación por razones políticas, religiosas, de género, sexuales, etc. están excluidas. Defendemos el derecho a ser diferentes.</div></div>
+<section id="transparencia" class="pt-200 mb-90">
+  <div class="row">
+    <div class="col-md-5 mb-60">
+      <h1>Declasificación</h1>
+      <p class="destacado">El equipo de Ciudadano Inteligente ha suscrito el compromiso de transparentar cualquier situación que pudiese comprometer el interés de la Fundación, y abstenerse de participar en aquellas áreas que pudieran representar un conflicto de interés. Para mantener una máxima transparencia, aquí desclasificamos situaciones y condiciones respecto a los intereses de quienes trabajan con nosotros.</p>
     </div>
-    <div class="row rules">
-        <div class="col-md-2 hidden-xs"><img src="{{ site.baseurl }}/assets/img/ico-idea.svg"></div>
-        <div class="col-md-10"><div class="h4">La Fundación es un lugar de trabajo que recibe con los brazos abiertos  la innovación, las ideas, los sueños por cambiar las relaciones de poder desde unos a pocos, a muchos.</div></div>
-    </div>
-    <div id="desclasificacion"></div>
-    <h3>Desclasificación de la Fundación Ciudadano Inteligente</h3>
-    <div class="h4">Revisa nuestra <a href="//docs.google.com/a/votainteligente.cl/spreadsheets/d/1BRxiP9rUE_Iu_dbrvu7NHWwMSFo53wO7Z6g7meHBH4s/edit#gid=0" target="_blank">agenda de gestión de intereses particulares</a> y nuestro <a href="//docs.google.com/document/d/1eLWEcZ1onUU2TYg2x4lsrYfbyVmysdmDcV61cDGfsXs/edit?usp=sharing" target="_blank">manual de prevención de conflictos de interés</a>
-</div>
-    <p>A continuación FCI transparenta situaciones o condiciones que a ojos de la ciudadanía pudieran comprometer el interés en el actuar de nuestra organización. Optamos por transparentar porque no tenemos nada que ocultar. Más allá de cualquier interpretación de los hechos abajo señalados, el compromiso de Ciudadano Inteligente y su equipo está con el cumplimiento de nuestra misión, cual es, distribuir poder desde los pocos hacia los muchos por la vía de la transparencia y la participación ciudadana, usando como herramienta de cambio, las tecnologías de la información. Los miembros de Ciudadano Inteligente han suscrito el compromiso de transparentar cualquier situación que pudiere comprometer el interés de nuestra Fundación, y abstenerse de participar en aquellas áreas que pudieran representar un conflicto de interés.</p>
-    <p>Si quieres pedir más información a Ciudadano Inteligente, escribe a info@ciudadanointeligente.org.</p>
+  </div>
     <div class="row">
-        <div class="col-md-6 h4"> <button class="btn btn-primary btn-lg" data-toggle="modal" data-target=".modal-desclasificacion-presente">Situaciones de miembros actuales</button></div>
-        <div class="col-md-6 h4"> <button class="btn btn-primary btn-lg" data-toggle="modal" data-target=".modal-desclasificacion-pasado">Situaciones de integrantes que han dejado el equipo</button></div>
-    </div>
-    <div class="modal fade modal-desclasificacion-presente" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal"><span class="sr-only">Close</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Desclasificación: situaciones de miembros actuales</h4>
-                </div>
-                <div class="modal-body">
-                    {% include transparency-current-declassification.html %}
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
+        <div class="col-md-9 offset-md-3 mb-60">
+          <h3>Situaciones actuales</h3>
+          {% include transparency-current-declassification.html %}
         </div>
     </div>
-    <div class="modal fade modal-desclasificacion-pasado" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal"><span class="sr-only">Close</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Desclasificación: situaciones de integrantes que han dejado el equipo</h4>
-                </div>
-                <div class="modal-body">
-                    {% include transparency-past-declassification.html %}
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
+    <div class="row">
+        <div class="col-md-9 offset-md-3">
+          <h3>Situaciones del pasado</h3>
+          {% include transparency-past-declassification.html %}
         </div>
     </div>
-    <div id="financiamiento"></div>
-    {% include funding.html %}
 </section>
