@@ -1,4 +1,6 @@
 ---
+ref: hazel
+lang: es
 name: Hazel Feigenblatt
 function: Directora
 bio: "Periodista convencida de que cada ciudadano lleva un investigador adentro que puede hacer la diferencia por una mayor rendición de cuentas."

@@ -1,56 +1,47 @@
 ---
-layout: page
+layout: default
 lang: en
 ref: about
 ---
 
 <section id="sobre-nosotros">
-    <h1>Sobre nosotros</h1>
-    <div class="menu-interno"><a href="#quienessomos"> Quiénes somos </a>/<a href="#independencia"> Independencia política </a>/<a href="#areas"> Nuestras áreas</a></div>
-    <p>La misión de Ciudadano Inteligente es fortalecer la democracia y reducir la desigualdad en América Latina, promoviendo la transparencia y la participación ciudadana a través del uso innovador de las tecnologías de la información.</p>
-    <p>Trabajamos con la visión de transferir poder desde los pocos hacia los muchos, toda vez que el poder político y económico se concentre de manera artificial. Para ello nos valemos de la transparencia, las tecnologías de la información y la participación colectiva como herramientas de cambio.</p>
-    <div id="quienessomos"></div>
-    <h3>Quiénes somos</h3>
-    <p class="h4 destacado">Somos una organización laica, respetuosa y defensora de la diversidad política, cultural, social, religiosa y sexual. Buscamos aportar a una sociedad justa e incluyente, donde ciudadanos y ciudadanas tenemos los mismos derechos y oportunidades.</p>
+  <div class="" style="background-image: url({{ site.baseurl }}/assets/img/about-bg.png);">
+    <div class="container">
+      <div class="row pt-200 pb-200">
+        <div class="col-md-4">
+          <h1>About FCI</h1>
+          <h5>Our political loyalty is placed in the citizens, and in the care and deepening of democracy as a system of government.</h5>
+        </div>
+        <div class="col-md-4 text-center">
+          <a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#aboutvideo"><i class="fas fa-play white"></i></a>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="aboutvideo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+              <iframe width="100%" height="450" src="https://www.youtube.com/embed/aBnnWwpiYhE?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
     <div class="row">
-        <div class="col-md-4"> <button class="btn btn-primary btn-lg" data-toggle="modal" data-target=".modal-equipo">El equipo</button></div>
-        <div class="col-md-4"> <button class="btn btn-primary btn-lg" data-toggle="modal" data-target=".modal-directorio">El directorio</button></div>
-        <div class="col-md-4"> <button class="btn btn-primary btn-lg" data-toggle="modal" data-target=".modal-hanparticipado">Han participado</button></div>
+      <div class="col-md-5 mt-75 independence-title">
+        <h4 class="d-block d-md-none">Independencia política</h4>
+        <p>The members of Ciudadano Inteligente are not apolitical, but quite the opposite: we think of good policy as a fundamental tool of social transformation, and as such, we propose to generate adequate incentives for the policy to work well, looking for those who hold representative positions popular are due to its citizens, and not to other private interests.</p>
+        <p>Inside Ciudadano Inteligente there are members of different political tendencies, however, as an organization we do not ascribe to any political party or movement. To ensure our total independence, Intelligent Citizen does not receive financing from the Government, nor from Parties, nor from any trade union organization that has political interests. Likewise, by means of a rigorous process, we make sure that all our investigations and reports are based on solid and transparent methodologies, open to the scrutiny of those who want to control us. The political allegiance of Smart Citizen is placed in the citizens, and in the care and deepening of democracy as a system of government.</p>
+      </div>
+      <div class="col-md-3 offset-md-4 mt-75 text-right">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><a href="{{ site.baseurl }}/funding">How do we finance ourselves?</a></li>
+          <li class="list-group-item"><a href="https://ciudadanointeligente.org/assets/attachments/estatutos-FCI.pdf" target="_blank">Our statutes</a></li>
+          <li class="list-group-item"><a href="{{ site.baseurl }}/disclosure">Smart Citizen Foundation disclosure</a></li>
+          <li class="list-group-item"><a href="https://docs.google.com/spreadsheets/d/1BRxiP9rUE_Iu_dbrvu7NHWwMSFo53wO7Z6g7meHBH4s/edit#gid=0" target="_blank">Nuestra agenda de gestión de intereses particulares</a></li>
+          <li><a href="#">Memorias</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="modal fade modal-directorio" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal"><span class="sr-only">Close</span></button>
-                    <h4 class="modal-title" id="myModalLabel">El Directorio</h4>
-                </div>
-                <div class="modal-body">
-                    {% include staff-board.html %}
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade modal-hanparticipado" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal"><span class="sr-only">Close</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Han Participado</h4>
-                </div>
-                <div class="modal-body">
-                    {% include have-participated.html %}
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="independencia"></div>
-    <h3>Independencia política</h3>
-    <p>Los miembros de Ciudadano Inteligente no somos apolíticos, sino todo la contrario: concebimos la buena política como una herramienta fundamental de transformación social, y cómo tal, nos proponemos generar los adecuados incentivos para que la política funcione bien, buscando que quienes ostentan cargos de representación popular se deban a sus ciudadanos y ciudadanas, y no a otros intereses particulares.</p>
-    <p>Al interior de Ciudadano Inteligente hay miembros de diversas tendencias políticas, sin embargo, como organización no adscribimos a ningún partido político ni movimiento. Para asegurar nuestra total independencia Ciudadano Inteligente no recibe financiamiento del Gobierno, ni de Partidos, ni de ninguna organización gremial que tenga intereses políticos. Asimismo, por vía de un proceso riguroso, nos aseguramos de que todas nuestras investigaciones e informes se sustenten en metodologías sólidas y transparentes, abiertas al escrutinio de quien nos quiera fiscalizar. La lealtad política de Ciudadano Inteligente está puesta en los ciudadanos y ciudadanas, y en el cuidado y profundización de la democracia como sistema de gobierno.</p>
+  </div>
 </section>

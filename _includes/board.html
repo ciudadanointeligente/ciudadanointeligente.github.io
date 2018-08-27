@@ -4,15 +4,15 @@
       <div class="col-md-3">
         <div class="box-title">
           {% if page.lang=='en' %}
-            <h1>Team</h1>
+            <h1>Board</h1>
           {% endif %}
           {% if page.lang=='es' %}
-            <h1>Equipo</h1>
+            <h1>Directorio</h1>
           {% endif %}
         </div>
       </div>
-    {% assign member=site.rockstars | where:"lang", page.lang %}
-    {% for member in site.rockstars %}
+    {% assign member=site.board_members | where:"lang", page.lang %}
+    {% for member in site.board_members %}
     	{% if {{member.lang}} == {{page.lang}} %}
     		<div class="col-md-3">
           <div class="team-box">
@@ -22,7 +22,7 @@
               </div>
               <div class="team-intro animated fadeInUp h-100 w-100">
                   <h4>{{member.name}}</h4>
-                  <p class="small">{{member.function}} | Sede {{member.sede}}</p>
+                  <p class="small">{{member.function}}</p>
                   <p>{{member.bio}}</p>
                   <p class="rrss">
                     {% if {{member.network_twitter}} != null %} <a class="" href="{{member.network_twitter}}"><i class="fab fa-twitter"></i></a> {% endif %}

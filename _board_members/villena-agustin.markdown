@@ -1,4 +1,6 @@
 ---
+ref: agustinvillena
+lang: es
 name: Agustin Villena
 function: Director
 bio: Computin transmutado en Hacker de Culturas. Practicante de la Agilidad y el Lean Thinking. Interesado en compartir conocimiento y la colaboración abierta para el bien común.

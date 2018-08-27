@@ -1,4 +1,6 @@
 ---
+ref: paularojo
+lang: es
 name: Paula Rojo
 function: Directora
 bio: Socia fundadora y gerenta de clientes en el Grupo Mi Voz, ejerció como CEO de Fundación Mercator, además como directora nacional de movimiento y participación ciudadana en Atina Chile.
