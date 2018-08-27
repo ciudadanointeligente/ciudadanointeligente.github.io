@@ -18,7 +18,13 @@ layout: default
   {% include slide.html %}
 </div>
 
-{% include about-es.html %}
+{% if page.lang=='en' %}
+  {% include about-en.html %}
+{% endif %}
+
+{% if page.lang=='es' %}
+{% include about.html %}
+{% endif %}
 
 {% if page.lang=='en' %}
   {% include how-en.html %}

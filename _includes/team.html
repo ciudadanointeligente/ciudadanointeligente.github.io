@@ -1,9 +1,14 @@
-<div class="mt-75">
+<div class="mt-90">
   {% assign counter=1 %}
     <div class="row no-gutters team">
       <div class="col-md-3">
         <div class="box-title">
-          <h1>Equipo</h1>
+          {% if page.lang=='en' %}
+            <h1>Team</h1>
+          {% endif %}
+          {% if page.lang=='es' %}
+            <h1>Equipo</h1>
+          {% endif %}
         </div>
       </div>
     {% assign member=site.rockstars | where:"lang", page.lang %}
