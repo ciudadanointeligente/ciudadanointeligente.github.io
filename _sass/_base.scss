@@ -94,7 +94,6 @@ h2, .h2 {
 h3, .h3 {
   font-size: 31px;
   font-weight: 600;
-  margin-top: 100px;
 }
 
 h4, .h4 {
@@ -207,7 +206,7 @@ h5, .h5 {
 }
 
 section {
-  margin: 3vh 0;
+  margin: 9vh 0;
 }
 
 // text color
@@ -566,26 +565,19 @@ border-radius: 0px;
 }
 
 .carousel {
-  height: 100vh;
+  height: 91vh;
+  &#carouselhero {
+    height: 100vh;
+  }
   overflow: hidden;
 }
 
 .carousel-control-next, .carousel-control-prev {
-  bottom: 8vh;
-  color: $gray-two;
+  color: $red;
   font-size: 18px;
-  top: auto;
   opacity: 1;
-  width: auto;
-}
-
-.carousel-control-prev {
-    right: 9vw;
-    left: auto;
-}
-
-.carousel-control-next {
-    right: 7vw;
+  position: relative;
+  display: block;
 }
 
 // about
@@ -672,7 +664,7 @@ border-radius: 0px;
 /*PROYECTOS*/
 
 #projectscarousel .carousel-caption {
-    top: 90px;
+    top: 10vh;
     left: 15px;
     right: auto;
     & .caption-box{
@@ -680,6 +672,16 @@ border-radius: 0px;
       padding: 2rem;
       text-align: left;
     }
+    & h3 {
+      margin-top: 6vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  #projectscarousel .carousel-caption {
+    left: 0px;
+    top: 3vh;
+  }
 }
 
 /* Syntax highlighting styles */
