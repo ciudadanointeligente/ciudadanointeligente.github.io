@@ -4,16 +4,20 @@ layout: default
 <div id="hero">
   <div class="intro-hero">
     {% if page.lang=='en' %}
-      <h1>We develop technology to strengthen democracies in Latin America.</h1>
+      <h1 class=""><span>We develop technology to strengthen democracies in Latin America.</span></h1>
     {% endif %}
 
     {% if page.lang=='es' %}
-      <h1>Desarrollamos tecnología para fortalecer las democracias en América Latina.</h1>
+      <h1 class="animated slideInLeft"><span>Desarrollamos tecnología para fortalecer</span></h1>
+      <h1 class="animated slideInRight"><span>las democracias en América Latina.</span></h1>
+      <h1 class="mt-30">
+        <a href="#about"><i class="fal fa-long-arrow-down"></i></a>
+      </h1>
     {% endif %}
   </div>
-  <div class="hero-links text-center">
+  <!-- <div class="hero-links text-center">
     <a href="#about"><i class="fal fa-angle-down animated pulse infinite"></i></a>
-  </div>
+  </div> -->
   {% include slide.html %}
 </div>
 

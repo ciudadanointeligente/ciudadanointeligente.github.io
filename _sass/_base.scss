@@ -506,16 +506,20 @@ border-radius: 0px;
   margin-bottom: 60px;
 }
 
+.mb-90 {
+  margin-bottom: 90px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
 .mt-60 {
   margin-top: 60px;
 }
 
 .mt-75 {
   margin-top: 75px;
-}
-
-.mb-90 {
-  margin-bottom: 90px;
 }
 
 .mt-90 {
@@ -536,13 +540,14 @@ border-radius: 0px;
   top: 24vh;
   left: 11vw;
   z-index: 1;
-  max-width: 650px;
-  background: #ffffffcc;
+  max-width: 570px;
   padding: 2rem 0;
-  color: #E8453B;
   & h1 {
-    margin-left: 3vw;
-    color: $magenta;
+    margin-bottom: 0vw;
+    color: white;
+  }
+  & span {
+    background: #d3326f9e;
   }
 }
 
