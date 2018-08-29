@@ -1,4 +1,6 @@
 ---
+ref: abre
+lang: es
 layout: projects-history
 proj_minisite: false
 proj_title: Abre

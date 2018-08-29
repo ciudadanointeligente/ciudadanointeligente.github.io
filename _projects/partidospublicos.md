@@ -1,4 +1,6 @@
 ---
+ref: papu
+lang: es
 layout: projects-history
 proj_minisite: false
 proj_title: Partidos Públicos

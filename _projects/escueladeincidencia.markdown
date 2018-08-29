@@ -1,4 +1,6 @@
 ---
+ref: escuela
+lang: es
 layout: projects-history
 proj_minisite: false
 proj_title: Escuela de Incidencia

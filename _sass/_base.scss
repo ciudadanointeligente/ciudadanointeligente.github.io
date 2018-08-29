@@ -608,6 +608,10 @@ border-radius: 0px;
     left: -40px;
     top: 223px;
   }
+  &.about-en:before {
+    content: 'Who are we?';
+    top: 188px;
+  }
 }
 
 .independence-title {
@@ -645,6 +649,10 @@ border-radius: 0px;
     transform-origin: top left;
     left: -40px;
     top: 258px;
+  }
+  &.how-en:before {
+    content: 'How do we do it?';
+    top: 234px;
   }
 }
 
