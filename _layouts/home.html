@@ -34,4 +34,10 @@ layout: default
   {% include how.html %}
 {% endif %}
 
-{% include blog.html %}
+{% if page.lang=='es' %}
+  {% include blog.html %}
+{% endif %}
+
+{% if page.lang=='en' %}
+  {% include blog-en.html %}
+{% endif %}
