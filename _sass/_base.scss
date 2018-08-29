@@ -85,22 +85,6 @@ h1 {
   font-size: calc(1.5rem + 1.5vw);
 }
 
-h2, .h2 {
-  text-align: center;
-  font-weight: 300;
-  font-size: 46px;
-}
-
-h3, .h3 {
-  font-size: 31px;
-  font-weight: 600;
-}
-
-h4, .h4 {
-  font-size: 28px;
-  font-weight: 600;
-}
-
 h5, .h5 {
   font-size: 18px;
   font-weight: 600;
@@ -217,14 +201,12 @@ input {
   padding: 10px;
   font-weight: 200;
   width: 100%;
-  border-radius: 30px;
   max-width: 750px;
   border-width: 1px;
 }
 
 textarea {
-  border: transparent;
-  background: #18184c;
+  border-color: #e0e5ea;
   width: 100%;
   max-width: 750px;
   padding: 10px;
@@ -233,10 +215,11 @@ textarea {
 }
 
 select {
-  background: #77b5bf;
-  border: transparent;
-  height: 40px;
+  border: 1px solid #DBE1E9;
+  height: 43px;
   font-weight: 200;
+  background: transparent;
+  border-radius: 0;
 }
 
 .ss-form-entry {
@@ -253,6 +236,7 @@ input[type=checkbox], input[type=radio] {
 
 label {
   font-weight: 400;
+  color: $gray-one;
 }
 
 .input-btn {
@@ -346,6 +330,10 @@ border-radius: 0px;
 
 .site-footer {
     background: #fbfbfb;
+}
+
+footer input {
+  border-radius: 0px 20px 20px 0px;
 }
 
 /*SCROLL TO TOP*/
@@ -614,6 +602,18 @@ border-radius: 0px;
   }
 }
 
+.list-group-item {
+  & .nav-link {
+    padding: 0;
+  }
+  & .dropdown-item {
+    padding: 0;
+    text-align: right;
+    font-size: 14px;
+  }
+}
+
+
 .independence-title {
   position: relative;
   &:before {
@@ -627,6 +627,9 @@ border-radius: 0px;
     transform-origin: top left;
     left: -40px;
     top: 338px;
+  }
+  &.independence-en:before {
+    content: 'Political Independence';
   }
 }
 
