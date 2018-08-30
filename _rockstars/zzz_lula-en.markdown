@@ -3,7 +3,7 @@ ref: lula
 lang: en
 name: Lula
 function: Masajista de ideas
-bio: Quiltra mexicana, feminista hasta los huesos. ¿Huesos? ¡Ñam!
+bio: Mexican mutt. Feminist to the bone. ¿Bones? ¡Yum! 
 image: lula.jpg
 email: ef
 network_twitter:
