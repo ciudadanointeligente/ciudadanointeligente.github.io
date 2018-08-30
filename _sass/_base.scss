@@ -993,6 +993,7 @@ li.current {
 .header-menu {
   width: 100%;
   z-index: 200;
+  background: #fffffff5;
 }
 
 .header-menu.sticky {
@@ -1001,7 +1002,6 @@ li.current {
   -moz-animation: bounceInDown 0.5s;
   -webkit-animation: bounceInDown 0.5s;
   animation: bounceInDown 0.5s;
-  background: #fffffff5;
 }
 
 .header-menu.fixed {
@@ -1070,6 +1070,15 @@ li.current {
     border: none;
     border: none;
     border-radius: 0px;
+}
+
+.navbar-collapse {
+    // background: white;
+    // padding: 0rem 1rem;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
 }
 
 /*Project history*/
