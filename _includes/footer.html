@@ -4,9 +4,11 @@
             <div class="col-md-12 mb-30">
               <div class="small text-center">
                 <ul class="list-inline">
-                  <!-- <li class="list-inline-item"><a href="#">Gracias</a></li> -->
-                  <li class="list-inline-item"><a href="{{ site.baseurl }}/contact">Contáctanos</a></li>
-                  <li class="list-inline-item"><a href="{{ site.baseurl }}/join">Únete a nuestro equipo</a></li>
+                  {% if page.lang=='es' %}
+                    <!-- <li class="list-inline-item"><a href="#">Gracias</a></li> -->
+                    <li class="list-inline-item"><a href="{{ site.baseurl }}/contact">Contáctanos</a></li>
+                    <li class="list-inline-item"><a href="{{ site.baseurl }}/join">Únete al equipo</a></li>
+                  {% endif %}
                 </ul>
               </div>
             </div>
