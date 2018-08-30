@@ -11,11 +11,10 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- navigation menu-->
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active"><a class="nav-link" href="{{ site.baseurl }}">Inicio <span class="sr-only">(current)</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/about" tabindex="3">Sobre FCI</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/team" tabindex="4">Equipo</a></li>
-                  			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/board" tabindex="8">Directorio</a></li>
-                  			<!-- <li class="nav-item"><a class="nav-link" href="#newsletter" tabindex="8">Reglas</a></li> -->
+                        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/about" tabindex="1">Sobre FCI</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/team" tabindex="2">Equipo</a></li>
+                  			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/board" tabindex="3">Directorio</a></li>
+                  			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/rules" tabindex="4">Nuestras reglas</a></li>
                         {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
                         {% for page in pages %}
                         <li class="nav-item">
