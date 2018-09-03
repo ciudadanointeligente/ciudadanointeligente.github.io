@@ -42,7 +42,7 @@ html, body { height: 100%; }
 
 body {
   font-family: 'Karla', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.5;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
@@ -539,6 +539,9 @@ footer input {
   & i {
     font-size: 50px;
   }
+  & img.d-block.fullvh {
+    max-width: 120vw;
+  }
 }
 
 .intro-hero {
@@ -993,7 +996,10 @@ li.current {
 .header-menu {
   width: 100%;
   z-index: 200;
-  background: #fffffff5;
+  // background: -moz-linear-gradient(top, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.74) 1%, rgba(255,255,255,0) 100%);
+  // background: -webkit-linear-gradient(top, rgba(255,255,255,0.75) 0%,rgba(255,255,255,0.74) 1%,rgba(255,255,255,0) 100%);
+  // background: linear-gradient(to bottom, rgba(255,255,255,0.75) 0%,rgba(255,255,255,0.74) 1%,rgba(255,255,255,0) 100%);
+  // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfffffff', endColorstr='#00ffffff',GradientType=0 );
 }
 
 .header-menu.sticky {
@@ -1002,6 +1008,7 @@ li.current {
   -moz-animation: bounceInDown 0.5s;
   -webkit-animation: bounceInDown 0.5s;
   animation: bounceInDown 0.5s;
+  background: #fffffff5;
 }
 
 .header-menu.fixed {
