@@ -4,7 +4,7 @@ lang: es
 sede: brasil
 name: Felipe Álvarez
 function: Desarrollador
-bio: Ingeniero Civil en Informática.
+bio: Persona del sur de Chile, escribidor de fallas y cometedor de errores. Último en la jerarquía.
 image: felipee.jpg
 email: falvarez@ciudadanointeligente.org
 network_twitter: 'https://twitter.com/lfalvarez'
