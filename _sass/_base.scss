@@ -1084,10 +1084,15 @@ li.current {
     border-color: transparent;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 770px) {
   .header-menu {
     background: white;
   }
+
+  #hero img.d-block.fullvh {
+    max-width: 250vw;
+  }
+
 }
 
 /*Project history*/
