@@ -1,14 +1,34 @@
+<script type="text/javascript">
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+</script>
 <footer class="site-footer pt-60 pb-60">
     <div class="container">
         <div class="row">
             <div class="col-md-12 mb-30">
               <div class="small text-center">
                 <ul class="list-inline">
-                  <!-- <li class="list-inline-item"><a href="#">Gracias</a></li> -->
-                  <li class="list-inline-item"><a href="{{ site.baseurl }}/contact">Contacto</a></li>
-                  <li class="list-inline-item"><a href="https://drive.google.com/drive/folders/1RSfDARefk4oOcwvVO0bl2in_OU_o5XcP?usp=sharing" target="_blank">Descarga Logo</a></li>
+                  {% if page.lang=='es' %}
+                    <!-- <li class="list-inline-item"><a href="#">Gracias</a></li> -->
+                    <li class="list-inline-item"><a href="{{ site.baseurl }}/contact">Contáctanos</a></li>
+                    <li class="list-inline-item"><a href="{{ site.baseurl }}/join">Únete al equipo</a></li>
+                    <li class="list-inline-item"><a data-toggle="tooltip" data-placement="top" title="Atribución 4.0 Internacional" href="https://creativecommons.org/licenses/by/4.0/deed.es" target="_blank"><i class="fab fa-creative-commons-by"></i></a></li>
+                    <li class="list-inline-item"><a data-toggle="tooltip" data-placement="top" title="Atribución 4.0 Internacional" href="https://creativecommons.org/licenses/by/4.0/deed.es" target="_blank"><i class="fab fa-creative-commons"></i></a></li>
+                  {% endif %}
+                  {% if page.lang=='en' %}
+                    <!-- <li class="list-inline-item"><a href="#">Gracias</a></li> -->
+                    <li class="list-inline-item"><a href="{{ site.baseurl }}/contact-en">Contact us</a></li>
+                    <li class="list-inline-item"><a href="{{ site.baseurl }}/join-en">Join us</a></li>
+                    <li class="list-inline-item"><a data-toggle="tooltip" data-placement="top" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/deed.en" target="_blank"><i class="fab fa-creative-commons-by"></i></a></li>
+                    <li class="list-inline-item"><a data-toggle="tooltip" data-placement="top" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/deed.en" target="_blank"><i class="fab fa-creative-commons"></i></a></li>
+                  {% endif %}
                 </ul>
               </div>
+            </div>
+            <div class="col-md-4">
+              <ul class="list-inline text-right">
+              </ul>
             </div>
           </div>
           <div class="row">

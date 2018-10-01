@@ -42,7 +42,7 @@ html, body { height: 100%; }
 
 body {
   font-family: 'Karla', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.5;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
@@ -496,6 +496,10 @@ footer input {
   margin-bottom: 90px;
 }
 
+.mt-15 {
+  margin-top: 15px;
+}
+
 .mt-30 {
   margin-top: 30px;
 }
@@ -534,6 +538,9 @@ footer input {
   position: relative;
   & i {
     font-size: 50px;
+  }
+  & img.d-block.fullvh {
+    max-width: 120vw;
   }
 }
 
@@ -1068,6 +1075,26 @@ li.current {
     border-radius: 0px;
 }
 
+.navbar-collapse {
+    // background: white;
+    // padding: 0rem 1rem;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+}
+
+@media screen and (max-width: 770px) {
+  .header-menu {
+    background: white;
+  }
+
+  #hero img.d-block.fullvh {
+    max-width: 250vw;
+  }
+
+}
+
 /*Project history*/
 
 
@@ -1159,6 +1186,14 @@ li.current {
     color: #ffffff;
   border-color: transparent;
 }
+
+// rules
+
+#rules i.fal.fa-file-invoice.fa-5x {
+    margin-top: -16px;
+    color: #e8e8e8;
+}
+
 
 /*Pantallas*/
 

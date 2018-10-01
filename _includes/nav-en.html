@@ -1,26 +1,28 @@
 <div id="menu" class="header-menu fixed">
     <div class="container">
         <div class="row">
-            <nav role="navigation" class="navbar navbar-expand-lg navbar-light">
+            <nav role="navigation" class="navbar navbar-expand-lg navbar-light w-100">
               <span class="navbar-brand logo">
                 <a class="nav-link" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/assets/img/logo-ciudadanoi.svg" tabindex="1"></a>
               </span>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="far fa-bars"></i>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="collapse navbar-collapse" id="navbarNav">
                     <!-- navigation menu-->
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/about-en" tabindex="3">About us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/team" tabindex="4">Team</a></li>
-                  			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/board" tabindex="8">Board</a></li>
-                  			<!-- <li class="nav-item"><a class="nav-link" href="#newsletter" tabindex="8">Our rules</a></li> -->
+                        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/team-en" tabindex="4">Team</a></li>
+                  			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/board-en" tabindex="8">Board</a></li>
+                  			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/rules-en" tabindex="8">Our rules</a></li>
                         {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
                         {% for page in pages %}
                         <li class="nav-item">
-                          <a href="{{ page.url }}" class="{{ page.lang }} nav-link small">{{ page.lang }}</a>
+                          <a href="{{ page.url }}" class="{{ page.lang }} nav-link" style="text-transform: uppercase;">{{ page.lang }}</a>
                         </li>
                         {% endfor %}
+                        <li class="nav-item"><a class="nav-link" target="_blank" href="//www.facebook.com/ciudadanointeligente" ><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" target="_blank" href="//twitter.com/ciudadanoi" ><i class="fab fa-twitter"></i></a></li>
                     </ul>
               </div>
             </nav>
