@@ -1,6 +1,17 @@
 <section id="proyectos">
   <div id="projectscarousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 projects-count">
+          <ol class="carousel-indicators">
+            <li data-target="#projectscarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#projectscarousel" data-slide-to="1"></li>
+            <li data-target="#projectscarousel" data-slide-to="2"></li>
+            <li data-target="#projectscarousel" data-slide-to="3"></li>
+            <li data-target="#projectscarousel" data-slide-to="4"></li>
+          </ol>
+        </div>
+      </div>
       {% assign counter=1 %}
       {% assign project=site.projects | where:"lang", page.lang %}
       {% for project in site.projects %}
@@ -18,20 +29,6 @@
                     {% if page.lang=='es' %}
                       <div class="small">Proyectos de acción colectiva y formación</div>
                     {% endif %}
-                    <ul class="list-inline carousel-arrows">
-                      <li class="list-inline-item">
-                        <a class="carousel-control-prev" href="#projectscarousel" role="button" data-slide="prev">
-                          <i class="far fa-long-arrow-left"></i>
-                          <span class="sr-only">Previous</span>
-                        </a>
-                      </li>
-                      <li class="list-inline-item">
-                        <a class="carousel-control-next" href="#projectscarousel" role="button" data-slide="next">
-                          <i class="far fa-long-arrow-right"></i>
-                          <span class="sr-only">Next</span>
-                        </a>
-                      </li>
-                    </ul>
                     <h3>{{ project.proj_title }}</h3>
                     <a href="{{ project.proj_site_url }}"><i class="fal fa-external-link-square"></i> {{ project.proj_site_url }}</a>
                     <p class="mt-30">{{ project.proj_description }}</p>
@@ -53,20 +50,6 @@
                     {% if page.lang=='es' %}
                       <div class="small">Proyectos de acción colectiva y formación</div>
                     {% endif %}
-                    <ul class="list-inline carousel-arrows">
-                      <li class="list-inline-item">
-                        <a class="carousel-control-prev" href="#projectscarousel" role="button" data-slide="prev">
-                          <i class="far fa-long-arrow-left"></i>
-                          <span class="sr-only">Previous</span>
-                        </a>
-                      </li>
-                      <li class="list-inline-item">
-                        <a class="carousel-control-next" href="#projectscarousel" role="button" data-slide="next">
-                          <i class="far fa-long-arrow-right"></i>
-                          <span class="sr-only">Next</span>
-                        </a>
-                      </li>
-                    </ul>
                     <h3>{{ project.proj_title }}</h3>
                     <a href="{{ project.proj_site_url }}"><i class="fal fa-external-link-square"></i> {{ project.proj_site_url }}</a>
                     <p class="mt-30">{{ project.proj_description }}</p>

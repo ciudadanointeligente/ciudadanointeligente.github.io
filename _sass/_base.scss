@@ -716,6 +716,35 @@ footer input {
     }
 }
 
+#projectscarousel .carousel-indicators {
+  position: relative;
+  right: auto;
+  left: 15px;
+  justify-content: left;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 5px;
+  cursor: pointer;
+  & li {
+  width: 50px;
+  margin-right: 5px;
+  height: 4px;
+  margin-left: 0px;
+  background-color: rgba(255,255,255,1);
+    &.active {
+      background-color: $red;
+    }
+  }
+}
+
+#projectscarousel .projects-count {
+  position: absolute;
+  top: 12%;
+}
+
+
+
 @media screen and (max-width: 768px) {
   #projectscarousel .carousel-caption {
     left: 0px;

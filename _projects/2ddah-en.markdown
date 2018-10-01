@@ -1,13 +1,13 @@
 ---
 ref: ddah
-lang: es
+lang: en
 layout: projects-history
 proj_minisite: true
-proj_title: Del dicho al hecho
+proj_title: 2. Del dicho al hecho
 proj_date: 2014-05-1 14:46:22
 proj_img: ddah.png
 proj_thumb: ddah-thumb.png
-proj_description: Del Dicho al Hecho pone la rendición de cuentas en tus manos. Se trata de un estudio en el que analizamos detalladamente las promesas que hacen los gobiernos, tanto en sus programas como en sus cuentas públicas.
+proj_description: Del Dicho al Hecho, or ‘From Said to Done’, is a biannual study in which we track promises made by governments in their programs and public addresses, prompting citizens to demand accountability in different countries.
 proj_site_url: https://deldichoalhecho.cl
 proj_status: activo
 proj_mockup: ddah-mock.png
