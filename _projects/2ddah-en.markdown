@@ -3,7 +3,7 @@ ref: ddah
 lang: en
 layout: projects-history
 proj_minisite: true
-proj_title: 2. Del dicho al hecho
+proj_title: Del dicho al hecho
 proj_date: 2014-05-1 14:46:22
 proj_img: ddah.png
 proj_thumb: ddah-thumb.png

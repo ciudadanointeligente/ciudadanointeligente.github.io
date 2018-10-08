@@ -285,31 +285,6 @@ border-radius: 0px;
   border-top: none;
 }
 
-/*PANEL*/
-.panel {
-  border-radius: 0;
-  background-color: #e85343;
-  border: none;
-  padding: 15px;
-  -webkit-animation: background-color 2s infinite; /* Chrome, Safari, Opera */
-    animation: background-color 2s infinite;
-}
-
-  /* Chrome, Safari, Opera */
-  @-webkit-keyframes background-color {
-      0%   {background-color: #e85343}
-      50%  {background-color: #af2c58}
-      100%   {background-color: #e85343}
-  }
-
-  /* Standard syntax */
-  @keyframes background-color {
-      0%   {background-color:#e85343}
-      50%  {background-color: #af2c58}
-      100%   {background-color: #e85343}
-  }
-
-
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
@@ -701,60 +676,44 @@ footer input {
 
 /*PROYECTOS*/
 
-#projectscarousel .carousel-caption {
-    top: 22vh;
-    left: 15px;
-    right: auto;
-    color: $gray-two;
-    & .caption-box{
-      background: #ffffffdb;
-      padding: 2rem;
-      text-align: left;
-    }
-    & h3 {
-      margin-top: 6vh;
-    }
+#projectscarousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
-#projectscarousel .carousel-indicators {
-  position: relative;
-  right: auto;
-  left: 15px;
-  justify-content: left;
-  padding-left: 0;
-  margin-right: 0;
-  margin-left: 0;
-  margin-top: 5px;
-  cursor: pointer;
-  & li {
-  width: 50px;
-  margin-right: 5px;
-  height: 4px;
-  margin-left: 0px;
-  background-color: rgba(255,255,255,1);
-    &.active {
-      background-color: $red;
-    }
-  }
+.carousel {
+    height: auto;
+    overflow: hidden;
+    width: 100vw;
 }
 
-#projectscarousel .projects-count {
-  position: absolute;
-  top: 12%;
+.panel {
+    border: 1px solid transparent;
+    border-radius: 0;
+    -webkit-box-shadow: 0 1px 1px transparent;
+    box-shadow: 0 1px 1px transparent;
+    margin-bottom: 30px;
 }
 
+.panel-default {
+    border: 0;
+    -webkit-animation-timing-function: cubic-bezier(.215,.61,.355,1);
+    animation-timing-function: cubic-bezier(.215,.61,.355,1);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+    -webkit-transition: all .4s cubic-bezier(.215,.61,.355,1);
+    transition: all .4s cubic-bezier(.215,.61,.355,1);
+}
 
-
-@media screen and (max-width: 768px) {
-  #projectscarousel .carousel-caption {
-    left: 0px;
-    top: 3vh;
-    margin-top: 49px;
-  }
-
-  #projectscarousel .carousel-indicators {
-    left: 2rem;
-  }
+.panel-body {
+    padding: calc(1vw + 1.5rem);
+    height: 450px;
+    position: relative;
+    background: #ffffffe0;
 }
 
 /* Syntax highlighting styles */

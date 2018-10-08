@@ -1,67 +1,39 @@
-<section id="proyectos">
-  <div id="projectscarousel" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="row">
-        <div class="col-md-6 col-sm-12 projects-count">
-          <ol class="carousel-indicators">
-            <li data-target="#projectscarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#projectscarousel" data-slide-to="1"></li>
-            <li data-target="#projectscarousel" data-slide-to="2"></li>
-            <li data-target="#projectscarousel" data-slide-to="3"></li>
-            <li data-target="#projectscarousel" data-slide-to="4"></li>
-          </ol>
-        </div>
+<section id="proyectos" class="pt-200 pb-200">
+  <div class="container">
+    <div id="projectscarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block fullvh" src="{{ site.baseurl }}/assets/img/projects/partidospublicos.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block fullvh" src="{{ site.baseurl }}/assets/img/projects/vota.png" alt="First slide">
+            </div>
       </div>
-      {% assign counter=1 %}
+    </div>
+    {% assign counter = 1 %}
+    <div class="row">
       {% assign project=site.projects | where:"lang", page.lang %}
       {% for project in site.projects %}
         {% if {{project.lang}} == {{page.lang}} %}
-          {% if counter == 1 %}
-          <div class="carousel-item active">
-            <img class="d-block fullvh" src="{{ site.baseurl }}/assets/img/projects/{{ project.proj_img }}" alt="First slide">
-            <div class="carousel-caption d-md-block">
-              <div class="row">
-                <div class="col-md-6 col-sm-12">
-                  <div class="caption-box">
-                    {% if page.lang=='en' %}
-                      <div class="small">Collective action and training projects</div>
-                    {% endif %}
-                    {% if page.lang=='es' %}
-                      <div class="small">Proyectos de acción colectiva y formación</div>
-                    {% endif %}
-                    <h3>{{ project.proj_title }}</h3>
-                    <a href="{{ project.proj_site_url }}"><i class="fal fa-external-link-square"></i> {{ project.proj_site_url }}</a>
-                    <p class="mt-30">{{ project.proj_description }}</p>
+                <div class="col-md-4 col-sm-6">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      {% if page.lang=='en' %}
+                        <div class="small">Collective action and training</div>
+                      {% endif %}
+                      {% if page.lang=='es' %}
+                        <div class="small">Acción colectiva y formación</div>
+                      {% endif %}
+                      <h3>{{ project.proj_title }}</h3>
+                      <a href="{{ project.proj_site_url }}"><i class="fal fa-external-link-square"></i> {{ project.proj_site_url }}</a>
+                      <p class="mt-30">{{ project.proj_description }}</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          {% else %}
-          <div class="carousel-item">
-            <img class="d-block fullvh" src="{{ site.baseurl }}/assets/img/projects/{{ project.proj_img }}" alt="First slide">
-            <div class="carousel-caption d-md-block">
-              <div class="row">
-                <div class="col-md-6 col-sm-12">
-                  <div class="caption-box">
-                    {% if page.lang=='en' %}
-                      <div class="small">Collective action and training projects</div>
-                    {% endif %}
-                    {% if page.lang=='es' %}
-                      <div class="small">Proyectos de acción colectiva y formación</div>
-                    {% endif %}
-                    <h3>{{ project.proj_title }}</h3>
-                    <a href="{{ project.proj_site_url }}"><i class="fal fa-external-link-square"></i> {{ project.proj_site_url }}</a>
-                    <p class="mt-30">{{ project.proj_description }}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {% endif %}
-        {% assign counter=counter | plus:1 %}
+          {% assign cnt = counter|modulo:3 %}
+          {% assign counter = counter | plus:1 %}
         {% endif %}
       {% endfor %}
     </div>
-
   </div>
+</section>
