@@ -6,7 +6,7 @@ name: Natalia Matayoshi
 function: Designer
 bio: BA in Design from Universidad Católica (Chile). Develops interfaces. Cultural hybrid, passionate about new technologies, music and coffee. 
 image: natalia.jpg
-email: cschaeffer@ciudadanointeligente.org
+email: nmatayoshi@ciudadanointeligente.org
 network_twitter:
 network_linkedin:
 network_github:
