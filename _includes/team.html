@@ -11,8 +11,8 @@
           {% endif %}
         </div>
       </div>
-    {% assign member=site.rockstars | where:"lang", page.lang %}
-    {% for member in site.rockstars %}
+    {% assign members = site.rockstars | where:"lang", page.lang %}
+    {% for member in members %}
     	{% if {{member.lang}} == {{page.lang}} %}
     		<div class="col-md-3">
           <div class="team-box">
