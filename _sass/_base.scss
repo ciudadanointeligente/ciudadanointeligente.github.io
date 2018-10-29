@@ -707,13 +707,17 @@ footer input {
     animation-duration: .4s;
     -webkit-transition: all .4s cubic-bezier(.215,.61,.355,1);
     transition: all .4s cubic-bezier(.215,.61,.355,1);
+    background: #ffffffe0;
+    &:hover {
+    box-shadow: 0px 10px 60px 0px rgba(100,97,109,0.6);
+    background: #ffffff;
+  }
 }
 
 .panel-body {
     padding: calc(1vw + 1.5rem);
     height: 450px;
     position: relative;
-    background: #ffffffe0;
 }
 
 /* Syntax highlighting styles */
