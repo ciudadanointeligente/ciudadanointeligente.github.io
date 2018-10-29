@@ -16,18 +16,20 @@
       {% for project in site.projects %}
         {% if {{project.lang}} == {{page.lang}} %}
                 <div class="col-md-4 col-sm-6">
-                  <div class="panel panel-default">
-                    <div class="panel-body">
-                      {% if page.lang=='en' %}
-                        <div class="small">Collective action and training</div>
-                      {% endif %}
-                      {% if page.lang=='es' %}
-                        <div class="small">Acción colectiva y formación</div>
-                      {% endif %}
-                      <h3>{{ project.proj_title }}</h3>
-                      <a href="{{ project.proj_site_url }}"><i class="fal fa-external-link-square"></i> {{ project.proj_site_url }}</a>
-                      <p class="mt-30">{{ project.proj_description }}</p>
-                    </div>
+                  <a href="{{ project.proj_site_url }}" target="_blank">
+                    <div class="panel panel-default">
+                      <div class="panel-body">
+                        {% if page.lang=='en' %}
+                          <div class="small">Collective action and training</div>
+                        {% endif %}
+                        {% if page.lang=='es' %}
+                          <p class="small">Acción colectiva y formación</p>
+                        {% endif %}
+                        <h3>{{ project.proj_title }}</h3>
+                        <i class="fal fa-external-link-square"></i> {{ project.proj_site_url }}
+                        <p class="mt-30">{{ project.proj_description }}</p>
+                      </div>
+                    </a>
                   </div>
                 </div>
           {% assign cnt = counter|modulo:3 %}
