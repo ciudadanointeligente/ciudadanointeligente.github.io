@@ -245,16 +245,6 @@ label {
   right: 6px;
 }
 
-/*TABLE*/
-
-.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
-  background-color: #00113C;
-}
-
-.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
-  border-top: none;
-}
-
 /*ALERT*/
 
 .notificaciones .alert-success {
