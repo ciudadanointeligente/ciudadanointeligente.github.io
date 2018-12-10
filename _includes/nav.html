@@ -11,7 +11,13 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                     <!-- navigation menu-->
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/about" tabindex="3">Sobre FCI</a></li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sobre FCI</a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{{ site.baseurl }}/about">Sobre FCI</a>
+                            <!-- <a class="dropdown-item" href="{{ site.baseurl }}/support">Nos apoyan</a> -->
+                          </div>
+                        </li>
                         <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}#how" tabindex="3">Lo que hacemos</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/team" tabindex="4">Equipo</a></li>
                   			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/board" tabindex="8">Directorio</a></li>

@@ -1,0 +1,38 @@
+---
+layout: default
+lang: es
+ref: support
+---
+
+<section id="support">
+  <div class="mt-90">
+    <div class="row no-gutters team">
+      <div class="col-md-6">
+        <div class="box-title">
+          {% if page.lang=='en' %}
+            <h1 class="white">We work with the support of:</h1>
+          {% endif %}
+          {% if page.lang=='es' %}
+            <h1 class="white">Funcionamos con el apoyo de:</h1>
+          {% endif %}
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="team-box">
+          <a href="#">
+            <div class="team-img">
+              <img src="{{ site.baseurl }}/assets/img/support/luminate.svg">
+            </div>
+            <div class="team-intro animated fadeInUp h-100 w-100">
+              <h4>Supporter</h4>
+              <p>Mas texto</p>
+              <p class="rrss">
+                <a class="" href="#"><i class="fab fa-twitter"></i></a>
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
