@@ -10,4 +10,5 @@ proj_img: vota.png
 proj_thumb: vota-thumb.png
 proj_site_url: http://votainteligente.cl/
 proj_status: activo
+category: "accion"
 ---

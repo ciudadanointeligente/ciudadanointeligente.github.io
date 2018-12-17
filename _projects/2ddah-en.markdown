@@ -125,4 +125,5 @@ proj_proyectos:
       - txt: Mayo 2011
     history:
       - txt: Queremos entregar a la ciudadanía información completa y detallada sobre el cumplimiento de los compromisos presidenciales asumidos por el Presidente en la cuenta pública del 2010, de modo que la propia ciudadanía pueda utilizar estos datos para fijar un criterio de evaluación sobre la gestión del Gobierno.  Este estudio centra su análisis en la capacidad legislativa del Gobierno para cumplir con sus promesas presidenciales.
+category: "accion"
 ---

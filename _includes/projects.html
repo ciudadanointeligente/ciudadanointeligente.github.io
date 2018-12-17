@@ -14,7 +14,9 @@
     <div class="row">
       {% assign project=site.projects | where:"lang", page.lang %}
       {% for project in site.projects %}
-        {% if {{project.lang}} == {{page.lang}} %}
+      {% for category in project.categories %}
+      {% if {{project.category}} == "accion" %}
+        <!-- {% if {{project.lang}} == {{page.lang}} %} -->
                 <div class="col-md-4 col-sm-6">
                   <a href="{{ project.proj_site_url }}" target="_blank">
                     <div class="panel panel-default">
@@ -34,7 +36,9 @@
                 </div>
           {% assign cnt = counter|modulo:3 %}
           {% assign counter = counter | plus:1 %}
+        <!-- {% endif %} -->
         {% endif %}
+      {% endfor %}
       {% endfor %}
     </div>
   </div>
