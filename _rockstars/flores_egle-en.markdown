@@ -10,5 +10,5 @@ email: eflores@ciudadanointeligente.org
 network_twitter: https://twitter.com/solshinee
 network_linkedin: https://cl.linkedin.com/in/eglé-flores-43846b15
 network_github:
-active: true
+active: false
 ---
