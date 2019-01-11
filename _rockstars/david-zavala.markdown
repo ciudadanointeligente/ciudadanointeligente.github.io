@@ -6,10 +6,10 @@ name: David Zavala
 function: Asistente de Proyectos
 bio: "Politólogo de la U. Diego Portales y Diplomado en Pensamiento Político Contemporáneo por el Instituto de Filosofía de la misma universidad."
 image: david.jpg
-email: dzavala@ciudadaniai.org
-network_twitter:
+email: dzavala@ciudadanointeligente.org
+network_twitter: 
 network_linkedin: https://www.linkedin.com/in/dzsanhueza/
-network_github:
+network_github: 
 network_googleplus:
 network_facebook:
 network_instagram:

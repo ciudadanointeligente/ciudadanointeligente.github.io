@@ -6,7 +6,7 @@ name: Jordi Bari
 function: Developer
 bio: Technician in electronics of computer equipment.
 image: jordi.jpg
-email: jbari@ciudadaniai.org
+email: jbari@ciudadanoi.org
 network_twitter: https://twitter.com/jordi__cl
 network_linkedin: https://cl.linkedin.com/in/jordibari
 network_github: https://github.com/jbci
