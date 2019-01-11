@@ -2,11 +2,11 @@
 ref: natalia
 lang: en
 sede: chile
-name: Natalia Matayoshi 
+name: Natalia Matayoshi
 function: Designer
-bio: BA in Design from Universidad Católica (Chile). Develops interfaces. Cultural hybrid, passionate about new technologies, music and coffee. 
+bio: BA in Design from Universidad Católica (Chile). Develops interfaces. Cultural hybrid, passionate about new technologies, music and coffee.
 image: natalia.jpg
-email: nmatayoshi@ciudadanointeligente.org
+email: nmatayoshi@ciudadaniai.org
 network_twitter:
 network_linkedin:
 network_github:

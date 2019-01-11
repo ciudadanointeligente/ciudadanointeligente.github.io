@@ -6,7 +6,7 @@ name: Colombina Schaeffer
 function: Subdirectora
 bio: Socióloga de la Universidad Católica de Chile y doctora en Gobierno y Relaciones Internacionales de la University of Sydney, Australia.
 image: colombinas.jpg
-email: cschaeffer@ciudadanointeligente.org
+email: cschaeffer@ciudadaniai.org
 network_twitter:
 network_linkedin:
 network_github:

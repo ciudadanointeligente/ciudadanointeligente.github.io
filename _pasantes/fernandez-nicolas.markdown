@@ -3,7 +3,7 @@ name: Nicolas Fernandez
 function: Vota Inteligente
 bio: Psicología - Universidad Diego Portales
 image: nico.jpg
-email: nfernandez@ciudadanointeligente.org
+email: nfernandez@ciudadaniai.org
 network_twitter: http://twitter.com/nico_fernandezr
 network_linkedin: https://www.linkedin.com/in/nicolás-fernández-rodríguez-5a955769
 network_github: https://github.com/nicofernandezrod

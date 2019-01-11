@@ -6,7 +6,7 @@ name: Felipe Álvarez
 function: Developer
 bio: Person from the south of Chile, error committer and failures writer.
 image: felipee.jpg
-email: falvarez@ciudadanointeligente.org
+email: falvarez@ciudadaniai.org
 network_twitter: 'https://twitter.com/lfalvarez'
 network_linkedin: 'https://www.linkedin.com/in/luisfelipealvarez'
 network_github: 'https://github.com/lfalvarez'

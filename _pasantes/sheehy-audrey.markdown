@@ -3,7 +3,7 @@ name: Audrey Sheehy
 function: Investigaciónes sobre párticipación política
 bio: Estudiante de Ciencias Sociales - Harvard University
 image: audrey.jpg
-email: asheehy@ciudadanointeligente.org
+email: asheehy@ciudadaniai.org
 network_twitter: 
 network_linkedin:
 network_github:

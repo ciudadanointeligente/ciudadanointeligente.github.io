@@ -6,7 +6,7 @@ name: Clariza Rosa
 function: Communications Coordinator
 bio: Holds a Social Communication undergraduate degree from PUC Rio, with an academic exchange in Colombia. Postgraduate diploma in Trends Research and Analysis. Has worked for the private and public sector.
 image: clariza.jpg
-email: croza@ciudadanointeligente.org
+email: croza@ciudadaniai.org
 network_twitter: 
 network_linkedin: 
 network_github: 
