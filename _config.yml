@@ -1,9 +1,9 @@
 # site settings
 title: Fundación Ciudadano Inteligente
-email: info@ciudadanointeligente.org
+email: info@ciudadaniai.org
 description: "Usamos tecnología para transparentar y participar en democracia, trabajamos para trasladar poder desde los pocos hacia los muchos."
-baseurl: //ciudadanointeligente.org
-basedomain: ciudadanointeligente.org
+baseurl: //ciudadaniai.org
+basedomain: ciudadaniai.org
 analytics: 'UA-31247996-1'
 jquery_version: "2.1.3"
 
