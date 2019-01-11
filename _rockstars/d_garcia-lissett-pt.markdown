@@ -4,7 +4,7 @@ lang: pt
 sede: chile
 name: Lissett García
 function: Designer - Coordinator of Child and Youth Participation
-bio: Designer from the P. Catholic University of Chile. Feminist and defender of children’s and adolescent’s participation..
+bio: Designer pela Universidad Católica de Chile. Feminista e defensora da participação de crianças e adolescentes.
 image: liss.jpg
 email: lgarcia@ciudadanointeligente.org
 network_twitter:

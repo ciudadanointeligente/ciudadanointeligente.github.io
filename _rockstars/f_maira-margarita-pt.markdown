@@ -4,7 +4,7 @@ lang: pt
 sede: chile
 name: Margarita Maira
 function: Project Coordinator
-bio: BA in English from Chilean Catholic University and MA in 19th Century Literature and Culture from University of York. She has worked in the academia and the Chilean government.
+bio: Licenciada em Literatura y Linguística Inglesa pela PUC Chile y Master em literatura victoriana pela Universidad de York. Trabalhou na academia e no Governo de Chile. 
 image: margarita.jpg
 email: mmaira@ciudadanointeligente.org
 network_twitter: https://twitter.com/velvetmarga

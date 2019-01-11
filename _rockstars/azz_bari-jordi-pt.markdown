@@ -4,7 +4,7 @@ lang: pt
 sede: chile
 name: Jordi Bari
 function: Developer
-bio: Technician in electronics of computer equipment.
+bio: Técnico em electrônica de equipamentos de informática
 image: jordi.jpg
 email: jbari@ciudadanoi.org
 network_twitter: https://twitter.com/jordi__cl

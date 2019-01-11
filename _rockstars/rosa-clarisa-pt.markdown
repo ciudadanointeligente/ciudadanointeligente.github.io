@@ -4,7 +4,7 @@ lang: pt
 sede: brasil
 name: Clariza Rosa
 function: Coordinadora de Comunicaciones
-bio: Graduada en Comunicación Social de la PUC Rio, con intercambios en Colombia. Postgrado en análisis y búsqueda de tendencias del IESD. Ha trabajado para iniciativas privadas y para el gobierno.
+bio: Graduada em comunicação social pela PUC Rio com intercâmbio na Colômbia e pós graduada em analise e pesquisa de tendências pelo IESD. Já trabalhou para iniciativa privada e para o governo.
 image: clariza.jpg
 email: croza@ciudadanointeligente.org
 network_twitter:

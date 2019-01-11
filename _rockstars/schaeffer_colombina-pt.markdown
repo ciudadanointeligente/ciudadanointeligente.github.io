@@ -4,7 +4,7 @@ lang: pt
 sede: chile
 name: Colombina Schaeffer
 function: Deputy Director
-bio: Sociologist from the P. Catholic University of Chile, PhD in Government and International Relations (University of Sydney).
+bio: Socióloga pela Universidade Católica do Chile e doutora em Governo e Relações Internacionais pela University of Sydney, Austrália.
 image: colombinas.jpg
 email: cschaeffer@ciudadanointeligente.org
 network_twitter:

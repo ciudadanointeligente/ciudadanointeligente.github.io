@@ -4,7 +4,7 @@ lang: pt
 sede: chile
 name: Randy Montecinos
 function: Finance and Administration Coordinator
-bio: Public Administrator and minor in Political Science from Universidad de Chile. Holds a diploma in Cultural Mediation and Audience Development. Dog and theater lover.
+bio: Administradora Pública com concentração em Ciência Política pela U. de Chile. Diplomada em Mediação Cultural e Desenvolvimento de Públicos. Amante dos cachorros e do teatro.
 image: randym.jpg
 email: rmontecinos@ciudadanointeligente.org
 network_twitter:

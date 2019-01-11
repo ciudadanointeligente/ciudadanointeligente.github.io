@@ -3,7 +3,7 @@ ref: malu
 lang: pt
 name: Maria Luiza Freire
 function: Project and research coordinator
-bio: Lawyer from the PUC -Rio, feminist and decolonialist. Master student in public policies and urban planning in Latin America at IPPUR / UFRJ. Innovating in political participation.
+bio: Advogada pela PUC-Rio, feminista e descolonialista. Mestranda em políticas públicas e planejamento urbano na América Latina pelo IPPUR / UFRJ. Inovando em participação política.
 image: malu-br.jpg
 email: mfreire@cidadaniainteligente.org
 network_twitter:
