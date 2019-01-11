@@ -572,6 +572,10 @@ footer input {
     content: 'Who are we?';
     top: 188px;
   }
+  &.about-pt:before {
+    content: 'Quem somos?';
+    top: 188px;
+  }
 }
 
 .list-group-item {
