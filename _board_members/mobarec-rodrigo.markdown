@@ -3,7 +3,7 @@ ref: rodrigomobarec
 lang: es
 name: Rodrigo Mobarec
 function: Director
-bio: "Apasionado x lo q podemos hacer con la acción colectiva, mi favorito @ciudadanoi y todo lo q queda por hacer #innovacionsocial #desarrollosostenible #familia"
+bio: "Apasionado x lo q podemos hacer con la acción colectiva, mi favorito @ciudadaniai y todo lo q queda por hacer #innovacionsocial #desarrollosostenible #familia"
 image: mobarec.png
 email: rmobarec@ciudadaniai.org
 network_twitter: https://twitter.com/rmobarec
