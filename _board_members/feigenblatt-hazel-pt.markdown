@@ -1,9 +1,9 @@
 ---
 ref: hazel
-lang: en
+lang: pt
 name: Hazel Feigenblatt
 function: Directora
-bio: Journalist. Convinced that every citizen carries an investigator inside that can make a difference for more accountability. 
+bio: Journalist. Convinced that every citizen carries an investigator inside that can make a difference for more accountability.
 image: hazel.png
 email: hfeigenblatt@ciudadanointeligente.org
 network_twitter:

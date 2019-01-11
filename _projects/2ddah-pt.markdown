@@ -1,6 +1,6 @@
 ---
 ref: ddah
-lang: en
+lang: pt
 layout: projects-history
 proj_minisite: true
 proj_title: Del dicho al hecho

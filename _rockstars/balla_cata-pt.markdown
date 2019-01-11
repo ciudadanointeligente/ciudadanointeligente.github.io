@@ -1,6 +1,6 @@
 ---
 ref: catab
-lang: en
+lang: pt
 sede: chile
 name: Catalina Balla
 function: Press Officer

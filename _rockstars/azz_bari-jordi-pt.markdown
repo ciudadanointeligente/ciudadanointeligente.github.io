@@ -1,6 +1,6 @@
 ---
 ref: jordi
-lang: en
+lang: pt
 sede: chile
 name: Jordi Bari
 function: Developer

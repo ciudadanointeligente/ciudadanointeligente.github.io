@@ -1,6 +1,6 @@
 ---
 ref: benito
-lang: en
+lang: pt
 name: Benito
 function: Caregiver of all
 bio: The best and fastest 3-legged citizen.

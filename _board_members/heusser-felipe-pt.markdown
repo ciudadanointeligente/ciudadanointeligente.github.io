@@ -1,6 +1,6 @@
 ---
 ref: felipeheusser
-lang: en
+lang: pt
 name: Felipe Heusser
 function: Director
 bio: I search in technology for a social and political action tool that empowers citizens, and transfers power from the few to the many. So proud of Ciudadano Inteligente!

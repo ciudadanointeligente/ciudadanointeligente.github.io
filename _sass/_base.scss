@@ -603,6 +603,9 @@ footer input {
   &.independence-en:before {
     content: 'Political Independence';
   }
+  &.independence-pt:before {
+    content: 'Independência Política';
+  }
 }
 
 #about .row {
@@ -627,6 +630,10 @@ footer input {
   }
   &.how-en:before {
     content: 'How do we do it?';
+    top: 234px;
+  }
+  &.how-pt:before {
+    content: 'O que fazemos?';
     top: 234px;
   }
 }

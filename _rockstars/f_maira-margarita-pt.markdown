@@ -1,6 +1,6 @@
 ---
 ref: marga
-lang: en
+lang: pt
 sede: chile
 name: Margarita Maira
 function: Project Coordinator

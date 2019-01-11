@@ -1,6 +1,6 @@
 ---
 ref: catam
-lang: en
+lang: pt
 sede: chile
 name: Catalina Margozzini
 function: UX designer

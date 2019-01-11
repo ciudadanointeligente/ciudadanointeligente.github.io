@@ -1,6 +1,6 @@
 ---
 ref: david
-lang: en
+lang: pt
 sede: chile
 name: David Zavala
 function: Project Assistant

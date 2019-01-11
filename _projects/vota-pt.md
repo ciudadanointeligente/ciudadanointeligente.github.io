@@ -1,6 +1,6 @@
 ---
 ref: vota
-lang: en
+lang: pt
 layout: projects-history
 proj_minisite: false
 proj_title: Vota Inteligente

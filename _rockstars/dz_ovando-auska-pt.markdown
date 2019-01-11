@@ -1,10 +1,10 @@
 ---
 ref: auska
-lang: en
+lang: pt
 sede: chile
 name: Auska Ovando
 function: Communications Coordinator
-bio: BA in Journalism from Universidad Católica (Chile), MSc in Democracy and Comparative Politics from University College London and MPhil in Sociology from University of Cambridge. 
+bio: BA in Journalism from Universidad Católica (Chile), MSc in Democracy and Comparative Politics from University College London and MPhil in Sociology from University of Cambridge.
 image: auska-o.jpg
 email: aovando@ciudadanointeligente.org
 network_twitter: https://twitter.com/auskahareli

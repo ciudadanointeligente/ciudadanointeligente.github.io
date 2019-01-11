@@ -1,6 +1,6 @@
 ---
 ref: manuel
-lang: en
+lang: pt
 sede: chile
 name: Manuel Barros
 function: Project Coordinator

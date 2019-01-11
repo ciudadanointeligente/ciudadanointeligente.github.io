@@ -1,6 +1,6 @@
 ---
 ref: agustinvillena
-lang: en
+lang: pt
 name: Agustin Villena
 function: Director
 bio: Computer nerd transformed into culture hacker. I practice Agility and Lean Thinking. I’m interested in sharing knowledge and open collaboration towards common good.

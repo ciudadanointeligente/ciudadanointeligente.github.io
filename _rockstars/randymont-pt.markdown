@@ -1,6 +1,6 @@
 ---
 ref: randy
-lang: en
+lang: pt
 sede: chile
 name: Randy Montecinos
 function: Finance and Administration Coordinator

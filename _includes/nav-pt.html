@@ -11,11 +11,11 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                     <!-- navigation menu-->
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/about-pt" tabindex="3">About us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}#how" tabindex="3">What we do</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/team-pt" tabindex="4">Team</a></li>
-                  			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/board-pt" tabindex="8">Board</a></li>
-                  			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/rules-pt" tabindex="8">Our rules</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/about-pt" tabindex="3">Sobre FCI</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}#how" tabindex="3">O que fazemos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/team-pt" tabindex="4">Equipe</a></li>
+                  			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/board-pt" tabindex="8">Diretoria</a></li>
+                  			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/rules-pt" tabindex="8">Regras</a></li>
                         {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
                         {% for page in pages %}
                         <li class="nav-item">
