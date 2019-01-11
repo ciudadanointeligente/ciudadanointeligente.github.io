@@ -3,7 +3,7 @@ ref: rodrigomobarec
 lang: pt
 name: Rodrigo Mobarec
 function: Director
-bio: "I’m passionate about the things we can do through collective action, Ciudadano Inteligente, and everything that is left to do #socialinnovation #sustainabledevelopment #family"
+bio: "I’m passionate about the things we can do through collective action, Ciudadanía Inteligente, and everything that is left to do #socialinnovation #sustainabledevelopment #family"
 image: mobarec.png
 email: rmobarec@ciudadaniai.org
 network_twitter: https://twitter.com/rmobarec
