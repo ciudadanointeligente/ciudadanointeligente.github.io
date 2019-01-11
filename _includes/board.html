@@ -9,6 +9,9 @@
           {% if page.lang=='es' %}
             <h1>Directorio</h1>
           {% endif %}
+          {% if page.lang=='pt' %}
+            <h1>Diretoria</h1>
+          {% endif %}
         </div>
       </div>
     {% assign member=site.board_members | where:"lang", page.lang %}
