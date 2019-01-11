@@ -10,6 +10,28 @@ $cyan: #72C5CE;
 /* Base */
 
 @font-face {
+        font-family: 'karmilla';
+        src:url('../fonts/karmilla-regular.eot');
+        src:url('../fonts/karmilla-regular?#iefix') format('embedded-opentype'),
+            url('../fonts/karmilla-regular.woff') format('woff'),
+            url('../fonts/karmilla-regular.ttf') format('truetype'),
+            url('../fonts/karmilla-regular.svg#karmilla-regular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+@font-face {
+        font-family: 'karmilla';
+        src:url('../fonts/karmilla-bold.eot');
+        src:url('../fonts/karmilla-bold?#iefix') format('embedded-opentype'),
+            url('../fonts/karmilla-bold.woff') format('woff'),
+            url('../fonts/karmilla-bold.ttf') format('truetype'),
+            url('../fonts/karmilla-bold.svg#karmilla-bold') format('svg');
+        font-weight: bold;
+        font-style: normal;
+    }
+
+@font-face {
         font-family: 'icomoon';
         src:url('../fonts/icomoon.eot');
         src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
@@ -41,7 +63,7 @@ $cyan: #72C5CE;
 html, body { height: 100%; }
 
 body {
-  font-family: 'Karla', sans-serif;
+  font-family: 'karmilla', sans-serif;
   font-size: 15px;
   line-height: 1.5;
   font-weight: 400;
@@ -572,6 +594,10 @@ footer input {
     content: 'Who are we?';
     top: 188px;
   }
+  &.about-pt:before {
+    content: 'Quem somos?';
+    top: 188px;
+  }
 }
 
 .list-group-item {
@@ -603,6 +629,9 @@ footer input {
   &.independence-en:before {
     content: 'Political Independence';
   }
+  &.independence-pt:before {
+    content: 'Independência Política';
+  }
 }
 
 #about .row {
@@ -627,6 +656,10 @@ footer input {
   }
   &.how-en:before {
     content: 'How do we do it?';
+    top: 234px;
+  }
+  &.how-pt:before {
+    content: 'O que fazemos?';
     top: 234px;
   }
 }
