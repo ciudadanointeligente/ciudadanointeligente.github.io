@@ -3,7 +3,7 @@ ref: liss
 lang: es
 sede: chile
 name: Lissett García
-function: Diseñadora - Coordinadora de Participación Infantil y Adolescente
+function: Diseñadora
 bio: Diseñadora de la Universidad Católica de Chile. Feminista y defensora de la participación de niñas, niños y adolescentes.
 image: liss.jpg
 email: lgarcia@ciudadaniai.org

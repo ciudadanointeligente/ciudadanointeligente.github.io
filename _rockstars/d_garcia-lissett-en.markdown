@@ -3,7 +3,7 @@ ref: liss
 lang: en
 sede: chile
 name: Lissett García
-function: Designer - Coordinator of Child and Youth Participation
+function: Designer
 bio: Designer from the P. Catholic University of Chile. Feminist and defender of children’s and adolescent’s participation..
 image: liss.jpg
 email: lgarcia@ciudadaniai.org

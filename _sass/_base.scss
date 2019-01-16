@@ -1090,6 +1090,14 @@ li.current {
 }
 
 .dropdown-menu {
+    margin: -24px 0 0;
+    border: none;
+    border: none;
+    border-radius: 0px;
+    left: auto;
+}
+
+.dropdown-menu.about {
     margin: 4px 0 0;
     border: none;
     border: none;
