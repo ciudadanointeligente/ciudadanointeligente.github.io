@@ -3,7 +3,7 @@ ref: manuel
 lang: en
 sede: chile
 name: Manuel Barros
-function: Project Coordinator
+function: Coordinator
 bio: Completed his BAs in Sociology and Journalism at Universidad Diego Portales. OpenGov preacher and defender of collaboration as a basis for stronger democracies. Mexican food fan and dog lover.
 image: manuel.jpg
 email: mbarros@ciudadaniai.org
@@ -12,6 +12,6 @@ network_linkedin: https://www.linkedin.com/in/manuelbarrosr
 network_github: https://github.com/manuelbarrosr
 network_googleplus:
 network_facebook:
-network_instagram:
+network_instagram: https://instagram.com/manuelbarrosr
 active: true
 ---
