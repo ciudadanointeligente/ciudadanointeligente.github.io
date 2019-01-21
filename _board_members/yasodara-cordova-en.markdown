@@ -1,6 +1,6 @@
 ---
 ref: yaso
-lang: pt
+lang: en
 name: Yasodara Córdova
 function: Director
 bio: "Brazilian Hacktivist, designer and self-taught developer, at the present based in the United States. Previously, she worked for the United Nations in Brazil, was part of W3C and was director of the "Serenata de Amor" initiative. She is currently a principal researcher at the Kennedy School of Harvard."
