@@ -4,7 +4,7 @@ lang: pt
 layout: projects-history
 proj_minisite: false
 proj_title: Rio por Inteiro
-proj_description: A tool to build participatory elections. In Brazilian elections, citizens made proposals and candidates backed them up.
+proj_description: Uma ferramenta para fazer eleições mais participativas. Para as últimas eleições no Brasil, a sociedade civil desenhou propostas e as candidaturas se comprometeram com elas. 
 proj_date: 2018-09-15 00:00:01
 proj_img:
 proj_thumb:
