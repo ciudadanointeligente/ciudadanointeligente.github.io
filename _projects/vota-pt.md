@@ -4,7 +4,7 @@ lang: pt
 layout: projects-history
 proj_minisite: false
 proj_title: Vota Inteligente
-proj_description: We promote electoral participation, connecting candidates and citizens in a friendly, intuitive website. It centralizes information about different candidates and their stances on key issues, while it also allows them to receive citizen proposals that they can incorporate into their government agendas.
+proj_description: Uma plataforma que permite conhecer facilmente as candidaturas que se candidatam por setor, saber o que pensam e fazer propostas que podem ser incluídas em seus programas de governo.
 proj_date: 2015-08-24 00:00:01
 proj_img: vota.png
 proj_thumb: vota-thumb.png
