@@ -351,10 +351,35 @@ footer input {
 /* Home styles */
 /* ----------------------------------------------------------*/
 
-/*#inicio {
-  background: url(../img/fondo-inicio.jpg);
+
+// Slider Home
+
+#carouselhero {
+  position: relative;
 }
-*/
+
+.caption-box {
+  position: absolute;
+  bottom: 55px;
+  left: 15px;
+  background: #FFFFFFe3;
+  color: white;
+  padding: 1vw;
+}
+
+.carousel-caption-bg {
+    position: fixed;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #FFFFFFe3;
+    height: 200px;
+}
+
+// End hero slider
 
 .posts { list-style-type: none; }
 
@@ -520,16 +545,6 @@ footer input {
 }
 
 /*HERO*/
-
-#hero {
-  position: relative;
-  & i {
-    font-size: 50px;
-  }
-  & img.d-block.fullvh {
-    max-width: 120vw;
-  }
-}
 
 .intro-hero {
   position: absolute;
@@ -1229,7 +1244,6 @@ li.current {
     overflow: hidden;
     position: relative;
 }
-
 
 /*Pantallas*/
 
