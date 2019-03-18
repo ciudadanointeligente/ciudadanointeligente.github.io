@@ -503,6 +503,10 @@ footer input {
   margin-top: 90px;
 }
 
+.mt-110 {
+  margin-top: 110px;
+}
+
 .pb-60 {
   padding-bottom: 60px;
 }
@@ -532,18 +536,9 @@ footer input {
 }
 
 .intro-hero {
-  position: absolute;
-  top: 24vh;
-  left: 11vw;
-  z-index: 1;
-  max-width: 570px;
-  padding: 2rem 0;
   & h1 {
     margin-bottom: 0vw;
-    color: white;
-  }
-  & span {
-    background: #d3326f9e;
+    font-size: 36px;
   }
 }
 
