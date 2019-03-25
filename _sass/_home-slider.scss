@@ -104,8 +104,9 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
+  background-image: linear-gradient(147deg, #E8453B 0%, #D3326F 74%);
   opacity: 0.8;
+  mix-blend-mode: screen;
 }
 .blog-slider__img img {
   width: 100%;
@@ -133,7 +134,7 @@
 }
 .blog-slider__content {
   padding-right: 25px;
-  background: #ffffffc4;
+  background: #ffffffeb;
   z-index: 7;
   margin-left: -330px;
   padding: 25px;
@@ -197,13 +198,10 @@
 .blog-slider__pagination {
   position: absolute;
   z-index: 21;
-  right: 20px;
   width: 11px !important;
   text-align: center;
-  left: auto !important;
-  top: 50%;
-  bottom: auto !important;
-  transform: translateY(-50%);
+  left: 37px !important;
+  bottom: 10px !important;
 }
 @media screen and (max-width: 768px) {
   .blog-slider__pagination {
@@ -217,7 +215,7 @@
   }
 }
 .blog-slider__pagination.swiper-pagination-bullets .swiper-pagination-bullet {
-  margin: 8px 0;
+  margin: 8px 0 !important;
 }
 @media screen and (max-width: 768px) {
   .blog-slider__pagination.swiper-pagination-bullets .swiper-pagination-bullet {
@@ -229,13 +227,14 @@
   height: 11px;
   display: block;
   border-radius: 10px;
-  background: #062744;
-  opacity: 0.2;
+  background: none;
+  opacity: 1;
   transition: all .3s;
+  border: 2px solid white;
 }
 .blog-slider__pagination .swiper-pagination-bullet-active {
   opacity: 1;
-  background: #fd3838;
+  background: white;
   height: 30px;
 }
 @media screen and (max-width: 768px) {
@@ -243,4 +242,8 @@
     height: 11px;
     width: 30px;
   }
+}
+
+.blog-slider__content .btn {
+  font-size: 29px;
 }

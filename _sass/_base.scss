@@ -143,9 +143,16 @@ h5, .h5 {
   padding: 10px 20px;
 }
 
+.btn.btn-round {
+    height: 52px;
+    width: 52px;
+    padding: 3px 13px;
+}
+
 .btn-primary {
-  background-color: #e85343;
-  border-color: transparent;
+  background-color: transparent;
+  color: $red;
+  border: 3px solid $red;
   transition: background-color .3s ease-in;
   -moz-transition: background-color .3s ease-in;
   -webkit-transition: background-color .3s ease-in;
@@ -527,9 +534,6 @@ footer input {
 
 #hero {
   position: relative;
-  & i {
-    font-size: 50px;
-  }
   & img.d-block.fullvh {
     max-width: 120vw;
   }
@@ -1194,15 +1198,6 @@ li.current {
   counter-increment: item;
   width: 25px;
   height: 25px;
-}
-
-.project-mockup .btn-primary {
-    background-color: #ffffff;
-    color: #e85343;
-  transition: background-color .3s ease-in;
-  -moz-transition: background-color .3s ease-in;
-  -webkit-transition: background-color .3s ease-in;
-  padding: 10px 20px;
 }
 
 .project-mockup .btn-primary:hover, .project-mockup .btn-primary:focus, .project-mockup .btn-primary:active, .project-mockup .btn-primary.active, .project-mockup .open .dropdown-toggle.btn-primary {
