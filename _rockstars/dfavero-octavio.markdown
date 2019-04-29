@@ -3,7 +3,7 @@ ref: octavio
 lang: es
 sede: chile
 name: Octavio Del Favero
-function: Coordinador de Incidencia
+function: Coordinador Incidencia Regional
 bio: Abogado de la Universidad de Chile. Diplomado en Análisis Político del Instituto de Asuntos Públicos de la misma universidad.
 image: octaviodf.jpg
 email: odfavero@ciudadaniai.org
