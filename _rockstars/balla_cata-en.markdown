@@ -3,7 +3,7 @@ ref: catab
 lang: en
 sede: chile
 name: Catalina Balla
-function: Press Officer
+function: Head of Communications
 bio: Journalist. Holds a master's in Cultural Journalism from Universitat Pompeu Fabra (Barcelona).
 image: cataballa.jpg
 email: cballa@ciudadaniai.org
