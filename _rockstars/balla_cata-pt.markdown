@@ -4,7 +4,7 @@ lang: pt
 sede: chile
 name: Catalina Balla
 function: Diretora de comunicação
-bio: Jornalista com mestrado em Jornalismo Cultural pela Universitat Pompeu Fabra de Barcelona.Viveu na Austrália, Tailândia e inclusive andou pela Antártida.
+bio: Jornalista com mestrado em Jornalismo Cultural pela Universitat Pompeu Fabra de Barcelona. Co-fundador da rede de comunicadores de Tática. Viveu na Austrália, Tailândia e inclusive andou pela Antártida.
 image: cataballa.jpg
 email: cballa@ciudadaniai.org
 network_twitter: https://twitter.com/cataballa
