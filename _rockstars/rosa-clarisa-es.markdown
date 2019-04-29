@@ -3,7 +3,7 @@ ref: clariza
 lang: es
 sede: brasil
 name: Clariza Rosa
-function: Coordinadora de Comunicaciones
+function: Asesora en Inclusión y Diversidad
 bio: Graduada en Comunicación Social de la PUC Rio, con intercambios en Colombia. Postgrado en análisis y búsqueda de tendencias del IESD. Ha trabajado para iniciativas privadas y para el gobierno.
 image: clariza.jpg
 email: croza@ciudadaniai.org
