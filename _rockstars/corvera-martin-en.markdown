@@ -3,7 +3,7 @@ ref: martin
 lang: en
 sede: chile
 name: Martín Corvera
-function: Project Manager
+function: Coordinator Digital Democracy Lab
 bio: BA in Journalism from Universidad Católica (Chile), studied Photography at Espacio Buenos Aires (Argentina). Received photojournalism award at the Etecom 2012 contest. .
 image: martin.jpg
 email: mcorvera@ciudadaniai.org
