@@ -3,7 +3,7 @@ ref: martin
 lang: es
 sede: chile
 name: Martín Corvera
-function: Coordinador de Proyectos y Campañas
+function: Coordinador Laboratorio de Democracia Digital
 bio: Periodista de la Universidad Católica de Chile, con estudios de fotografía en Espacio Buenos Aires, Argentina. Ganador en fotografía periodística del concurso Etecom 2012.
 image: martin.jpg
 email: mcorvera@ciudadaniai.org
