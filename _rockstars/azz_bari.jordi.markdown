@@ -1,7 +1,7 @@
 ---
 ref: jordi
 lang: es
-sede: chile
+sede: Isla Mocha
 name: Jordi Bari
 function: Desarrollador y técnico
 bio: Técnico en electrónica de equipos de informática.
