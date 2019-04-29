@@ -3,7 +3,7 @@ ref: thaynna
 lang: pt
 sede: brasil
 name: Thaynná Bastos
-function: Designer
+function: Designer Junior
 bio: Técnica em comunicação visual, graduanda de Design Gráfico na universidade Estácio de Sá. Apaixonada por criação.
 image: thaynnab.jpg
 email: tbastos@cidadaniainteligente.org
