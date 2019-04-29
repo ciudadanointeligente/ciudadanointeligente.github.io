@@ -3,7 +3,7 @@ ref: catab
 lang: es
 sede: chile
 name: Catalina Balla
-function: Coordinadora de Prensa y Comunidad
+function: Directora de Comunicaciones
 bio: "Periodista con máster en Periodismo Cultural de la Universitat Pompeu Fabra de Barcelona. Ha vivido en Australia, Tailandia, España e incluso recorrió la Antártida."
 image: cataballa.jpg
 email: cballa@ciudadaniai.org
