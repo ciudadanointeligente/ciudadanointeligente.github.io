@@ -3,7 +3,7 @@ ref: octavio
 lang: en
 sede: chile
 name: Octavio Del Favero
-function: Policy Coordinator
+function: Regional Advocacy Coordinator
 bio: Lawyer from Universidad de Chile. Holds a certificate in Political Analysis from the Public Affairs Institute of the same university.
 image: octaviodf.jpg
 email: odfavero@ciudadaniai.org
