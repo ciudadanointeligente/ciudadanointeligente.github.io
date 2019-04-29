@@ -3,7 +3,7 @@ ref: marga
 lang: en
 sede: chile
 name: Margarita Maira
-function: Project Coordinator
+function: Regional Advocacy Coordinator
 bio: BA in English from Chilean Catholic University and MA in 19th Century Literature and Culture from University of York. She has worked in the academia and the Chilean government.
 image: margarita.jpg
 email: mmaira@ciudadaniai.org
