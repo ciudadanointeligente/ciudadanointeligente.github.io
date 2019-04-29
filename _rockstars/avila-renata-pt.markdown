@@ -3,7 +3,7 @@ ref: renata
 lang: pt
 sede: chile
 name: Renata Ávila
-function: Executive Director
+function: Diretora
 bio: Advogada Internacional de Direitos Humanos e Tecnologias. LL.M. (Universidade de Turim). Inovando na participação política e defendendo a democracia na era digital.
 image: renataavila.jpg
 email: ravila@ciudadaniai.org
