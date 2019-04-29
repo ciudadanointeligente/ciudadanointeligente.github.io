@@ -1,9 +1,9 @@
 ---
 ref: jordi
 lang: pt
-sede: chile
+sede: Isla Mocha
 name: Jordi Bari
-function: Developer
+function: Desenvolvedor
 bio: Técnico em electrônica de equipamentos de informática
 image: jordi.jpg
 email: jbari@ciudadaniai.org
