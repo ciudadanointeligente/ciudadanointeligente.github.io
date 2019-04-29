@@ -3,7 +3,7 @@ ref: auska
 lang: pt
 sede: chile
 name: Auska Ovando
-function: Communications Coordinator
+function: Coordenadora do Laboratório de Democracia Digital
 bio: Jornalista pela Universidade Católica do Chile, mestre em Democracia e Política Comparada pelo University College London, e mestre em Sociologia pela University of Cambridge.
 image: auska-o.jpg
 email: aovando@ciudadaniai.org
