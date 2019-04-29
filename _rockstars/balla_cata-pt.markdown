@@ -3,7 +3,7 @@ ref: catab
 lang: pt
 sede: chile
 name: Catalina Balla
-function: Press Officer
+function: Diretora de comunicação
 bio: Jornalista com mestrado em Jornalismo Cultural pela Universitat Pompeu Fabra de Barcelona.Viveu na Austrália, Tailândia e inclusive andou pela Antártida.
 image: cataballa.jpg
 email: cballa@ciudadaniai.org
