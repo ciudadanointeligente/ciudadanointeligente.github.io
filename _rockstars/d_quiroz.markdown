@@ -3,7 +3,7 @@ ref: dani
 lang: es
 sede: chile
 name: Daniela Quiroz
-function: Desarrolladora
+function: Coordinadora Laboratorio de Democracia Digital
 bio: Ingeniera civil industrial con mención en Tecnologías de la Información de la U. Católica de Chile. Desarrolladora de tecnología cívica, feminista, vegana y montañista.
 image: dani.jpg
 email: dquiroz@ciudadaniai.org
