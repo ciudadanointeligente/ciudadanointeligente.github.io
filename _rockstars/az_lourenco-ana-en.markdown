@@ -3,7 +3,7 @@ ref: anacarolina
 lang: en
 sede: Brasil
 name: Ana Carolina Lourenço
-function: executive coordinator
+function: Regional Advocacy Coordinator
 bio: Sociologist with a master's degree from the State University of Rio de Janeiro with academic exchanges in Havana and Paris. She is a feminist and human rights activist.
 image: carol-br.jpg
 email: alourenco@cidadaniai.org
