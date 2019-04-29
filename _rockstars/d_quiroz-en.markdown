@@ -3,7 +3,7 @@ ref: dani
 lang: en
 sede: chile
 name: Daniela Quiroz
-function: Developer
+function: Coordinator Digital Democracy Lab
 bio: Information Technologies Engineer from Universidad Católica (Chile). Developer of civic technology, feminist, vegan and mountaineer.
 image: dani.jpg
 email: dquiroz@ciudadaniai.org
