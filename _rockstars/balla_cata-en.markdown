@@ -4,7 +4,7 @@ lang: en
 sede: chile
 name: Catalina Balla
 function: Head of Communications
-bio: Journalist. Holds a master's in Cultural Journalism from Universitat Pompeu Fabra (Barcelona).Co-founder of the network of communicators Táctica
+bio: Journalist. Holds a master's in Cultural Journalism from Universitat Pompeu Fabra (Barcelona). Co-founder of the Network of Communicators Táctica
 image: cataballa.jpg
 email: cballa@ciudadaniai.org
 network_twitter: https://twitter.com/cataballa
